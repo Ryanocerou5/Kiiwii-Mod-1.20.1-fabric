@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/yellowlines",
+  "textures": {
+    "all": "kiiwii:blocks/yellowlinestexture",
+    "particle": "kiiwii:blocks/yellowlinestexture",
+    "0": "kiiwii:blocks/yellowlinestexture"
+  },
+  "render_type": "cutout"
+}

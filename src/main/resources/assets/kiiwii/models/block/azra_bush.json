@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/azrabush",
+    "up": "kiiwii:blocks/azrabush",
+    "north": "kiiwii:blocks/azrabush",
+    "east": "kiiwii:blocks/azrabush",
+    "south": "kiiwii:blocks/azrabush",
+    "west": "kiiwii:blocks/azrabush",
+    "particle": "kiiwii:blocks/azrabush"
+  },
+  "render_type": "cutout"
+}

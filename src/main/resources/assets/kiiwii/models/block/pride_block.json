@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/pridewalltop",
+    "up": "kiiwii:blocks/pridewalltop",
+    "north": "kiiwii:blocks/pridewall2",
+    "east": "kiiwii:blocks/pridewall2",
+    "south": "kiiwii:blocks/pridewall2",
+    "west": "kiiwii:blocks/pridewall2",
+    "particle": "kiiwii:blocks/pridewalltop"
+  },
+  "render_type": "solid"
+}

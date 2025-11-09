@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/interrogationplate",
+    "up": "kiiwii:blocks/interrogationplate",
+    "north": "kiiwii:blocks/interrogationplate",
+    "east": "kiiwii:blocks/interrogationplate",
+    "south": "kiiwii:blocks/interrogationplate",
+    "west": "kiiwii:blocks/interrogationplate",
+    "particle": "kiiwii:blocks/interrogationplate"
+  },
+  "render_type": "solid"
+}

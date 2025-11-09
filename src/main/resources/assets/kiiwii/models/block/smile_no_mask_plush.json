@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/smileplushnomask",
+  "textures": {
+    "all": "kiiwii:blocks/smileplushtxt",
+    "particle": "kiiwii:blocks/noparticles",
+    "2": "kiiwii:blocks/smileplushtxt"
+  },
+  "render_type": "solid"
+}

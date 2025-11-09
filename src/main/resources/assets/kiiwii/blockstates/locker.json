@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/locker"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/locker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/locker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/locker",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "kiiwii:blocks/zender",
+    "top": "kiiwii:blocks/zender",
+    "side": "kiiwii:blocks/zender"
+  },
+  "render_type": "solid"
+}

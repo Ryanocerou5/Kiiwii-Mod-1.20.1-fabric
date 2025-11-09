@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/zendercurtain",
+  "textures": {
+    "all": "kiiwii:blocks/zendercurtain",
+    "particle": "kiiwii:blocks/zendercurtain",
+    "1": "kiiwii:blocks/zendercurtain"
+  },
+  "render_type": "cutout"
+}

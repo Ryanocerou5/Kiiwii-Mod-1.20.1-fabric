@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kiiwii:block/exiled_zender_bricks_slab"
+    },
+    "type=top": {
+      "model": "kiiwii:block/exiled_zender_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "kiiwii:block/exiled_zender_bricks_slab_full"
+    }
+  }
+}

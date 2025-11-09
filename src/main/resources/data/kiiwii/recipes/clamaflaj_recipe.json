@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kiiwii:clam"
+    },
+    "1": {
+      "item": "kiiwii:clam"
+    },
+    "2": {
+      "item": "kiiwii:clam"
+    },
+    "3": {
+      "item": "kiiwii:clam"
+    },
+    "4": {
+      "item": "kiiwii:clam"
+    },
+    "5": {
+      "item": "kiiwii:clam"
+    },
+    "6": {
+      "item": "kiiwii:clam"
+    },
+    "7": {
+      "item": "kiiwii:clam"
+    },
+    "8": {
+      "item": "kiiwii:clam"
+    }
+  },
+  "result": {
+    "item": "kiiwii:clamaflaj",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/exclamation",
+  "textures": {
+    "all": "kiiwii:blocks/painting",
+    "particle": "kiiwii:blocks/painting",
+    "0": "kiiwii:blocks/exclamationtxt"
+  },
+  "render_type": "cutout"
+}

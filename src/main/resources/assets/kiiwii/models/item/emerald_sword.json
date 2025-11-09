@@ -1,0 +1,36 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "kiiwii:custom/artemia_sword",
+    "textures": {
+      "1": "kiiwii:blocks/handle",
+      "3": "kiiwii:blocks/handle_2",
+      "4": "kiiwii:blocks/gem_middle",
+      "5": "kiiwii:blocks/handle_upper",
+      "6": "kiiwii:blocks/gem_bottom",
+      "7": "kiiwii:blocks/blade"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "kiiwii:items/emeraldsworditem"
+      },
+      "gui_light": "front"
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "kiiwii:items/emeraldsworditem"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "kiiwii:items/emeraldsworditem"
+      }
+    }
+  }
+}

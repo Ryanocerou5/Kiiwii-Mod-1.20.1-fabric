@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "kiiwii:ectoplasm"
+    },
+    "1": {
+      "item": "kiiwii:ectoplasm"
+    },
+    "2": {
+      "item": "minecraft:bowl"
+    },
+    "3": {
+      "item": "kiiwii:ectoplasm"
+    }
+  },
+  "result": {
+    "item": "kiiwii:ghostly_meal",
+    "count": 1
+  }
+}

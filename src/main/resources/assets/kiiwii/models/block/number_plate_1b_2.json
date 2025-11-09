@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/plazaln1b",
+  "textures": {
+    "all": "kiiwii:blocks/plazaln1b",
+    "particle": "kiiwii:blocks/plazaln1b",
+    "0": "kiiwii:blocks/plazaln1b"
+  },
+  "render_type": "cutout"
+}

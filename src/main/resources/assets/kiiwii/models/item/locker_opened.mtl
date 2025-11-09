@@ -1,0 +1,20 @@
+newmtl m_d1653ff7-58b8-117a-54ae-70b2ebeee72c
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd kiiwii:blocks/
+Ns 100.0
+d 1.0
+newmtl m_bacbddbc-e14d-2c1f-03cc-79b45bd479b6
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd kiiwii:blocks/
+Ns 100.0
+d 1.0
+newmtl none
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 100.0
+d 1.0

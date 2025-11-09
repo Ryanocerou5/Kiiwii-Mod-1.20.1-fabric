@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "kiiwii:blocks/paddedwalls4",
+    "top": "kiiwii:blocks/paddedwalls4",
+    "side": "kiiwii:blocks/paddedwalls4"
+  },
+  "render_type": "solid"
+}

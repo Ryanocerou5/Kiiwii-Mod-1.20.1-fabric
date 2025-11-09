@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/postersage",
+  "textures": {
+    "all": "kiiwii:blocks/alwaysburnsage",
+    "particle": "kiiwii:blocks/alwaysburnsage",
+    "1": "kiiwii:blocks/alwaysburnsage"
+  },
+  "render_type": "solid"
+}

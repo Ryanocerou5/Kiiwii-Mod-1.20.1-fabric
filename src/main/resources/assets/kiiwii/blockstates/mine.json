@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/mine"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/mine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/mine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/mine",
+      "y": 270
+    }
+  }
+}

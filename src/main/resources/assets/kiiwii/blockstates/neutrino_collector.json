@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kiiwii:block/neutrino_collector"
+    },
+    "type=top": {
+      "model": "kiiwii:block/neutrino_collector_top"
+    },
+    "type=double": {
+      "model": "kiiwii:block/neutrino_collector_full"
+    }
+  }
+}

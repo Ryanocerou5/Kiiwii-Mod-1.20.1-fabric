@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/hiddenmicrophonedev",
+    "up": "kiiwii:blocks/hiddenmicrophonedev",
+    "north": "kiiwii:blocks/hiddenmicrophonedev",
+    "east": "kiiwii:blocks/hiddenmicrophonedev",
+    "south": "kiiwii:blocks/hiddenmicrophonedev",
+    "west": "kiiwii:blocks/hiddenmicrophonedev",
+    "particle": "kiiwii:blocks/hiddenmicrophonedev"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "kiiwii:custom/spryteplush2",
+  "textures": {
+    "all": "kiiwii:blocks/spryteplushtxt2",
+    "particle": "kiiwii:blocks/noparticles",
+    "1": "kiiwii:blocks/spryteplushtxt2",
+    "missing": "kiiwii:blocks/"
+  },
+  "render_type": "solid"
+}

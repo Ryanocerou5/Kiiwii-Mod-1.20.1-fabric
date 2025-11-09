@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/protosteloidnew",
+    "up": "kiiwii:blocks/protosteloid2new",
+    "north": "kiiwii:blocks/protosteloid2new",
+    "east": "kiiwii:blocks/protosteloid2new",
+    "south": "kiiwii:blocks/protosteloid2new",
+    "west": "kiiwii:blocks/protosteloid2new",
+    "particle": "kiiwii:blocks/protosteloidnew"
+  },
+  "render_type": "solid"
+}

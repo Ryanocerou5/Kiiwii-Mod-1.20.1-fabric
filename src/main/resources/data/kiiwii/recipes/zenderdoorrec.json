@@ -1,0 +1,33 @@
+{
+  "group": "zdoor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "kiiwii:wall_zender"
+    },
+    "1": {
+      "item": "kiiwii:wall_zender"
+    },
+    "2": {
+      "item": "kiiwii:wall_zender"
+    },
+    "3": {
+      "item": "kiiwii:wall_zender"
+    },
+    "4": {
+      "item": "kiiwii:wall_zender"
+    },
+    "5": {
+      "item": "kiiwii:wall_zender"
+    }
+  },
+  "result": {
+    "item": "kiiwii:door_zender",
+    "count": 3
+  }
+}

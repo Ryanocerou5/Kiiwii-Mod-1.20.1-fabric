@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kiiwii:mine"
+    },
+    "1": {
+      "item": "kiiwii:mine"
+    },
+    "2": {
+      "item": "kiiwii:mine"
+    },
+    "3": {
+      "item": "kiiwii:mine"
+    },
+    "4": {
+      "item": "kiiwii:mine"
+    },
+    "5": {
+      "item": "kiiwii:mine"
+    },
+    "6": {
+      "item": "kiiwii:mine"
+    },
+    "7": {
+      "item": "kiiwii:mine"
+    },
+    "8": {
+      "item": "kiiwii:mine"
+    }
+  },
+  "result": {
+    "item": "minecraft:tnt",
+    "count": 1
+  }
+}

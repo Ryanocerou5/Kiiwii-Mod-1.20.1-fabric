@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "disc_template"
+  },
+  "addition": {
+    "item": "minecraft:pink_candle"
+  },
+  "result": {
+    "item": "kiiwii:snail_dust"
+  }
+}

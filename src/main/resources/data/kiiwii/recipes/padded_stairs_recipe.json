@@ -1,0 +1,33 @@
+{
+  "group": "paddedstairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kiiwii:padded_wall"
+    },
+    "3": {
+      "item": "kiiwii:padded_wall"
+    },
+    "4": {
+      "item": "kiiwii:padded_wall"
+    },
+    "6": {
+      "item": "kiiwii:padded_wall"
+    },
+    "7": {
+      "item": "kiiwii:padded_wall"
+    },
+    "8": {
+      "item": "kiiwii:padded_wall"
+    }
+  },
+  "result": {
+    "item": "kiiwii:padded_stairs",
+    "count": 4
+  }
+}

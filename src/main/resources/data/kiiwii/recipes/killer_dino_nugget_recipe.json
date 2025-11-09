@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kiiwii:ectoplasm"
+    },
+    {
+      "item": "kiiwii:dino_nugget"
+    }
+  ],
+  "result": {
+    "item": "kiiwii:killer_dino_nugget",
+    "count": 1
+  }
+}

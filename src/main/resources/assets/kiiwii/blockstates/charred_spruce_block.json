@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kiiwii:block/charred_spruce_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kiiwii:block/charred_spruce_block"
+    },
+    "axis=z": {
+      "model": "kiiwii:block/charred_spruce_block",
+      "x": 90
+    }
+  }
+}

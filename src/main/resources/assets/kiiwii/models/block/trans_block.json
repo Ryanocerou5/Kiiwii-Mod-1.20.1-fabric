@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/transflag2",
+    "up": "kiiwii:blocks/transflag2",
+    "north": "kiiwii:blocks/transflag2",
+    "east": "kiiwii:blocks/transblockside2",
+    "south": "kiiwii:blocks/transflag2",
+    "west": "kiiwii:blocks/transblockside2",
+    "particle": "kiiwii:blocks/transflag2"
+  },
+  "render_type": "solid"
+}

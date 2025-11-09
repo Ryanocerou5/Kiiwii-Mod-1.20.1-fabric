@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/ampersandplate",
+    "up": "kiiwii:blocks/ampersandplate",
+    "north": "kiiwii:blocks/ampersandplate",
+    "east": "kiiwii:blocks/ampersandplate",
+    "south": "kiiwii:blocks/ampersandplate",
+    "west": "kiiwii:blocks/ampersandplate",
+    "particle": "kiiwii:blocks/ampersandplate"
+  },
+  "render_type": "solid"
+}

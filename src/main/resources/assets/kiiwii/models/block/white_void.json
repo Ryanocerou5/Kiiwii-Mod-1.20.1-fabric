@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/whitevoid",
+    "up": "kiiwii:blocks/whitevoid",
+    "north": "kiiwii:blocks/whitevoid",
+    "east": "kiiwii:blocks/whitevoid",
+    "south": "kiiwii:blocks/whitevoid",
+    "west": "kiiwii:blocks/whitevoid",
+    "particle": "kiiwii:blocks/whitevoid"
+  },
+  "render_type": "solid"
+}

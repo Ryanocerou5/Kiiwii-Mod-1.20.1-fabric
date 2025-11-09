@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kiiwii:piece_of_larimar"
+    },
+    "1": {
+      "item": "kiiwii:piece_of_larimar"
+    },
+    "2": {
+      "item": "kiiwii:piece_of_larimar"
+    },
+    "3": {
+      "item": "kiiwii:piece_of_larimar"
+    },
+    "4": {
+      "item": "kiiwii:piece_of_larimar"
+    },
+    "5": {
+      "item": "kiiwii:piece_of_larimar"
+    },
+    "6": {
+      "item": "kiiwii:piece_of_larimar"
+    },
+    "7": {
+      "item": "kiiwii:piece_of_larimar"
+    },
+    "8": {
+      "item": "kiiwii:piece_of_larimar"
+    }
+  },
+  "result": {
+    "item": "kiiwii:larimar",
+    "count": 1
+  }
+}

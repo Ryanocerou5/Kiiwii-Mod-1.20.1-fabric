@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/glowstonelamp2",
+    "up": "kiiwii:blocks/glowstonelamp2",
+    "north": "kiiwii:blocks/glowstonelamp2",
+    "east": "kiiwii:blocks/glowstonelamp2",
+    "south": "kiiwii:blocks/glowstonelamp2",
+    "west": "kiiwii:blocks/glowstonelamp2",
+    "particle": "kiiwii:blocks/glowstonelamp2"
+  },
+  "render_type": "solid"
+}

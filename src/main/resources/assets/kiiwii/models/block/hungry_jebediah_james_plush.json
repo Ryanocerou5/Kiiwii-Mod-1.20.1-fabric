@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/jjbloodyplush",
+  "textures": {
+    "all": "kiiwii:blocks/jjplushbloody",
+    "particle": "kiiwii:blocks/noparticles",
+    "5": "kiiwii:blocks/jjplushbloody"
+  },
+  "render_type": "solid"
+}

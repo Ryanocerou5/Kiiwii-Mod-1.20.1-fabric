@@ -1,0 +1,33 @@
+{
+  "group": "zstair",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kiiwii:wall_zender"
+    },
+    "3": {
+      "item": "kiiwii:wall_zender"
+    },
+    "4": {
+      "item": "kiiwii:wall_zender"
+    },
+    "6": {
+      "item": "kiiwii:wall_zender"
+    },
+    "7": {
+      "item": "kiiwii:wall_zender"
+    },
+    "8": {
+      "item": "kiiwii:wall_zender"
+    }
+  },
+  "result": {
+    "item": "kiiwii:stair_zender",
+    "count": 4
+  }
+}

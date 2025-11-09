@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/cross_three"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/cross_three",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/cross_three",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/cross_three",
+      "y": 270
+    }
+  }
+}

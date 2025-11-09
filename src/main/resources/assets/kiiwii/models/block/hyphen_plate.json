@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/hyphenplate",
+    "up": "kiiwii:blocks/hyphenplate",
+    "north": "kiiwii:blocks/hyphenplate",
+    "east": "kiiwii:blocks/hyphenplate",
+    "south": "kiiwii:blocks/hyphenplate",
+    "west": "kiiwii:blocks/hyphenplate",
+    "particle": "kiiwii:blocks/hyphenplate"
+  },
+  "render_type": "solid"
+}

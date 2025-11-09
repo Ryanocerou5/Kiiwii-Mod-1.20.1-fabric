@@ -1,0 +1,598 @@
+{
+  "whoosh": {
+    "category": "player",
+    "subtitle": "subtitles.whoosh",
+    "sounds": [
+      {
+        "name": "kiiwii:449993__djt4nn3r__whoosh_short_high",
+        "stream": false
+      }
+    ]
+  },
+  "beepwarn": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kiiwii:467882__samsterbirdies__beep-warning",
+        "stream": false
+      }
+    ]
+  },
+  "starcle": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kiiwii:462093__matrixxx__sparkling_star_03",
+        "stream": false
+      }
+    ]
+  },
+  "shift": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kiiwii:270554__littlerobotsoundfactory__warpdrive_02",
+        "stream": false
+      }
+    ]
+  },
+  "respawn_anchor_deactivate": {
+    "category": "master",
+    "subtitle": "subtitles.respawn_anchor_deactivate",
+    "sounds": [
+      {
+        "name": "kiiwii:respawn_anchor_deactivate",
+        "stream": false
+      }
+    ]
+  },
+  "muted-cough": {
+    "category": "player",
+    "subtitle": "subtitles.muted-cough",
+    "sounds": [
+      {
+        "name": "kiiwii:722622__midwestdocumentary__coughs-gentle-processing-_audiotrimmer.com_",
+        "stream": false
+      }
+    ]
+  },
+  "dry-cough": {
+    "category": "player",
+    "subtitle": "subtitles.dry-cough",
+    "sounds": [
+      {
+        "name": "kiiwii:722622__midwestdocumentary__coughs-gentocessing-_audiotrimmer.com_",
+        "stream": false
+      }
+    ]
+  },
+  "crazy-cough": {
+    "category": "player",
+    "subtitle": "subtitles.crazy-cough",
+    "sounds": [
+      {
+        "name": "kiiwii:722622__midwestdocumentary__coughs-processing-_audiotrimmer.com__1",
+        "stream": false
+      }
+    ]
+  },
+  "phoneend": {
+    "category": "player",
+    "subtitle": "subtitles.phoneend",
+    "sounds": [
+      {
+        "name": "kiiwii:iphone-call-end-sound-amaan_k2jregf",
+        "stream": false
+      }
+    ]
+  },
+  "weatherroom": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "kiiwii:weather_room",
+        "stream": true
+      }
+    ]
+  },
+  "newphonesound1": {
+    "category": "player",
+    "subtitle": "subtitles.newphonesound1",
+    "sounds": [
+      {
+        "name": "kiiwii:newphone1",
+        "stream": false
+      }
+    ]
+  },
+  "alertnewe": {
+    "category": "player",
+    "subtitle": "subtitles.alertnewe",
+    "sounds": [
+      {
+        "name": "kiiwii:alertnew",
+        "stream": false
+      }
+    ]
+  },
+  "bonecracknew": {
+    "category": "player",
+    "subtitle": "subtitles.bonecracknew",
+    "sounds": [
+      {
+        "name": "kiiwii:bonecracknew",
+        "stream": false
+      }
+    ]
+  },
+  "boowompnew": {
+    "category": "player",
+    "subtitle": "subtitles.boowompnew",
+    "sounds": [
+      {
+        "name": "kiiwii:boowompnew",
+        "stream": false
+      }
+    ]
+  },
+  "cheernew": {
+    "category": "player",
+    "subtitle": "subtitles.cheernew",
+    "sounds": [
+      {
+        "name": "kiiwii:cheernew",
+        "stream": false
+      }
+    ]
+  },
+  "electrowarnnew": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "kiiwii:electrowarnnew",
+        "stream": false
+      }
+    ]
+  },
+  "firespitnew": {
+    "category": "player",
+    "subtitle": "subtitles.firespitnew",
+    "sounds": [
+      {
+        "name": "kiiwii:firespitnew",
+        "stream": false
+      }
+    ]
+  },
+  "greetingsnew": {
+    "category": "player",
+    "subtitle": "subtitles.greetingsnew",
+    "sounds": [
+      {
+        "name": "kiiwii:greetingsnew",
+        "stream": false
+      }
+    ]
+  },
+  "violinscreechnew": {
+    "category": "player",
+    "subtitle": "subtitles.violinscreechnew",
+    "sounds": [
+      {
+        "name": "kiiwii:violinscreechnew",
+        "stream": false
+      }
+    ]
+  },
+  "popnew": {
+    "category": "player",
+    "subtitle": "subtitles.popnew",
+    "sounds": [
+      {
+        "name": "kiiwii:popnew",
+        "stream": false
+      }
+    ]
+  },
+  "sparklenew": {
+    "category": "neutral",
+    "subtitle": "subtitles.sparklenew",
+    "sounds": [
+      {
+        "name": "kiiwii:sparklenew",
+        "stream": false
+      }
+    ]
+  },
+  "sugarrushnew": {
+    "category": "player",
+    "subtitle": "subtitles.sugarrushnew",
+    "sounds": [
+      {
+        "name": "kiiwii:sugarrushnew",
+        "stream": false
+      }
+    ]
+  },
+  "ta-danew": {
+    "category": "player",
+    "subtitle": "subtitles.ta-danew",
+    "sounds": [
+      {
+        "name": "kiiwii:tadanew",
+        "stream": false
+      }
+    ]
+  },
+  "yippeenew": {
+    "category": "player",
+    "subtitle": "subtitles.yippeenew",
+    "sounds": [
+      {
+        "name": "kiiwii:yippeenew",
+        "stream": false
+      }
+    ]
+  },
+  "wrongnew": {
+    "category": "player",
+    "subtitle": "subtitles.wrongnew",
+    "sounds": [
+      {
+        "name": "kiiwii:wrongnew",
+        "stream": false
+      }
+    ]
+  },
+  "correctnew": {
+    "category": "player",
+    "subtitle": "subtitles.correctnew",
+    "sounds": [
+      {
+        "name": "kiiwii:correctnew",
+        "stream": false
+      }
+    ]
+  },
+  "fmradionew": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "kiiwii:fmradionew",
+        "stream": true
+      }
+    ]
+  },
+  "questionmarknew": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "kiiwii:questionmarknew",
+        "stream": true
+      }
+    ]
+  },
+  "staynearnew": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "kiiwii:staynearnew",
+        "stream": true
+      }
+    ]
+  },
+  "allbetsareoffnew": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "kiiwii:allbetsareoffnew",
+        "stream": true
+      }
+    ]
+  },
+  "snaildustnew": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "kiiwii:snaildustnew",
+        "stream": true
+      }
+    ]
+  },
+  "windowsshutdown": {
+    "category": "player",
+    "subtitle": "subtitles.windowsshutdown",
+    "sounds": [
+      {
+        "name": "kiiwii:wshutdown",
+        "stream": false
+      }
+    ]
+  },
+  "crickets": {
+    "category": "player",
+    "subtitle": "subtitles.crickets",
+    "sounds": [
+      {
+        "name": "kiiwii:crickets",
+        "stream": false
+      }
+    ]
+  },
+  "countdown": {
+    "category": "player",
+    "subtitle": "subtitles.countdown",
+    "sounds": [
+      {
+        "name": "kiiwii:countdown",
+        "stream": false
+      }
+    ]
+  },
+  "vineboom": {
+    "category": "player",
+    "subtitle": "subtitles.vineboom",
+    "sounds": [
+      {
+        "name": "kiiwii:vineboom",
+        "stream": false
+      }
+    ]
+  },
+  "ghettosmosh": {
+    "category": "player",
+    "subtitle": "subtitles.ghettosmosh",
+    "sounds": [
+      {
+        "name": "kiiwii:ghettosmosh",
+        "stream": false
+      }
+    ]
+  },
+  "rizz": {
+    "category": "player",
+    "subtitle": "subtitles.rizz",
+    "sounds": [
+      {
+        "name": "kiiwii:rizz",
+        "stream": false
+      }
+    ]
+  },
+  "undertaker": {
+    "category": "player",
+    "subtitle": "subtitles.undertaker",
+    "sounds": [
+      {
+        "name": "kiiwii:undertaker",
+        "stream": false
+      }
+    ]
+  },
+  "recordscratch": {
+    "category": "player",
+    "subtitle": "subtitles.recordscratch",
+    "sounds": [
+      {
+        "name": "kiiwii:recordscratch",
+        "stream": false
+      }
+    ]
+  },
+  "maznew": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kiiwii:maznew",
+        "stream": false
+      }
+    ]
+  },
+  "abstractionfillssource": {
+    "category": "block",
+    "subtitle": "subtitles.abstractionfillssource",
+    "sounds": [
+      {
+        "name": "kiiwii:ciel_fx_one_shot_dub_zapper_amin",
+        "stream": false
+      }
+    ]
+  },
+  "abstractiondeath": {
+    "category": "player",
+    "subtitle": "subtitles.abstractiondeath",
+    "sounds": [
+      {
+        "name": "kiiwii:rare_chimes_wind_oneshot2",
+        "stream": false
+      }
+    ]
+  },
+  "abstraction": {
+    "category": "player",
+    "subtitle": "subtitles.abstraction",
+    "sounds": [
+      {
+        "name": "kiiwii:fs_fnd_radiator",
+        "stream": false
+      }
+    ]
+  },
+  "abstractioniscontained": {
+    "category": "player",
+    "subtitle": "subtitles.abstractioniscontained",
+    "sounds": [
+      {
+        "name": "kiiwii:rare_ddc3_bottlecaps_percussion_oneshot_spirit",
+        "stream": false
+      }
+    ]
+  },
+  "ominous_crash": {
+    "category": "master",
+    "subtitle": "subtitles.ominous_crash",
+    "sounds": [
+      {
+        "name": "kiiwii:assets_minecraft_sounds_ambient_nether_basalt_deltas_basaltground1_1",
+        "stream": false
+      }
+    ]
+  },
+  "artifactabsorbsbeing": {
+    "category": "block",
+    "subtitle": "subtitles.artifactabsorbsbeing",
+    "sounds": [
+      {
+        "name": "kiiwii:esm_dark_misty_gas_power_up_futuristic_mobile_app_pick_up_sci_fi",
+        "stream": false
+      }
+    ]
+  },
+  "falseanchorpowersdown": {
+    "category": "block",
+    "subtitle": "subtitles.falseanchorpowersdown",
+    "sounds": [
+      {
+        "name": "kiiwii:018_power_down_-_trfx01_zenfx",
+        "stream": false
+      }
+    ]
+  },
+  "machinescans": {
+    "category": "block",
+    "subtitle": "subtitles.machinescans",
+    "sounds": [
+      {
+        "name": "kiiwii:scan",
+        "stream": false
+      }
+    ]
+  },
+  "falseanchoroutput": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "kiiwii:output",
+        "stream": false
+      }
+    ]
+  },
+  "click": {
+    "category": "block",
+    "subtitle": "subtitles.click",
+    "sounds": [
+      {
+        "name": "kiiwii:751087__smallconfusion__mechanical-plastic-click-09",
+        "stream": false
+      }
+    ]
+  },
+  "falseanchorcomputes": {
+    "category": "block",
+    "subtitle": "subtitles.falseanchorcomputes",
+    "sounds": [
+      {
+        "name": "kiiwii:in-amb",
+        "stream": false
+      }
+    ]
+  },
+  "falseanchorinput": {
+    "category": "block",
+    "subtitle": "subtitles.falseanchorinput",
+    "sounds": [
+      {
+        "name": "kiiwii:input",
+        "stream": false
+      }
+    ]
+  },
+  "shiftaway": {
+    "category": "player",
+    "subtitle": "subtitles.shiftaway",
+    "sounds": [
+      {
+        "name": "kiiwii:221613__moodpie__teleport",
+        "stream": false
+      }
+    ]
+  },
+  "lightsajoint": {
+    "category": "player",
+    "subtitle": "subtitles.lightsajoint",
+    "sounds": [
+      {
+        "name": "kiiwii:lighter-6324",
+        "stream": false
+      }
+    ]
+  },
+  "retching": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kiiwii:520547__aj_heels__supernovalarge",
+        "stream": false
+      }
+    ]
+  },
+  "spaceshipcrashlands": {
+    "category": "player",
+    "subtitle": "subtitles.spaceshipcrashlands",
+    "sounds": [
+      {
+        "name": "kiiwii:398799__evanboyerman__huge-cinematic-explosion-mixed",
+        "stream": false
+      }
+    ]
+  },
+  "spaceshipfalls": {
+    "category": "player",
+    "subtitle": "subtitles.spaceshipfalls",
+    "sounds": [
+      {
+        "name": "kiiwii:536720__thesoundfxguy_yt__slow-sci-fi-fly-by",
+        "stream": false
+      }
+    ]
+  },
+  "falseanchorinput2": {
+    "category": "block",
+    "subtitle": "subtitles.falseanchorinput2",
+    "sounds": [
+      {
+        "name": "kiiwii:input",
+        "stream": false
+      }
+    ]
+  },
+  "falseanchoroutput2": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "kiiwii:output",
+        "stream": false
+      }
+    ]
+  },
+  "falseanchorpowersown2": {
+    "category": "block",
+    "subtitle": "subtitles.falseanchorpowersown2",
+    "sounds": [
+      {
+        "name": "kiiwii:018_power_down_-_trfx01_zenfx",
+        "stream": false
+      }
+    ]
+  },
+  "shiftaway2": {
+    "category": "player",
+    "subtitle": "subtitles.shiftaway2",
+    "sounds": [
+      {
+        "name": "kiiwii:esm_dark_misty_gas_power_up_futuristic_mobile_app_pick_up_sci_fi",
+        "stream": false
+      }
+    ]
+  }
+}

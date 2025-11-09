@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/exclamation_mark"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/exclamation_mark",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/exclamation_mark",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/exclamation_mark",
+      "y": 270
+    }
+  }
+}

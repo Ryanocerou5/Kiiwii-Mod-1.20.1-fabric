@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kiiwii:block/slab_zender"
+    },
+    "type=top": {
+      "model": "kiiwii:block/slab_zender_top"
+    },
+    "type=double": {
+      "model": "kiiwii:block/slab_zender_full"
+    }
+  }
+}

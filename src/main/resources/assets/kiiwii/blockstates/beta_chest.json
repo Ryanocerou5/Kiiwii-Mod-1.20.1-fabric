@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/beta_chest"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/beta_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/beta_chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/beta_chest",
+      "y": 270
+    }
+  }
+}

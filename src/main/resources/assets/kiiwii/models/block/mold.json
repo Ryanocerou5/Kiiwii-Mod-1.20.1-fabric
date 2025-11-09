@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/moldblock",
+    "up": "kiiwii:blocks/moldblock",
+    "north": "kiiwii:blocks/moldblock",
+    "east": "kiiwii:blocks/moldblock",
+    "south": "kiiwii:blocks/moldblock",
+    "west": "kiiwii:blocks/moldblock",
+    "particle": "kiiwii:blocks/moldblock"
+  },
+  "render_type": "solid"
+}

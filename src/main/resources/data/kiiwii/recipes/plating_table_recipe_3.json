@@ -1,0 +1,26 @@
+{
+  "group": "plt",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "kiiwii:empty_plate"
+    },
+    "1": {
+      "item": "kiiwii:empty_plate"
+    },
+    "2": {
+      "item": "kiiwii:empty_plate"
+    },
+    "3": {
+      "item": "kiiwii:empty_plate"
+    }
+  },
+  "result": {
+    "item": "kiiwii:plating_table",
+    "count": 1
+  }
+}

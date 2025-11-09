@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/mnolub_resident"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/mnolub_resident",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/mnolub_resident",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/mnolub_resident",
+      "y": 270
+    }
+  }
+}

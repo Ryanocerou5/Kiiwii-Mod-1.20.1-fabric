@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/forcefieldtopclean",
+    "up": "kiiwii:blocks/forcefieldtopclean",
+    "north": "kiiwii:blocks/forcefieldclean",
+    "east": "kiiwii:blocks/forcefieldtopclean",
+    "south": "kiiwii:blocks/forcefieldtopclean",
+    "west": "kiiwii:blocks/forcefieldtopclean",
+    "particle": "kiiwii:blocks/forcefieldtopclean"
+  },
+  "render_type": "solid"
+}

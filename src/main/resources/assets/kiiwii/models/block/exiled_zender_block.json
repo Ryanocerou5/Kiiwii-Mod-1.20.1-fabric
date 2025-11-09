@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/end_stone",
+    "up": "kiiwii:blocks/end_stone",
+    "north": "kiiwii:blocks/end_stone",
+    "east": "kiiwii:blocks/end_stone",
+    "south": "kiiwii:blocks/end_stone",
+    "west": "kiiwii:blocks/end_stone",
+    "particle": "kiiwii:blocks/end_stone"
+  },
+  "render_type": "solid"
+}

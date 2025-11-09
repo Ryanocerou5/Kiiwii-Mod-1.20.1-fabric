@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/white_road_line"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/white_road_line",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/white_road_line",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/white_road_line",
+      "y": 270
+    }
+  }
+}

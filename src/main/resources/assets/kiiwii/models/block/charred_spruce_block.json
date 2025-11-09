@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/charredsprucelogtop",
+    "up": "kiiwii:blocks/charredsprucelogtop",
+    "north": "kiiwii:blocks/charredsprucelog",
+    "east": "kiiwii:blocks/charredsprucelog",
+    "south": "kiiwii:blocks/charredsprucelog",
+    "west": "kiiwii:blocks/charredsprucelog",
+    "particle": "kiiwii:blocks/charredsprucelogtop"
+  },
+  "render_type": "solid"
+}

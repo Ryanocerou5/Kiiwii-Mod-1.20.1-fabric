@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/curved_yellow_lines_3"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/curved_yellow_lines_3",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/curved_yellow_lines_3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/curved_yellow_lines_3",
+      "y": 270
+    }
+  }
+}

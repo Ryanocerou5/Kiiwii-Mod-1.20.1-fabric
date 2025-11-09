@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "why_did_you_eat_that": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kiiwii:protosteloid_spore"
+          ]
+        }
+      }
+    }
+  }
+}

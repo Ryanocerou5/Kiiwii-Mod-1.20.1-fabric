@@ -1,0 +1,7 @@
+{
+  "parent": "kiiwii:custom/candycigarette",
+  "textures": {
+    "1": "kiiwii:blocks/candy",
+    "particle": "kiiwii:items/candycig"
+  }
+}

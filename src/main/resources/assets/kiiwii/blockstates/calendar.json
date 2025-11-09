@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/calendar"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/calendar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/calendar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/calendar",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "paddedslab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "kiiwii:padded_wall"
+    },
+    "1": {
+      "item": "kiiwii:padded_wall"
+    },
+    "2": {
+      "item": "kiiwii:padded_wall"
+    }
+  },
+  "result": {
+    "item": "kiiwii:padded_slab",
+    "count": 6
+  }
+}

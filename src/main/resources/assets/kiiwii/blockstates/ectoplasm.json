@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/ectoplasm"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/ectoplasm",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/ectoplasm",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/ectoplasm",
+      "y": 270
+    }
+  }
+}

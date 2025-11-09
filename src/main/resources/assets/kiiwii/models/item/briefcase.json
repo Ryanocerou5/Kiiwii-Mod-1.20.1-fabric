@@ -1,0 +1,7 @@
+{
+  "parent": "kiiwii:custom/briefcase",
+  "textures": {
+    "0": "kiiwii:blocks/briefcasetxt",
+    "particle": "kiiwii:items/briefcasetxt"
+  }
+}

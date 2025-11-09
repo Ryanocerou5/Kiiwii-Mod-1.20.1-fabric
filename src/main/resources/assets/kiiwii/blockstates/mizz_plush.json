@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/mizz_plush"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/mizz_plush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/mizz_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/mizz_plush",
+      "y": 270
+    }
+  }
+}

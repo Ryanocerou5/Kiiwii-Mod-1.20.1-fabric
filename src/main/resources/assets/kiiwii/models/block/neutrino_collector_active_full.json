@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "kiiwii:blocks/neutrinocollectorbottomdev",
+    "top": "kiiwii:blocks/neutrinocollectoractivetopdev",
+    "side": "kiiwii:blocks/neutrinocollectoractivesidedev"
+  },
+  "render_type": "solid"
+}

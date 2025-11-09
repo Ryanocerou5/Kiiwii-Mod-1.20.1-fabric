@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/artifact"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/artifact",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/artifact",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/artifact",
+      "y": 270
+    }
+  }
+}

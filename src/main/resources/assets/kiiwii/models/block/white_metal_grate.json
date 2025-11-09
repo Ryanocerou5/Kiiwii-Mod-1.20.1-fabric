@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/whitemetalgrate",
+  "textures": {
+    "all": "kiiwii:blocks/metalgratetexturewhite",
+    "particle": "kiiwii:blocks/metalgratetexturewhite",
+    "0": "kiiwii:blocks/metalgratetexturewhite"
+  },
+  "render_type": "solid"
+}

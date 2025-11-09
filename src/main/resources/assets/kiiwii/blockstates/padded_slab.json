@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kiiwii:block/padded_slab"
+    },
+    "type=top": {
+      "model": "kiiwii:block/padded_slab_top"
+    },
+    "type=double": {
+      "model": "kiiwii:block/padded_slab_full"
+    }
+  }
+}

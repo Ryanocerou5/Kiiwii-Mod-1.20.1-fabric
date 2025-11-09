@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/flat_pot",
+  "textures": {
+    "all": "kiiwii:blocks/texturemine",
+    "particle": "kiiwii:blocks/texturemine",
+    "1": "kiiwii:blocks/texturemine"
+  },
+  "render_type": "solid"
+}

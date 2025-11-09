@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/ghost_hunter_poster"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/ghost_hunter_poster",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/ghost_hunter_poster",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/ghost_hunter_poster",
+      "y": 270
+    }
+  }
+}

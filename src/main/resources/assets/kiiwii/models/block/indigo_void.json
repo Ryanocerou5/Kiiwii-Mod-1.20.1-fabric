@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/indigovoid",
+    "up": "kiiwii:blocks/indigovoid",
+    "north": "kiiwii:blocks/indigovoid",
+    "east": "kiiwii:blocks/indigovoid",
+    "south": "kiiwii:blocks/indigovoid",
+    "west": "kiiwii:blocks/indigovoid",
+    "particle": "kiiwii:blocks/indigovoid"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/plushstanley",
+  "textures": {
+    "all": "kiiwii:blocks/plushstanleytxt",
+    "particle": "kiiwii:blocks/noparticles",
+    "2": "kiiwii:blocks/plushstanleytxt"
+  },
+  "render_type": "solid"
+}

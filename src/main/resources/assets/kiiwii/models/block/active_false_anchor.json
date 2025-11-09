@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/falseanchorfull",
+  "textures": {
+    "all": "kiiwii:blocks/falseanchortexturefull",
+    "particle": "kiiwii:blocks/falseanchortexturefull",
+    "0": "kiiwii:blocks/falseanchortexturefull"
+  },
+  "render_type": "solid"
+}

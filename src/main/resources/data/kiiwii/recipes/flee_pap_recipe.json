@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "minecraft:bowl"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "kiiwii:flee_pap",
+    "count": 1
+  }
+}

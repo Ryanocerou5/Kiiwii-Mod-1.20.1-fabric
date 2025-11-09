@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/orange",
+    "up": "kiiwii:blocks/orange",
+    "north": "kiiwii:blocks/orange",
+    "east": "kiiwii:blocks/orange",
+    "south": "kiiwii:blocks/orange",
+    "west": "kiiwii:blocks/orange",
+    "particle": "kiiwii:blocks/orange"
+  },
+  "render_type": "solid"
+}

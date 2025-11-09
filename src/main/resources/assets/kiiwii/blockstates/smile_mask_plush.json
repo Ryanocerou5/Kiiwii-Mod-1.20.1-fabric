@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/smile_mask_plush"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/smile_mask_plush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/smile_mask_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/smile_mask_plush",
+      "y": 270
+    }
+  }
+}

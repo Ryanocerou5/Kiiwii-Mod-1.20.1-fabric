@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/trans_block"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/trans_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/trans_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/trans_block",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "kiiwii:block/trans_block",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "kiiwii:block/trans_block",
+      "x": 90
+    }
+  }
+}

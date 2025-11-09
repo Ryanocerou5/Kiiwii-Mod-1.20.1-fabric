@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kiiwii:larimar"
+    }
+  ],
+  "result": {
+    "item": "kiiwii:piece_of_larimar",
+    "count": 9
+  }
+}

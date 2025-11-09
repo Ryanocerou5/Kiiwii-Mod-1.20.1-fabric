@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "kiiwii:metal_grate"
+    }
+  ],
+  "result": {
+    "item": "kiiwii:red_metal_grate",
+    "count": 1
+  }
+}

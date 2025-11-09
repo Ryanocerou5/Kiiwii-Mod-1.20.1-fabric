@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "what_did_you_expect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kiiwii:killer_dino_nugget"
+          ]
+        }
+      }
+    }
+  }
+}

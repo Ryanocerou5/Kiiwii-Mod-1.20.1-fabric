@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/ardnew3",
+    "up": "kiiwii:blocks/ardnew3",
+    "north": "kiiwii:blocks/ardnew2",
+    "east": "kiiwii:blocks/ardnew",
+    "south": "kiiwii:blocks/ardnew2",
+    "west": "kiiwii:blocks/ardnew",
+    "particle": "kiiwii:blocks/ardnew3"
+  },
+  "render_type": "solid"
+}

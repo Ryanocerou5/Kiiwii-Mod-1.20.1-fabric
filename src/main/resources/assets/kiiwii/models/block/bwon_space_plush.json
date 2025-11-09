@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/plushbwonbwonspacemodel",
+  "textures": {
+    "all": "kiiwii:blocks/bwonbwonspacetxt",
+    "particle": "kiiwii:blocks/noparticles",
+    "0": "kiiwii:blocks/bwonbwonspacetxt"
+  },
+  "render_type": "solid"
+}

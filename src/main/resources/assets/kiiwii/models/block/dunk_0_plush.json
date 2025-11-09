@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/dunk0plush",
+  "textures": {
+    "all": "kiiwii:blocks/dunk0plushtexture",
+    "particle": "kiiwii:blocks/noparticles",
+    "0": "kiiwii:blocks/dunk0plushtexture"
+  },
+  "render_type": "solid"
+}

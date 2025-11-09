@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kiiwii:block/pride_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kiiwii:block/pride_block"
+    },
+    "axis=z": {
+      "model": "kiiwii:block/pride_block",
+      "x": 90
+    }
+  }
+}

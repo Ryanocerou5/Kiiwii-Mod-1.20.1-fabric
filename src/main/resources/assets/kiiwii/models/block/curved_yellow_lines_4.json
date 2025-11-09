@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/curvedyellowlines4",
+  "textures": {
+    "all": "kiiwii:blocks/curvedyellowlinestexture4",
+    "particle": "kiiwii:blocks/curvedyellowlinestexture4",
+    "1": "kiiwii:blocks/curvedyellowlinestexture4"
+  },
+  "render_type": "cutout"
+}

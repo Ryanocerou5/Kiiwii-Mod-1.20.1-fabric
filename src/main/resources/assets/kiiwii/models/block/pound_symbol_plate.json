@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/psymbolplate",
+    "up": "kiiwii:blocks/psymbolplate",
+    "north": "kiiwii:blocks/psymbolplate",
+    "east": "kiiwii:blocks/psymbolplate",
+    "south": "kiiwii:blocks/psymbolplate",
+    "west": "kiiwii:blocks/psymbolplate",
+    "particle": "kiiwii:blocks/psymbolplate"
+  },
+  "render_type": "solid"
+}

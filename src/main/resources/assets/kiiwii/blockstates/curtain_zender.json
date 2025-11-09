@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/curtain_zender"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/curtain_zender",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/curtain_zender",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/curtain_zender",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "group": "candy",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone"
+    },
+    "1": {
+      "item": "kiiwii:sweet_berry_syrup"
+    },
+    "3": {
+      "item": "kiiwii:candy_mold"
+    }
+  },
+  "result": {
+    "item": "kiiwii:bone_candy",
+    "count": 6
+  }
+}

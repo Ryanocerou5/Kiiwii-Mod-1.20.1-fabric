@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/minepressed",
+  "textures": {
+    "all": "kiiwii:blocks/texturemine",
+    "particle": "kiiwii:blocks/texturemine",
+    "0": "kiiwii:blocks/texturemine"
+  },
+  "render_type": "solid"
+}

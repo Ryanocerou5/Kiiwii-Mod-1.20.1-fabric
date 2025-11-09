@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "kiiwii:remnant"
+    },
+    "1": {
+      "item": "minecraft:bone"
+    },
+    "2": {
+      "item": "minecraft:bowl"
+    },
+    "3": {
+      "item": "kiiwii:remnant"
+    }
+  },
+  "result": {
+    "item": "kiiwii:soulful_meal",
+    "count": 1
+  }
+}

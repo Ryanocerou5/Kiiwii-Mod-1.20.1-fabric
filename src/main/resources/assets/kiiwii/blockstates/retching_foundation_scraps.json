@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kiiwii:block/retching_foundation_scraps",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kiiwii:block/retching_foundation_scraps"
+    },
+    "axis=z": {
+      "model": "kiiwii:block/retching_foundation_scraps",
+      "x": 90
+    }
+  }
+}

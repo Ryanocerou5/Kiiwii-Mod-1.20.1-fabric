@@ -1,0 +1,9 @@
+{
+  "parent": "kiiwii:custom/locker",
+  "textures": {
+    "all": "kiiwii:blocks/texturelocker",
+    "particle": "kiiwii:blocks/texturelocker",
+    "2": "kiiwii:blocks/texturelocker"
+  },
+  "render_type": "solid"
+}

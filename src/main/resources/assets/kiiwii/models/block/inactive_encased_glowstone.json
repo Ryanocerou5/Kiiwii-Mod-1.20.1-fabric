@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/deadlamp",
+    "up": "kiiwii:blocks/deadlamp",
+    "north": "kiiwii:blocks/deadlamp",
+    "east": "kiiwii:blocks/deadlamp",
+    "south": "kiiwii:blocks/deadlamp",
+    "west": "kiiwii:blocks/deadlamp",
+    "particle": "kiiwii:blocks/deadlamp"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "group": "cigarette",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "result": {
+    "item": "kiiwii:metal_cigarette",
+    "count": 10
+  }
+}

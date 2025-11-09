@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kiiwii:blocks/retchingpillartopandbottom",
+    "up": "kiiwii:blocks/retchingpillartopandbottom",
+    "north": "kiiwii:blocks/retchingpillarside",
+    "east": "kiiwii:blocks/retchingpillarside",
+    "south": "kiiwii:blocks/retchingpillarside",
+    "west": "kiiwii:blocks/retchingpillarside",
+    "particle": "kiiwii:blocks/retchingpillartopandbottom"
+  },
+  "render_type": "solid"
+}

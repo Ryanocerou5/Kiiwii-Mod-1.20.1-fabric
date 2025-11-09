@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "kiiwii:blocks/cobbledspores",
+    "particle": "kiiwii:blocks/cobbledspores"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purple_wool"
+    },
+    "1": {
+      "item": "minecraft:purple_wool"
+    },
+    "2": {
+      "item": "minecraft:purple_wool"
+    },
+    "3": {
+      "item": "minecraft:purple_wool"
+    },
+    "4": {
+      "item": "minecraft:end_stone"
+    },
+    "5": {
+      "item": "minecraft:purple_wool"
+    },
+    "6": {
+      "item": "minecraft:purple_wool"
+    },
+    "7": {
+      "item": "minecraft:purple_wool"
+    },
+    "8": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "result": {
+    "item": "kiiwii:wall_zender",
+    "count": 9
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kiiwii:block/number_plate_4c"
+    },
+    "facing=east": {
+      "model": "kiiwii:block/number_plate_4c",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kiiwii:block/number_plate_4c",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kiiwii:block/number_plate_4c",
+      "y": 270
+    }
+  }
+}
