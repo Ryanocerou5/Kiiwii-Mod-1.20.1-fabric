@@ -2,6 +2,6 @@
   "parent": "kiiwii:custom/comicallylargespoon",
   "textures": {
     "0": "kiiwii:block/comicallylargespoontexture",
-    "particle": "kiiwii:items/zevbattleaxetooltexture"
+    "particle": "kiiwii:item/zevbattleaxetooltexture"
   }
 }

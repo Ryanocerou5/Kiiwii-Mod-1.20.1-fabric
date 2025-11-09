@@ -3,8 +3,7 @@ package github.ryanocerou5.kiiwii.init;
 import github.ryanocerou5.kiiwii.KiiwiiMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -13,13 +12,13 @@ import net.minecraft.util.Identifier;
 
 public class BlockInit {
 
-    private static Item registerBlockItem(String name, Block block)
+    private static <T extends Block> Item registerBlockItem(String name, T block)
     {
         return Registry.register(Registries.ITEM, new Identifier(KiiwiiMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
 
-    private static Block registerBlock(String name, Block block)
+    private static <T extends Block> T registerBlock(String name, T block)
     {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(KiiwiiMod.MOD_ID, name), block);
@@ -177,6 +176,159 @@ public class BlockInit {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block TIMES_SYMBOL_PLATE = registerBlock("times_symbol_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block LOCKER = registerBlock("locker",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block BETA_CHEST = registerBlock("beta_chest",
+            new Block(FabricBlockSettings.copyOf(Blocks.CHEST)));
+    public static final Block TRANS_WOOL = registerBlock("trans_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block ZENDER_BLOCK = registerBlock("zender_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final StairsBlock ZENDER_STAIRS = registerBlock("zender_stairs",
+            new StairsBlock(BlockInit.ZENDER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final SlabBlock ZENDER_SLAB = registerBlock("zender_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final DoorBlock ZENDER_DOORS = registerBlock("zender_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.CRIMSON));
+    public static final TrapdoorBlock ZENDER_TRAPDOOR = registerBlock("zender_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.CRIMSON));
+    public static final Block ZENDER_CURTAINS = registerBlock("zender_curtains",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block DROOPY_CROSS = registerBlock("droopy_cross",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block HIGH_CROSS = registerBlock("high_cross",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block LOW_CROSS = registerBlock("low_cross",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BARS)));
+    public static final Block WHITE_ROAD_LINE = registerBlock("white_road_line",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block YELLOW_ROAD_LINE = registerBlock("yellow_road_line",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block METAL_SCRAP = registerBlock("metal_scrap",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block PADDED_WALL = registerBlock("padded_wall",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final StairsBlock PADDED_STAIRS = registerBlock("padded_stairs",
+            new StairsBlock(BlockInit.PADDED_WALL.getDefaultState(), FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final SlabBlock PADDED_SLAB = registerBlock("padded_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block MINE = registerBlock("mine",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block LARIMAR = registerBlock("larimar",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block ARD = registerBlock("ard",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block FLUORITE_ORE = registerBlock("fluorite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block PROTOSTELOID_GROWTH = registerBlock("protosteloid_growth",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block BLOCK_OF_MOLD = registerBlock("block_of_mold",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block BODDLE = registerBlock("boddle",
+            new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
+    public static final Block GOOPLEDUNG = registerBlock("goopledung",
+            new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
+    public static final Block CLAMAFLAJ = registerBlock("clamaflaj",
+            new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
+    public static final Block MNOLUB_RESIDENT = registerBlock("mnolub_resident",
+            new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
+    public static final Block MNOLUB = registerBlock("mnolub",
+            new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
+    public static final Block AZRA_BUSH = registerBlock("azra_bush",
+            new Block(FabricBlockSettings.copyOf(Blocks.ACACIA_LEAVES)));
+    public static final Block SCANNER = registerBlock("scanner",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block CALENDAR = registerBlock("calendar",
+            new Block(FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block ENCASED_GLOWSTONE = registerBlock("encased_glowstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
+    public static final Block INACTIVE_ENCASED_GLOWSTONE = registerBlock("inactive_encased_glowstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
+    public static final Block CHARRED_SPRUCE_LOG = registerBlock("charred_spruce_log",
+            new Block(FabricBlockSettings.copyOf(Blocks.ACACIA_LOG)));
+    public static final Block BLOCK_OF_AMOEBA = registerBlock("block_of_amoeba",
+            new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
+    public static final Block SONAR_SCREEN = registerBlock("sonar_screen",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block CAMERA = registerBlock("camera",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block GARFIELD_PLUSH = registerBlock("garfield_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block BWON_BWON_PLUSH = registerBlock("bwon_bwon_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block SPACE_BWON_BWON_PLUSH = registerBlock("space_bwon_bwon_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block PASTA_PLUSH = registerBlock("pasta_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block STANLEY_PLUSH = registerBlock("stanley_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block JONATHAN_PLUSH = registerBlock("jonathan_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block DATING_MIZZ_PLUSH = registerBlock("dating_mizz_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block MIZZ_PLUSH = registerBlock("mizz_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block EVIL_MIZZ_PLUSH = registerBlock("evil_mizz_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block D0NKU_PLUSH = registerBlock("d0nku_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block FROWNER_PLUSH = registerBlock("frowner_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block ANTI_MASKER_FROWNER_PLUSH = registerBlock("anti_masker_frowner_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block WEALTHY_BAG_MAN_PLUSH = registerBlock("wealthy_bag_man_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block THE_LIME_PLUSH = registerBlock("the_lime_plush",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block BRIEFCASE = registerBlock("briefcase",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block CARVED_OAK_LOG = registerBlock("carved_oak_log",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER)));
+
+
+
+
+
 
 
     public static void registerBlocks()

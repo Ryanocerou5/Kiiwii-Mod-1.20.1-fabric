@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "kiiwii:block/fplate"
+      "model": "kiiwii:block/f_plate"
     }
   }
 }

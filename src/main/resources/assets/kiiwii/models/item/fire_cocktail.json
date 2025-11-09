@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/firecocktail"
+    "layer0": "kiiwii:item/firecocktail"
   },
   "display": {
     "thirdperson_righthand": {

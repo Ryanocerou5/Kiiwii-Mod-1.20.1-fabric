@@ -2,6 +2,6 @@
   "parent": "kiiwii:custom/cock6",
   "textures": {
     "0": "kiiwii:block/cock6",
-    "particle": "kiiwii:items/cock6"
+    "particle": "kiiwii:item/cock6"
   }
 }

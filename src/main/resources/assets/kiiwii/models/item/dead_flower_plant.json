@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/deadflower"
+    "layer0": "kiiwii:item/deadflower"
   }
 }

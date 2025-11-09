@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/fluorite2"
+    "layer0": "kiiwii:item/fluorite2"
   }
 }

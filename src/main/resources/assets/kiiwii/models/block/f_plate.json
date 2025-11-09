@@ -1,9 +1,9 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:block/f_plate",
-    "up": "kiiwii:block/f_plate",
-    "north": "kiiwii:block/f_plate",
+    "down": "kiiwii:block/fplate",
+    "up": "kiiwii:block/fplate",
+    "north": "kiiwii:block/fplate",
     "east": "kiiwii:block/fplate",
     "south": "kiiwii:block/fplate",
     "west": "kiiwii:block/fplate",

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "kiiwii:items/bone_je2"
+    "layer0": "kiiwii:item/bone_je2"
   }
 }

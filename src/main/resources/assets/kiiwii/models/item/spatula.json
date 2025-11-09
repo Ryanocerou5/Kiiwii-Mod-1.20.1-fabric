@@ -2,6 +2,6 @@
   "parent": "kiiwii:custom/spatula",
   "textures": {
     "0": "kiiwii:block/spatual_text",
-    "particle": "kiiwii:items/spatual_text"
+    "particle": "kiiwii:item/spatual_text"
   }
 }

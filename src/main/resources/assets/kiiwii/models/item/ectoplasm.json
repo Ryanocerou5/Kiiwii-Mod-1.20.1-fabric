@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/ectoplasmitem"
+    "layer0": "kiiwii:item/ectoplasmitem"
   },
   "render_type": "translucent"
 }

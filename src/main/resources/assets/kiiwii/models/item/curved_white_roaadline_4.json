@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/whitechalk"
+    "layer0": "kiiwii:item/whitechalk"
   },
   "render_type": "translucent"
 }

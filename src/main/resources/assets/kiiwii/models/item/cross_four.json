@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/crossitem4"
+    "layer0": "kiiwii:item/crossitem4"
   },
   "render_type": "translucent"
 }

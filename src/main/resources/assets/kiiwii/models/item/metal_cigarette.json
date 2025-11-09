@@ -2,6 +2,6 @@
   "parent": "kiiwii:custom/metalcigarette",
   "textures": {
     "2": "kiiwii:block/metal2",
-    "particle": "kiiwii:items/metal"
+    "particle": "kiiwii:item/metal"
   }
 }

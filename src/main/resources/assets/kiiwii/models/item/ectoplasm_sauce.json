@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/ghost_sauce_pot"
+    "layer0": "kiiwii:item/ghost_sauce_pot"
   }
 }

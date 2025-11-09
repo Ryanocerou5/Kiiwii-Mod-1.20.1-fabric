@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/ghost_dino_nugget"
+    "layer0": "kiiwii:item/ghost_dino_nugget"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/undead_soup"
+    "layer0": "kiiwii:item/undead_soup"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/zenderpill2"
+    "layer0": "kiiwii:item/zenderpill2"
   }
 }

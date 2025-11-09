@@ -2,6 +2,6 @@
   "parent": "kiiwii:custom/horn",
   "textures": {
     "0": "kiiwii:block/horntxt",
-    "particle": "kiiwii:items/hornitemtexture"
+    "particle": "kiiwii:item/hornitemtexture"
   }
 }

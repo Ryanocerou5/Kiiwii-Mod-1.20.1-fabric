@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/poster"
+    "layer0": "kiiwii:item/poster"
   },
   "render_type": "translucent"
 }

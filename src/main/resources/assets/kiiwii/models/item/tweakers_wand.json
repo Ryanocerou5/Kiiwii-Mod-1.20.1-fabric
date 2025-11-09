@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "kiiwii:items/bissastool"
+    "layer0": "kiiwii:item/bissastool"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/abaodisc2"
+    "layer0": "kiiwii:item/abaodisc2"
   }
 }

@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class CreativeTabInit {
     public static final ItemGroup KIIWII_MOD_PLATES_TAB = Registry.register(Registries.ITEM_GROUP,
             new Identifier(KiiwiiMod.MOD_ID, "plate"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.plate"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.tabkiiwii"))
                     .icon(() -> new ItemStack(ItemInit.WHITE_VOID)).entries((displayContext, entries) -> {
                         entries.add(BlockInit.PLATING_TABLE);
                         entries.add(BlockInit.EMPTY_PLATE);
@@ -90,6 +90,13 @@ public class CreativeTabInit {
                         entries.add(BlockInit.PERCENT_PLATE);
                         entries.add(BlockInit.TIMES_SYMBOL_PLATE);
                     }).build());
+
+    public static final ItemGroup KIIWII_MOD_CONTENT_TAB = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(KiiwiiMod.MOD_ID, "misc"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.tabkiiwii_misc"))
+                    .icon(() -> new ItemStack(ItemInit.WHITE_VOID)).entries(((displayContext, entries) -> {
+                        entries.add(ItemInit.WHITE_VOID);
+                    })).build());
 
     public static void registerItemGroups()
     {

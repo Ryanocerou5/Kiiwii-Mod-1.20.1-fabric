@@ -11,20 +11,20 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/govdianbatitem"
+        "layer0": "kiiwii:item/govdianbatitem"
       },
       "gui_light": "front"
     },
     "ground": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/govdianbatitem"
+        "layer0": "kiiwii:item/govdianbatitem"
       }
     },
     "fixed": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/govdianbatitem"
+        "layer0": "kiiwii:item/govdianbatitem"
       }
     }
   }

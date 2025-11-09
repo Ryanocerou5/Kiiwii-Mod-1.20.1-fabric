@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/butterflyeffigy"
+    "layer0": "kiiwii:item/butterflyeffigy"
   }
 }

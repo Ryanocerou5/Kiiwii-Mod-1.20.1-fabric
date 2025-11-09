@@ -16,20 +16,20 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/emeraldsworditem"
+        "layer0": "kiiwii:item/emeraldsworditem"
       },
       "gui_light": "front"
     },
     "ground": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/emeraldsworditem"
+        "layer0": "kiiwii:item/emeraldsworditem"
       }
     },
     "fixed": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/emeraldsworditem"
+        "layer0": "kiiwii:item/emeraldsworditem"
       }
     }
   }

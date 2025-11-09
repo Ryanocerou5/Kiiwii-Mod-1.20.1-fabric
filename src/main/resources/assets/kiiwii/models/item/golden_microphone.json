@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "kiiwii:items/golden_microphone"
+    "layer0": "kiiwii:item/golden_microphone"
   }
 }

@@ -11,20 +11,20 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/zevbattleaxetooltexture"
+        "layer0": "kiiwii:item/zevbattleaxetooltexture"
       },
       "gui_light": "front"
     },
     "ground": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/zevbattleaxetooltexture"
+        "layer0": "kiiwii:item/zevbattleaxetooltexture"
       }
     },
     "fixed": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/zevbattleaxetooltexture"
+        "layer0": "kiiwii:item/zevbattleaxetooltexture"
       }
     }
   }

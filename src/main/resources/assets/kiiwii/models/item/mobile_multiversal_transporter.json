@@ -11,20 +11,20 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/hornitemtexture"
+        "layer0": "kiiwii:item/hornitemtexture"
       },
       "gui_light": "front"
     },
     "ground": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/hornitemtexture"
+        "layer0": "kiiwii:item/hornitemtexture"
       }
     },
     "fixed": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "kiiwii:items/hornitemtexture"
+        "layer0": "kiiwii:item/hornitemtexture"
       }
     }
   }

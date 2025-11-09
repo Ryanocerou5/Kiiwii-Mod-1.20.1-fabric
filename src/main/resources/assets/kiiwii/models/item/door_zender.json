@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/zenderdoor"
+    "layer0": "kiiwii:item/zenderdoor"
   },
   "render_type": "translucent"
 }

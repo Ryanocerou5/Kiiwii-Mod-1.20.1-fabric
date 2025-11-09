@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "kiiwii:items/fluoriteshovel"
+    "layer0": "kiiwii:item/fluoriteshovel"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "kiiwii:items/blackvoid"
+    "layer0": "kiiwii:item/blackvoid"
   },
   "render_type": "translucent"
 }

@@ -2,6 +2,6 @@
   "parent": "kiiwii:custom/sprytecane",
   "textures": {
     "0": "kiiwii:block/canetxt",
-    "particle": "kiiwii:items/canetxt"
+    "particle": "kiiwii:item/canetxt"
   }
 }
