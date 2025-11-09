@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:blocks/end_stone_bricks",
-    "up": "kiiwii:blocks/end_stone_bricks",
-    "north": "kiiwii:blocks/end_stone_bricks",
-    "east": "kiiwii:blocks/end_stone_bricks",
-    "south": "kiiwii:blocks/end_stone_bricks",
-    "west": "kiiwii:blocks/end_stone_bricks",
-    "particle": "kiiwii:blocks/end_stone_bricks"
+    "down": "kiiwii:block/end_stone_bricks",
+    "up": "kiiwii:block/end_stone_bricks",
+    "north": "kiiwii:block/end_stone_bricks",
+    "east": "kiiwii:block/end_stone_bricks",
+    "south": "kiiwii:block/end_stone_bricks",
+    "west": "kiiwii:block/end_stone_bricks",
+    "particle": "kiiwii:block/end_stone_bricks"
   },
   "render_type": "solid"
 }

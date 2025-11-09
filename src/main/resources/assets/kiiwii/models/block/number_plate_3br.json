@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/verdest3b",
   "textures": {
-    "all": "kiiwii:blocks/verdest3b",
-    "particle": "kiiwii:blocks/verdest3b",
-    "0": "kiiwii:blocks/verdest3b"
+    "all": "kiiwii:block/verdest3b",
+    "particle": "kiiwii:block/verdest3b",
+    "0": "kiiwii:block/verdest3b"
   },
   "render_type": "cutout"
 }

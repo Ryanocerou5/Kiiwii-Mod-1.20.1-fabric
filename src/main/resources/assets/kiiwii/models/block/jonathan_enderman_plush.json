@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/plushjonathan",
   "textures": {
-    "all": "kiiwii:blocks/plushjonathantxt",
-    "particle": "kiiwii:blocks/noparticles",
-    "0": "kiiwii:blocks/plushjonathantxt"
+    "all": "kiiwii:block/plushjonathantxt",
+    "particle": "kiiwii:block/noparticles",
+    "0": "kiiwii:block/plushjonathantxt"
   },
   "render_type": "solid"
 }

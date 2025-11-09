@@ -1,7 +1,7 @@
 {
   "parent": "kiiwii:custom/phone",
   "textures": {
-    "10": "kiiwii:blocks/phonemasstexture",
+    "10": "kiiwii:block/phonemasstexture",
     "particle": "kiiwii:items/phonemasstexture"
   }
 }

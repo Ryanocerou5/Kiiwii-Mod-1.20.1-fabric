@@ -1,9 +1,9 @@
 {
   "parent": "block/slab",
   "textures": {
-    "bottom": "kiiwii:blocks/neutrinocollectorbottomdev",
-    "top": "kiiwii:blocks/neutrinocollectortopdev",
-    "side": "kiiwii:blocks/neutrinocollectorsidedev"
+    "bottom": "kiiwii:block/neutrinocollectorbottomdev",
+    "top": "kiiwii:block/neutrinocollectortopdev",
+    "side": "kiiwii:block/neutrinocollectorsidedev"
   },
   "render_type": "solid"
 }

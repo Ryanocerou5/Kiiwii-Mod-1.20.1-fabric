@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/posterghosthunt",
   "textures": {
-    "all": "kiiwii:blocks/cool",
-    "particle": "kiiwii:blocks/cool",
-    "0": "kiiwii:blocks/cool"
+    "all": "kiiwii:block/cool",
+    "particle": "kiiwii:block/cool",
+    "0": "kiiwii:block/cool"
   },
   "render_type": "solid"
 }

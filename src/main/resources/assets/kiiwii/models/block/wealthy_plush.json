@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/povertyplush",
   "textures": {
-    "all": "kiiwii:blocks/povertyplushtexture",
-    "particle": "kiiwii:blocks/noparticles",
-    "0": "kiiwii:blocks/povertyplushtexture"
+    "all": "kiiwii:block/povertyplushtexture",
+    "particle": "kiiwii:block/noparticles",
+    "0": "kiiwii:block/povertyplushtexture"
   },
   "render_type": "solid"
 }

@@ -17,5 +17,5 @@ public class ItemInit {
         KiiwiiMod.LOGGER.info("Registering Mod Items for " + KiiwiiMod.MOD_ID);
     }
 
-    public static final Item COIN = registerItem("coin", new Item(new FabricItemSettings()));
+    public static final Item WHITE_VOID = registerItem("white_void", new Item(new FabricItemSettings()));
 }

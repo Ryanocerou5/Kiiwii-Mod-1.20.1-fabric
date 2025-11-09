@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:blocks/hiddenmicrophonedev",
-    "up": "kiiwii:blocks/hiddenmicrophonedev",
-    "north": "kiiwii:blocks/hiddenmicrophonedev",
-    "east": "kiiwii:blocks/hiddenmicrophonedev",
-    "south": "kiiwii:blocks/hiddenmicrophonedev",
-    "west": "kiiwii:blocks/hiddenmicrophonedev",
-    "particle": "kiiwii:blocks/hiddenmicrophonedev"
+    "down": "kiiwii:block/hiddenmicrophonedev",
+    "up": "kiiwii:block/hiddenmicrophonedev",
+    "north": "kiiwii:block/hiddenmicrophonedev",
+    "east": "kiiwii:block/hiddenmicrophonedev",
+    "south": "kiiwii:block/hiddenmicrophonedev",
+    "west": "kiiwii:block/hiddenmicrophonedev",
+    "particle": "kiiwii:block/hiddenmicrophonedev"
   },
   "render_type": "solid"
 }

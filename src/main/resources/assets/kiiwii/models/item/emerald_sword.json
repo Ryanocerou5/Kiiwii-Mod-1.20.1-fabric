@@ -4,12 +4,12 @@
   "base": {
     "parent": "kiiwii:custom/artemia_sword",
     "textures": {
-      "1": "kiiwii:blocks/handle",
-      "3": "kiiwii:blocks/handle_2",
-      "4": "kiiwii:blocks/gem_middle",
-      "5": "kiiwii:blocks/handle_upper",
-      "6": "kiiwii:blocks/gem_bottom",
-      "7": "kiiwii:blocks/blade"
+      "1": "kiiwii:block/handle",
+      "3": "kiiwii:block/handle_2",
+      "4": "kiiwii:block/gem_middle",
+      "5": "kiiwii:block/handle_upper",
+      "6": "kiiwii:block/gem_bottom",
+      "7": "kiiwii:block/blade"
     }
   },
   "perspectives": {

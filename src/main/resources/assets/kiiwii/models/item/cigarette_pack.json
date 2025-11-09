@@ -1,7 +1,7 @@
 {
   "parent": "kiiwii:custom/cigbox",
   "textures": {
-    "0": "kiiwii:blocks/cigboxtexture",
+    "0": "kiiwii:block/cigboxtexture",
     "particle": "kiiwii:items/cigboxtexture"
   }
 }

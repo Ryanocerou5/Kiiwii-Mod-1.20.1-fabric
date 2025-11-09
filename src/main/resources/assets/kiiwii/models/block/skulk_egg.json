@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/skulkegg",
   "textures": {
-    "all": "kiiwii:blocks/textureegg",
-    "particle": "kiiwii:blocks/textureegg",
-    "0": "kiiwii:blocks/textureegg"
+    "all": "kiiwii:block/textureegg",
+    "particle": "kiiwii:block/textureegg",
+    "0": "kiiwii:block/textureegg"
   },
   "render_type": "solid"
 }

@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/roadline",
   "textures": {
-    "all": "kiiwii:blocks/roalinetexture",
-    "particle": "kiiwii:blocks/roalinetexture",
-    "0": "kiiwii:blocks/roalinetexture"
+    "all": "kiiwii:block/roalinetexture",
+    "particle": "kiiwii:block/roalinetexture",
+    "0": "kiiwii:block/roalinetexture"
   },
   "render_type": "cutout"
 }

@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/remnant",
   "textures": {
-    "all": "kiiwii:blocks/textureremnant",
-    "particle": "kiiwii:blocks/textureremnant",
-    "1": "kiiwii:blocks/textureremnant"
+    "all": "kiiwii:block/textureremnant",
+    "particle": "kiiwii:block/textureremnant",
+    "1": "kiiwii:block/textureremnant"
   },
   "render_type": "cutout"
 }

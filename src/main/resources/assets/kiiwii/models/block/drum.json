@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/drum",
   "textures": {
-    "all": "kiiwii:blocks/texturedrum",
-    "particle": "kiiwii:blocks/texturedrum",
-    "1": "kiiwii:blocks/texturedrum"
+    "all": "kiiwii:block/texturedrum",
+    "particle": "kiiwii:block/texturedrum",
+    "1": "kiiwii:block/texturedrum"
   },
   "render_type": "cutout_mipped"
 }

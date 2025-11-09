@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:blocks/sevenplate",
-    "up": "kiiwii:blocks/sevenplate",
-    "north": "kiiwii:blocks/sevenplate",
-    "east": "kiiwii:blocks/sevenplate",
-    "south": "kiiwii:blocks/sevenplate",
-    "west": "kiiwii:blocks/sevenplate",
-    "particle": "kiiwii:blocks/sevenplate"
+    "down": "kiiwii:block/sevenplate",
+    "up": "kiiwii:block/sevenplate",
+    "north": "kiiwii:block/sevenplate",
+    "east": "kiiwii:block/sevenplate",
+    "south": "kiiwii:block/sevenplate",
+    "west": "kiiwii:block/sevenplate",
+    "particle": "kiiwii:block/sevenplate"
   },
   "render_type": "solid"
 }

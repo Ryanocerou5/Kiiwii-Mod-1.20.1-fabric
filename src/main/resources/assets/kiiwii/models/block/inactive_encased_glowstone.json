@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:blocks/deadlamp",
-    "up": "kiiwii:blocks/deadlamp",
-    "north": "kiiwii:blocks/deadlamp",
-    "east": "kiiwii:blocks/deadlamp",
-    "south": "kiiwii:blocks/deadlamp",
-    "west": "kiiwii:blocks/deadlamp",
-    "particle": "kiiwii:blocks/deadlamp"
+    "down": "kiiwii:block/deadlamp",
+    "up": "kiiwii:block/deadlamp",
+    "north": "kiiwii:block/deadlamp",
+    "east": "kiiwii:block/deadlamp",
+    "south": "kiiwii:block/deadlamp",
+    "west": "kiiwii:block/deadlamp",
+    "particle": "kiiwii:block/deadlamp"
   },
   "render_type": "solid"
 }

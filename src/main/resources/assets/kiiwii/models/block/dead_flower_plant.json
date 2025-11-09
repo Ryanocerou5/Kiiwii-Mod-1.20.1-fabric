@@ -1,8 +1,8 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "kiiwii:blocks/deadflower",
-    "particle": "kiiwii:blocks/deadflower"
+    "cross": "kiiwii:block/deadflower",
+    "particle": "kiiwii:block/deadflower"
   },
   "render_type": "cutout"
 }

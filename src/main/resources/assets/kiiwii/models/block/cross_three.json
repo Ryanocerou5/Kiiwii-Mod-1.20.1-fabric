@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/cross3",
   "textures": {
-    "all": "kiiwii:blocks/texturecross1",
-    "particle": "kiiwii:blocks/crossparticle",
-    "0": "kiiwii:blocks/texturecross1"
+    "all": "kiiwii:block/texturecross1",
+    "particle": "kiiwii:block/crossparticle",
+    "0": "kiiwii:block/texturecross1"
   },
   "render_type": "solid"
 }

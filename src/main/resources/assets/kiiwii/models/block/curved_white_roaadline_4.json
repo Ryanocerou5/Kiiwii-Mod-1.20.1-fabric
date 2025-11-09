@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/curvedroadline4",
   "textures": {
-    "all": "kiiwii:blocks/curvedroalinetexture4",
-    "particle": "kiiwii:blocks/curvedroalinetexture4",
-    "0": "kiiwii:blocks/curvedroalinetexture4"
+    "all": "kiiwii:block/curvedroalinetexture4",
+    "particle": "kiiwii:block/curvedroalinetexture4",
+    "0": "kiiwii:block/curvedroalinetexture4"
   },
   "render_type": "cutout"
 }

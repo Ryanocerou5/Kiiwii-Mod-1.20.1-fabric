@@ -1,7 +1,7 @@
 {
   "parent": "kiiwii:custom/book_-_converted",
   "textures": {
-    "19": "kiiwii:blocks/bookmasstexture2",
+    "19": "kiiwii:block/bookmasstexture2",
     "particle": "kiiwii:items/bookmasstexture2"
   }
 }

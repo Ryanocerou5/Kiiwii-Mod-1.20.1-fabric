@@ -1,8 +1,8 @@
 {
   "parent": "block/crop",
   "textures": {
-    "crop": "kiiwii:blocks/zenderspores",
-    "particle": "kiiwii:blocks/zenderspores"
+    "crop": "kiiwii:block/zenderspores",
+    "particle": "kiiwii:block/zenderspores"
   },
   "render_type": "cutout"
 }

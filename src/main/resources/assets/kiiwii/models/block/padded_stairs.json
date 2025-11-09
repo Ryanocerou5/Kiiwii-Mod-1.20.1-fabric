@@ -1,9 +1,9 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "kiiwii:blocks/paddedwalls4",
-    "top": "kiiwii:blocks/paddedwalls4",
-    "side": "kiiwii:blocks/paddedwalls4"
+    "bottom": "kiiwii:block/paddedwalls4",
+    "top": "kiiwii:block/paddedwalls4",
+    "side": "kiiwii:block/paddedwalls4"
   },
   "render_type": "solid"
 }

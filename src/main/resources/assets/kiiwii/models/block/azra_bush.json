@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:blocks/azrabush",
-    "up": "kiiwii:blocks/azrabush",
-    "north": "kiiwii:blocks/azrabush",
-    "east": "kiiwii:blocks/azrabush",
-    "south": "kiiwii:blocks/azrabush",
-    "west": "kiiwii:blocks/azrabush",
-    "particle": "kiiwii:blocks/azrabush"
+    "down": "kiiwii:block/azrabush",
+    "up": "kiiwii:block/azrabush",
+    "north": "kiiwii:block/azrabush",
+    "east": "kiiwii:block/azrabush",
+    "south": "kiiwii:block/azrabush",
+    "west": "kiiwii:block/azrabush",
+    "particle": "kiiwii:block/azrabush"
   },
   "render_type": "cutout"
 }

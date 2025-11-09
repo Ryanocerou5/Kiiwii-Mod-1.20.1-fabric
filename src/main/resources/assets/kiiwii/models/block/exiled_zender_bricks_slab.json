@@ -1,9 +1,9 @@
 {
   "parent": "block/slab",
   "textures": {
-    "bottom": "kiiwii:blocks/end_stone_bricks",
-    "top": "kiiwii:blocks/end_stone_bricks",
-    "side": "kiiwii:blocks/end_stone_bricks"
+    "bottom": "kiiwii:block/end_stone_bricks",
+    "top": "kiiwii:block/end_stone_bricks",
+    "side": "kiiwii:block/end_stone_bricks"
   },
   "render_type": "solid"
 }

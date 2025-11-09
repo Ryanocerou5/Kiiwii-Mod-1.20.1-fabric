@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:blocks/oak_log_top",
-    "up": "kiiwii:blocks/oak_log_top",
-    "north": "kiiwii:blocks/oaklogopening",
-    "east": "kiiwii:blocks/oak_log",
-    "south": "kiiwii:blocks/oak_log",
-    "west": "kiiwii:blocks/oak_log",
-    "particle": "kiiwii:blocks/oak_log_top"
+    "down": "kiiwii:block/oak_log_top",
+    "up": "kiiwii:block/oak_log_top",
+    "north": "kiiwii:block/oaklogopening",
+    "east": "kiiwii:block/oak_log",
+    "south": "kiiwii:block/oak_log",
+    "west": "kiiwii:block/oak_log",
+    "particle": "kiiwii:block/oak_log_top"
   },
   "render_type": "solid"
 }

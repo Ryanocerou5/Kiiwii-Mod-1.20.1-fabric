@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/creeper_co_scanner",
   "textures": {
-    "all": "kiiwii:blocks/creepercoscannertexture",
-    "particle": "kiiwii:blocks/creepercoscannertexture",
-    "0": "kiiwii:blocks/creepercoscannertexture"
+    "all": "kiiwii:block/creepercoscannertexture",
+    "particle": "kiiwii:block/creepercoscannertexture",
+    "0": "kiiwii:block/creepercoscannertexture"
   },
   "render_type": "solid"
 }

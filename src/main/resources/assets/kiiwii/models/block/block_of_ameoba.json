@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:blocks/ameoba",
-    "up": "kiiwii:blocks/ameoba",
-    "north": "kiiwii:blocks/ameoba",
-    "east": "kiiwii:blocks/ameoba",
-    "south": "kiiwii:blocks/ameoba",
-    "west": "kiiwii:blocks/ameoba",
-    "particle": "kiiwii:blocks/ameoba"
+    "down": "kiiwii:block/ameoba",
+    "up": "kiiwii:block/ameoba",
+    "north": "kiiwii:block/ameoba",
+    "east": "kiiwii:block/ameoba",
+    "south": "kiiwii:block/ameoba",
+    "west": "kiiwii:block/ameoba",
+    "particle": "kiiwii:block/ameoba"
   },
   "render_type": "solid"
 }

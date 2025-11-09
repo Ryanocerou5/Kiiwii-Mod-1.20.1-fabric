@@ -1,11 +1,11 @@
 {
   "parent": "kiiwii:custom/garfieldplush",
   "textures": {
-    "all": "kiiwii:blocks/texturegarfieldplush",
-    "particle": "kiiwii:blocks/noparticles",
-    "0": "kiiwii:blocks/texturegarfieldplush",
-    "1": "kiiwii:blocks/texturegarfieldplush3",
-    "2": "kiiwii:blocks/texturegarfieldplush2"
+    "all": "kiiwii:block/texturegarfieldplush",
+    "particle": "kiiwii:block/noparticles",
+    "0": "kiiwii:block/texturegarfieldplush",
+    "1": "kiiwii:block/texturegarfieldplush3",
+    "2": "kiiwii:block/texturegarfieldplush2"
   },
   "render_type": "cutout"
 }

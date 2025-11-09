@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/plushmizz",
   "textures": {
-    "all": "kiiwii:blocks/plushmizztxt",
-    "particle": "kiiwii:blocks/noparticles",
-    "0": "kiiwii:blocks/plushmizztxt"
+    "all": "kiiwii:block/plushmizztxt",
+    "particle": "kiiwii:block/noparticles",
+    "0": "kiiwii:block/plushmizztxt"
   },
   "render_type": "solid"
 }

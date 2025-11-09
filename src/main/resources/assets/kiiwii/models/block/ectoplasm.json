@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/ectoplasm",
   "textures": {
-    "all": "kiiwii:blocks/ectoplasmtxt",
-    "particle": "kiiwii:blocks/ectoplasmtxt",
-    "0": "kiiwii:blocks/ectoplasmtxt"
+    "all": "kiiwii:block/ectoplasmtxt",
+    "particle": "kiiwii:block/ectoplasmtxt",
+    "0": "kiiwii:block/ectoplasmtxt"
   },
   "render_type": "cutout"
 }

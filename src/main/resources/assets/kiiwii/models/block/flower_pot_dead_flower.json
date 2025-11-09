@@ -1,11 +1,11 @@
 {
   "parent": "kiiwii:custom/flower_pot_cross",
   "textures": {
-    "all": "kiiwii:blocks/flower_pot",
-    "particle": "kiiwii:blocks/flower_pot",
-    "flowerpot": "kiiwii:blocks/flower_pot",
-    "plant": "kiiwii:blocks/deadflower",
-    "dirt": "kiiwii:blocks/dirt"
+    "all": "kiiwii:block/flower_pot",
+    "particle": "kiiwii:block/flower_pot",
+    "flowerpot": "kiiwii:block/flower_pot",
+    "plant": "kiiwii:block/deadflower",
+    "dirt": "kiiwii:block/dirt"
   },
   "render_type": "cutout_mipped"
 }

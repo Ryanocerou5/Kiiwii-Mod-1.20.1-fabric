@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:blocks/glowstonelamp2",
-    "up": "kiiwii:blocks/glowstonelamp2",
-    "north": "kiiwii:blocks/glowstonelamp2",
-    "east": "kiiwii:blocks/glowstonelamp2",
-    "south": "kiiwii:blocks/glowstonelamp2",
-    "west": "kiiwii:blocks/glowstonelamp2",
-    "particle": "kiiwii:blocks/glowstonelamp2"
+    "down": "kiiwii:block/glowstonelamp2",
+    "up": "kiiwii:block/glowstonelamp2",
+    "north": "kiiwii:block/glowstonelamp2",
+    "east": "kiiwii:block/glowstonelamp2",
+    "south": "kiiwii:block/glowstonelamp2",
+    "west": "kiiwii:block/glowstonelamp2",
+    "particle": "kiiwii:block/glowstonelamp2"
   },
   "render_type": "solid"
 }

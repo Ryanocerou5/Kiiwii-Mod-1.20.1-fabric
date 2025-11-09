@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/plushpasta",
   "textures": {
-    "all": "kiiwii:blocks/plushpastatxt",
-    "particle": "kiiwii:blocks/noparticles",
-    "2": "kiiwii:blocks/plushpastatxt"
+    "all": "kiiwii:block/plushpastatxt",
+    "particle": "kiiwii:block/noparticles",
+    "2": "kiiwii:block/plushpastatxt"
   },
   "render_type": "solid"
 }

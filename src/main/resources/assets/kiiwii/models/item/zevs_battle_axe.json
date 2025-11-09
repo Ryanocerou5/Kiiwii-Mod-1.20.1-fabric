@@ -4,7 +4,7 @@
   "base": {
     "parent": "kiiwii:custom/battleaxe",
     "textures": {
-      "0": "kiiwii:blocks/battleaxetxt"
+      "0": "kiiwii:block/battleaxetxt"
     }
   },
   "perspectives": {

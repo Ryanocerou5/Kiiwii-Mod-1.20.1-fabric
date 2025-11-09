@@ -4,7 +4,7 @@
   "base": {
     "parent": "kiiwii:custom/bat",
     "textures": {
-      "0": "kiiwii:blocks/battexture2"
+      "0": "kiiwii:block/battexture2"
     }
   },
   "perspectives": {

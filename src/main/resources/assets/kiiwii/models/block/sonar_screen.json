@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/sensor-n-radar",
   "textures": {
-    "all": "kiiwii:blocks/sonarscreen",
-    "particle": "kiiwii:blocks/sonarscreen",
-    "0": "kiiwii:blocks/sonarscreen"
+    "all": "kiiwii:block/sonarscreen",
+    "particle": "kiiwii:block/sonarscreen",
+    "0": "kiiwii:block/sonarscreen"
   },
   "render_type": "solid"
 }

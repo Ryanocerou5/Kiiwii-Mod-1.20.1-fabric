@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/artifact",
   "textures": {
-    "all": "kiiwii:blocks/textureartifact",
-    "particle": "kiiwii:blocks/textureartifact",
-    "0": "kiiwii:blocks/textureartifact"
+    "all": "kiiwii:block/textureartifact",
+    "particle": "kiiwii:block/textureartifact",
+    "0": "kiiwii:block/textureartifact"
   },
   "render_type": "cutout"
 }

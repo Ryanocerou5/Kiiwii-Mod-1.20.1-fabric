@@ -1,8 +1,8 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "kiiwii:blocks/carnation",
-    "particle": "kiiwii:blocks/carnation"
+    "cross": "kiiwii:block/carnation",
+    "particle": "kiiwii:block/carnation"
   },
   "render_type": "cutout"
 }

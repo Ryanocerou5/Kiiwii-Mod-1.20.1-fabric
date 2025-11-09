@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/rupeeblvd7",
   "textures": {
-    "all": "kiiwii:blocks/rupeeblvd7",
-    "particle": "kiiwii:blocks/rupeeblvd7",
-    "0": "kiiwii:blocks/rupeeblvd7"
+    "all": "kiiwii:block/rupeeblvd7",
+    "particle": "kiiwii:block/rupeeblvd7",
+    "0": "kiiwii:block/rupeeblvd7"
   },
   "render_type": "cutout"
 }

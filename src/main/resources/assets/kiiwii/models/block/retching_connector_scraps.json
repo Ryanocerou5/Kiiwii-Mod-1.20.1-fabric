@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:blocks/retchingpillarscrapstopandbottom",
-    "up": "kiiwii:blocks/retchingconnectorscrapstop",
-    "north": "kiiwii:blocks/retchingconnectorscrapsside",
-    "east": "kiiwii:blocks/retchingconnectorscrapsside",
-    "south": "kiiwii:blocks/retchingconnectorscrapsside",
-    "west": "kiiwii:blocks/retchingconnectorscrapsside",
-    "particle": "kiiwii:blocks/retchingpillarscrapstopandbottom"
+    "down": "kiiwii:block/retchingpillarscrapstopandbottom",
+    "up": "kiiwii:block/retchingconnectorscrapstop",
+    "north": "kiiwii:block/retchingconnectorscrapsside",
+    "east": "kiiwii:block/retchingconnectorscrapsside",
+    "south": "kiiwii:block/retchingconnectorscrapsside",
+    "west": "kiiwii:block/retchingconnectorscrapsside",
+    "particle": "kiiwii:block/retchingpillarscrapstopandbottom"
   },
   "render_type": "solid"
 }

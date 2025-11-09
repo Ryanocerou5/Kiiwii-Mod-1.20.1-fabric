@@ -1,9 +1,9 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "bottom": "kiiwii:blocks/zender",
-    "top": "kiiwii:blocks/zender",
-    "side": "kiiwii:blocks/zender"
+    "bottom": "kiiwii:block/zender",
+    "top": "kiiwii:block/zender",
+    "side": "kiiwii:block/zender"
   },
   "render_type": "solid"
 }

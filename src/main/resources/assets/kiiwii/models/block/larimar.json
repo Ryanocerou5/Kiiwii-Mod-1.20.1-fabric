@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kiiwii:blocks/larimar",
-    "up": "kiiwii:blocks/larimar",
-    "north": "kiiwii:blocks/larimar",
-    "east": "kiiwii:blocks/larimar",
-    "south": "kiiwii:blocks/larimar",
-    "west": "kiiwii:blocks/larimar",
-    "particle": "kiiwii:blocks/larimar"
+    "down": "kiiwii:block/larimar",
+    "up": "kiiwii:block/larimar",
+    "north": "kiiwii:block/larimar",
+    "east": "kiiwii:block/larimar",
+    "south": "kiiwii:block/larimar",
+    "west": "kiiwii:block/larimar",
+    "particle": "kiiwii:block/larimar"
   },
   "render_type": "solid"
 }

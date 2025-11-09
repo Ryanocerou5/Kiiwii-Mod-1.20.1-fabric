@@ -1,7 +1,7 @@
 {
   "parent": "kiiwii:custom/mintcigarette",
   "textures": {
-    "2": "kiiwii:blocks/mint",
+    "2": "kiiwii:block/mint",
     "particle": "kiiwii:items/mintcig"
   }
 }

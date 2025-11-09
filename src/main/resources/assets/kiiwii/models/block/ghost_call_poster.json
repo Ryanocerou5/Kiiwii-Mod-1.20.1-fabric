@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/posterghostcall",
   "textures": {
-    "all": "kiiwii:blocks/ghosthunt",
-    "particle": "kiiwii:blocks/ghosthunt",
-    "2": "kiiwii:blocks/ghosthunt"
+    "all": "kiiwii:block/ghosthunt",
+    "particle": "kiiwii:block/ghosthunt",
+    "2": "kiiwii:block/ghosthunt"
   },
   "render_type": "solid"
 }

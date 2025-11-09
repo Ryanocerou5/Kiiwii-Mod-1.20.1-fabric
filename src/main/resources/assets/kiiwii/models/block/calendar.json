@@ -1,9 +1,9 @@
 {
   "parent": "kiiwii:custom/calendar",
   "textures": {
-    "all": "kiiwii:blocks/texturecalendar",
-    "particle": "kiiwii:blocks/texturecalendar",
-    "0": "kiiwii:blocks/texturecalendar"
+    "all": "kiiwii:block/texturecalendar",
+    "particle": "kiiwii:block/texturecalendar",
+    "0": "kiiwii:block/texturecalendar"
   },
   "render_type": "solid"
 }
