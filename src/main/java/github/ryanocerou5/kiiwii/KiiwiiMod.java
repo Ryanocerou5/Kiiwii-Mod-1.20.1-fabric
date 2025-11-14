@@ -1,8 +1,6 @@
 package github.ryanocerou5.kiiwii;
 
-import github.ryanocerou5.kiiwii.init.BlockInit;
-import github.ryanocerou5.kiiwii.init.CreativeTabInit;
-import github.ryanocerou5.kiiwii.init.ItemInit;
+import github.ryanocerou5.kiiwii.init.*;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,5 +15,7 @@ public class KiiwiiMod implements ModInitializer {
 		CreativeTabInit.registerItemGroups();
 		ItemInit.registerModItems();
 		BlockInit.registerBlocks();
+		BlockEntityInit.registerBlockEntities();
+		ScreenHandlerInit.registerScreenHandlers();
 	}
 }

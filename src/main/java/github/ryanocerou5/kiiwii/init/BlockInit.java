@@ -197,7 +197,7 @@ public class BlockInit {
     public static final Block BLACK_VOID = registerBlock("black_void",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block LOCKER = registerBlock("locker",
-            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new LockerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block BETA_CHEST = registerBlock("beta_chest",
             new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block TRANS_WOOL = registerBlock("trans_block",
