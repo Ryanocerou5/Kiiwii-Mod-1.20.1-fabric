@@ -5,6 +5,7 @@ import github.ryanocerou5.kiiwii.block.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -343,10 +344,16 @@ public class BlockInit {
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block EXILED_ZENDER_ROCK_BRICKS = registerBlock("exiled_zender_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block EXILED_ZENDER_ROCK_BRICKS_WALL = registerBlock("exiled_zender_bricks_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block EXILED_ZENDER_ROCK_BRICKS_SLAB = registerBlock("exiled_zender_bricks_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block EXILED_ZENDER_ROCK_BRICKS_STAIRS = registerBlock("exiled_zender_bricks_stairs",
+            new StairsBlock(BlockInit.EXILED_ZENDER_ROCK_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block DEAD_ZENDER_SPORES = registerBlock("cobbled_spores",
-            new Block(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
+            new AbstractSporesBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK).noCollision().breakInstantly()));
     public static final Block ZENDER_SPORES = registerBlock("zender_spores",
-            new Block(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
+            new AbstractSporesBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK).noCollision().breakInstantly()));
     public static final Block NUMBER_PLATE_3BR = registerBlock("number_plate_3br",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block NUMBER_PLATE_1B = registerBlock("number_plate_1b",
@@ -384,7 +391,7 @@ public class BlockInit {
     public static final Block NUMBER_PLATE_1B_2 = registerBlock("number_plate_1b_2",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block CARNATION = registerBlock("carnation",
-            new Block(FabricBlockSettings.copyOf(Blocks.POPPY)));
+            new FlowerBlock(StatusEffects.DOLPHINS_GRACE, 60, FabricBlockSettings.copyOf(Blocks.POPPY).noCollision().breakInstantly()));
     public static final Block JEBEDIAH_JAMES_PLUSH = registerBlock("jebediah_james_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block HUNGRY_JEBEDIAH_JAMES_PLUSH = registerBlock("hungry_jebediah_james_plush",

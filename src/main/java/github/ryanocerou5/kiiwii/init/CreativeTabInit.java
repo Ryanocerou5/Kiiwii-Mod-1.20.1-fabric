@@ -282,6 +282,9 @@ public class CreativeTabInit {
                         entries.add(ItemInit.LIT_JOINT);
                         entries.add(BlockInit.EXILED_ZENDER_ROCK);
                         entries.add(BlockInit.EXILED_ZENDER_ROCK_BRICKS);
+                        entries.add(BlockInit.EXILED_ZENDER_ROCK_BRICKS_WALL);
+                        entries.add(BlockInit.EXILED_ZENDER_ROCK_BRICKS_SLAB);
+                        entries.add(BlockInit.EXILED_ZENDER_ROCK_BRICKS_STAIRS);
                         entries.add(BlockInit.DEAD_ZENDER_SPORES);
                         entries.add(ItemInit.WINSWEEPS_MASK);
                         entries.add(BlockInit.NUMBER_PLATE_1A);
