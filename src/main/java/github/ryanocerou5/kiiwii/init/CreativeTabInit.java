@@ -15,7 +15,7 @@ public class CreativeTabInit {
     public static final ItemGroup KIIWII_MOD_PLATES_TAB = Registry.register(Registries.ITEM_GROUP,
             new Identifier(KiiwiiMod.MOD_ID, "plate"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.tabkiiwii"))
-                    .icon(() -> new ItemStack(ItemInit.WHITE_VOID)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(BlockInit.WHITE_VOID)).entries((displayContext, entries) -> {
                         entries.add(BlockInit.PLATING_TABLE);
                         entries.add(BlockInit.EMPTY_PLATE);
                         entries.add(BlockInit.A_PLATE);
@@ -96,16 +96,16 @@ public class CreativeTabInit {
     public static final ItemGroup KIIWII_MOD_CONTENT_TAB = Registry.register(Registries.ITEM_GROUP,
             new Identifier(KiiwiiMod.MOD_ID, "misc"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.tabkiiwii_misc"))
-                    .icon(() -> new ItemStack(ItemInit.WHITE_VOID)).entries(((displayContext, entries) -> {
-                        entries.add(ItemInit.WHITE_VOID);
-                        entries.add(ItemInit.PINK_VOID);
-                        entries.add(ItemInit.RED_VOID);
-                        entries.add(ItemInit.ORANGE_VOID);
-                        entries.add(ItemInit.YELLOW_VOID);
-                        entries.add(ItemInit.GREEN_VOID);
-                        entries.add(ItemInit.BLUE_VOID);
-                        entries.add(ItemInit.INDIGO_VOID);
-                        entries.add(ItemInit.BLACK_VOID);
+                    .icon(() -> new ItemStack(BlockInit.WHITE_VOID)).entries(((displayContext, entries) -> {
+                        entries.add(BlockInit.WHITE_VOID);
+                        entries.add(BlockInit.PINK_VOID);
+                        entries.add(BlockInit.RED_VOID);
+                        entries.add(BlockInit.ORANGE_VOID);
+                        entries.add(BlockInit.YELLOW_VOID);
+                        entries.add(BlockInit.GREEN_VOID);
+                        entries.add(BlockInit.BLUE_VOID);
+                        entries.add(BlockInit.INDIGO_VOID);
+                        entries.add(BlockInit.BLACK_VOID);
                         entries.add(ItemInit.PILL_BOTTLE);
                         entries.add(ItemInit.DULL_PILL);
                         entries.add(ItemInit.ZENDER_PILL);
@@ -129,11 +129,11 @@ public class CreativeTabInit {
                         entries.add(BlockInit.BETA_CHEST);
                         entries.add(BlockInit.TRANS_WOOL);
                         entries.add(BlockInit.ZENDER_BLOCK);
-                        /*entries.add(BlockInit.ZENDER_STAIRS);
+                        entries.add(BlockInit.ZENDER_STAIRS);
                         entries.add(BlockInit.ZENDER_SLAB);
                         entries.add(BlockInit.ZENDER_DOOR);
                         entries.add(BlockInit.ZENDER_TRAPDOOR);
-                        entries.add(BlockInit.ZENDER_CURTAINS);*/
+                        entries.add(BlockInit.ZENDER_CURTAINS);
                         entries.add(ItemInit.CREMS_MASK);
                         entries.add(ItemInit.BROKEN_MASK);
                         entries.add(ItemInit.CROWN);
@@ -149,8 +149,8 @@ public class CreativeTabInit {
                         entries.add(BlockInit.YELLOW_ROAD_LINE);
                         entries.add(BlockInit.METAL_SCRAP);
                         entries.add(BlockInit.PADDED_WALL);
-                        /*entries.add(BlockInit.PADDED_STAIRS);
-                        entries.add(BlockInit.PADDED_SLAB);*/
+                        entries.add(BlockInit.PADDED_STAIRS);
+                        entries.add(BlockInit.PADDED_SLAB);
                         entries.add(ItemInit.ELF_EARS);
                         entries.add(ItemInit.COCK_60);
                         entries.add(BlockInit.MINE);
@@ -158,11 +158,11 @@ public class CreativeTabInit {
                         entries.add(ItemInit.GOLDEN_CHILI_PEPPER);
                         entries.add(ItemInit.BOWL_OF_SUGAR);
                         entries.add(ItemInit.FLIP_PHONE);
-                        entries.add(ItemInit.EXCLAMATION_MARK);
+                        entries.add(BlockInit.EXCLAMATION_MARK);
                         entries.add(ItemInit.BOOK_OF_HAUNTING);
-                        entries.add(ItemInit.GHOST_HUNTER_POSTER);
-                        entries.add(ItemInit.SAGE_POSTER);
-                        entries.add(ItemInit.GHOST_CALL_POSTER);
+                        entries.add(BlockInit.GHOST_HUNTER_POSTER);
+                        entries.add(BlockInit.SAGE_POSTER);
+                        entries.add(BlockInit.GHOST_CALL_POSTER);
                         entries.add(BlockInit.LARIMAR);
                         entries.add(ItemInit.PIECE_OF_LARIMAR);
                         entries.add(BlockInit.ARD);
@@ -181,7 +181,7 @@ public class CreativeTabInit {
                         entries.add(BlockInit.MNOLUB_RESIDENT);
                         entries.add(BlockInit.MNOLUB);
                         entries.add(BlockInit.AZRA_BUSH);
-                        entries.add(ItemInit.SCANNER);
+                        entries.add(BlockInit.SCANNER);
                         entries.add(BlockInit.CALENDAR);
                         entries.add(ItemInit.SPATULA);
                         entries.add(BlockInit.ENCASED_GLOWSTONE);
@@ -189,7 +189,7 @@ public class CreativeTabInit {
                         entries.add(BlockInit.CHARRED_SPRUCE_LOG);
                         entries.add(BlockInit.BLOCK_OF_AMOEBA);
                         entries.add(BlockInit.SONAR_SCREEN);
-                        entries.add(BlockInit.CAMERA);
+                        entries.add(ItemInit.CAMERA);
                         entries.add(ItemInit.CIGARETTE_PACK);
                         entries.add(ItemInit.CIGARETTE);
                         entries.add(ItemInit.LUCKY_CIGARETTE);

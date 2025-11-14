@@ -16,16 +16,6 @@ public class ItemInit {
     {
         KiiwiiMod.LOGGER.info("Registering Mod Items for " + KiiwiiMod.MOD_ID);
     }
-
-    public static final Item WHITE_VOID = registerItem("white_void", new Item(new FabricItemSettings()));
-    public static final Item PINK_VOID = registerItem("pink_void", new Item(new FabricItemSettings()));
-    public static final Item RED_VOID = registerItem("red_void", new Item(new FabricItemSettings()));
-    public static final Item ORANGE_VOID = registerItem("orange_void", new Item(new FabricItemSettings()));
-    public static final Item YELLOW_VOID = registerItem("yellow_void", new Item(new FabricItemSettings()));
-    public static final Item GREEN_VOID = registerItem("green_void", new Item(new FabricItemSettings()));
-    public static final Item BLUE_VOID = registerItem("blue_void", new Item(new FabricItemSettings()));
-    public static final Item INDIGO_VOID = registerItem("indigo_void", new Item(new FabricItemSettings()));
-    public static final Item BLACK_VOID = registerItem("black_void", new Item(new FabricItemSettings()));
     public static final Item PILL_BOTTLE = registerItem("pill_bottle", new Item(new FabricItemSettings()));
     public static final Item DULL_PILL = registerItem("dull_pill", new Item(new FabricItemSettings()));
     public static final Item ZENDER_PILL = registerItem("zender_pills", new Item(new FabricItemSettings()));
@@ -62,18 +52,14 @@ public class ItemInit {
     public static final Item GOLDEN_CHILI_PEPPER = registerItem("gold_chili", new Item(new FabricItemSettings()));
     public static final Item BOWL_OF_SUGAR = registerItem("flee_pap", new Item(new FabricItemSettings()));
     public static final Item FLIP_PHONE = registerItem("flip_phone", new Item(new FabricItemSettings()));
-    public static final Item EXCLAMATION_MARK = registerItem("exclamation_mark", new Item(new FabricItemSettings()));
     public static final Item BOOK_OF_HAUNTING = registerItem("book", new Item(new FabricItemSettings()));
-    public static final Item GHOST_HUNTER_POSTER = registerItem("ghost_hunter_poster", new Item(new FabricItemSettings()));
-    public static final Item SAGE_POSTER = registerItem("sage_poster", new Item(new FabricItemSettings()));
-    public static final Item GHOST_CALL_POSTER = registerItem("ghost_call_poster", new Item(new FabricItemSettings()));
     public static final Item PIECE_OF_LARIMAR = registerItem("piece_of_larimar", new Item(new FabricItemSettings()));
     public static final Item FLUORITE = registerItem("fluorite", new Item(new FabricItemSettings()));
     public static final ShovelItem FLUORITE_SHOVEL = registerItem("fluorite_shovel", new ShovelItem(ToolMaterials.DIAMOND, 1, 1F, new FabricItemSettings()));
     public static final Item PROTOSTELOID_SPORE = registerItem("protosteloid_spore", new Item(new FabricItemSettings()));
     public static final Item BLOP = registerItem("blop", new Item(new FabricItemSettings()));
     public static final Item CLAM = registerItem("clam", new Item(new FabricItemSettings()));
-    public static final Item SCANNER = registerItem("scanner", new Item(new FabricItemSettings()));
+    public static final Item CAMERA = registerItem("camera", new Item(new FabricItemSettings()));
     public static final SwordItem SPATULA = registerItem("spatula", new SwordItem(ToolMaterials.DIAMOND, 1, 1F, new FabricItemSettings()));
     public static final Item CIGARETTE_PACK = registerItem("cigarette_pack", new Item(new FabricItemSettings()));
     public static final Item CIGARETTE = registerItem("cigarette", new Item(new FabricItemSettings()));
