@@ -4,6 +4,7 @@ import github.ryanocerou5.kiiwii.KiiwiiMod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.VineLogic;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -227,7 +228,7 @@ public class CreativeTabInit {
                         entries.add(BlockInit.ANTI_MASKER_FROWNER_PLUSH);
                         entries.add(BlockInit.WEALTHY_BAG_MAN_PLUSH);
                         entries.add(BlockInit.THE_LIME_PLUSH);
-                        entries.add(BlockInit.BRIEFCASE);
+                        entries.add(ItemInit.BRIEFCASE);
                         entries.add(ItemInit.CANE);
                         entries.add(ItemInit.RUPEE);
                         entries.add(ItemInit.DOUBLE_RUPEE);

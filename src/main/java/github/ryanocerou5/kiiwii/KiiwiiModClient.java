@@ -2,6 +2,7 @@ package github.ryanocerou5.kiiwii;
 
 import github.ryanocerou5.kiiwii.init.BlockInit;
 import github.ryanocerou5.kiiwii.init.ScreenHandlerInit;
+import github.ryanocerou5.kiiwii.screen.BetaChestScreen;
 import github.ryanocerou5.kiiwii.screen.LockerScreen;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -17,5 +18,6 @@ public class KiiwiiModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(BlockInit.DEAD_ZENDER_SPORES, RenderLayer.getCutout());
 
         HandledScreens.register(ScreenHandlerInit.LOCKER_SCREEN_HANDLER, LockerScreen::new);
+        HandledScreens.register(ScreenHandlerInit.BETA_CHEST_SCREEN_HANDLER, BetaChestScreen::new);
     }
 }

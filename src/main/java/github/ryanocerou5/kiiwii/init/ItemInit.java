@@ -90,6 +90,7 @@ public class ItemInit {
     public static final Item GLOWING_RUPEE = registerItem("glowing_rupee", new Item(new FabricItemSettings()));
     public static final Item CURSED_RUPEE = registerItem("cursed_rupee", new Item(new FabricItemSettings()));
     public static final Item DINO_NUGGET = registerItem("dino_nugget", new Item(new FabricItemSettings()));
+    public static final Item BRIEFCASE = registerItem("briefcase", new Item(new FabricItemSettings()));
     public static final Item SWEET_STAR = registerItem("sweet_star", new Item(new FabricItemSettings()));
     public static final Item CANDY_MOLD = registerItem("candy_mold", new Item(new FabricItemSettings()));
     public static final Item BONE_CANDY = registerItem("bone_candy", new Item(new FabricItemSettings()));

@@ -30,7 +30,6 @@ public class LockerScreen extends AbstractScreen<AbstractScreenHandler<LockerBlo
     @Override
     protected void init() {
         super.init();
-
         playerInventoryTitleY = 1000;
     }
 }

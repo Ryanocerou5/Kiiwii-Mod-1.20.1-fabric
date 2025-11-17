@@ -197,9 +197,9 @@ public class BlockInit {
     public static final Block BLACK_VOID = registerBlock("black_void",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block LOCKER = registerBlock("locker",
-            new LockerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new LockerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block BETA_CHEST = registerBlock("beta_chest",
-            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new BetaChestBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block TRANS_WOOL = registerBlock("trans_block",
             new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block ZENDER_BLOCK = registerBlock("wall_zender",
@@ -306,8 +306,6 @@ public class BlockInit {
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block THE_LIME_PLUSH = registerBlock("spryte_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block BRIEFCASE = registerBlock("briefcase",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block DEAD_FLOWER = registerBlock("dead_flower_plant",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
     public static final Block CARVED_OAK_LOG = registerBlock("carved_oak_log",

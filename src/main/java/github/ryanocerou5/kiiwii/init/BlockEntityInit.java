@@ -1,6 +1,7 @@
 package github.ryanocerou5.kiiwii.init;
 
 import github.ryanocerou5.kiiwii.KiiwiiMod;
+import github.ryanocerou5.kiiwii.blockentity.BetaChestBlockEntity;
 import github.ryanocerou5.kiiwii.blockentity.LockerBlockEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.block.entity.BlockEntity;
@@ -14,6 +15,11 @@ public class BlockEntityInit {
             Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(KiiwiiMod.MOD_ID, "locker_be"),
                     FabricBlockEntityTypeBuilder.create(LockerBlockEntity::new,
                             BlockInit.LOCKER).build());
+
+    public static final BlockEntityType<BetaChestBlockEntity> BETA_CHEST_BLOCK_ENTITY =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(KiiwiiMod.MOD_ID, "beat_chest_be"),
+                    FabricBlockEntityTypeBuilder.create(BetaChestBlockEntity::new,
+                            BlockInit.BETA_CHEST).build());
 
     public static void registerBlockEntities()
     {
