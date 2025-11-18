@@ -4,6 +4,7 @@ import github.ryanocerou5.kiiwii.KiiwiiMod;
 import github.ryanocerou5.kiiwii.blockentity.BetaChestBlockEntity;
 import github.ryanocerou5.kiiwii.blockentity.CarvedOakLogBlockEntity;
 import github.ryanocerou5.kiiwii.blockentity.LockerBlockEntity;
+import github.ryanocerou5.kiiwii.blockentity.MineBlockEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -16,7 +17,6 @@ public class BlockEntityInit {
             Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(KiiwiiMod.MOD_ID, "locker_be"),
                     FabricBlockEntityTypeBuilder.create(LockerBlockEntity::new,
                             BlockInit.LOCKER).build());
-
     public static final BlockEntityType<BetaChestBlockEntity> BETA_CHEST_BLOCK_ENTITY =
             Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(KiiwiiMod.MOD_ID, "beat_chest_be"),
                     FabricBlockEntityTypeBuilder.create(BetaChestBlockEntity::new,
@@ -25,6 +25,10 @@ public class BlockEntityInit {
             Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(KiiwiiMod.MOD_ID, "carved_oak_log_be"),
                     FabricBlockEntityTypeBuilder.create(CarvedOakLogBlockEntity::new,
                             BlockInit.CARVED_OAK_LOG).build());
+    public static final BlockEntityType<MineBlockEntity> MINE_BLOCK_ENTITY =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(KiiwiiMod.MOD_ID, "mine_be"),
+                    FabricBlockEntityTypeBuilder.create(MineBlockEntity::new,
+                            BlockInit.MINE).build());
 
     public static void registerBlockEntities()
     {
