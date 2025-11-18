@@ -18,7 +18,7 @@ public class LockerBlock extends AbstractInventoryBlock {
     public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
     public LockerBlock(Settings settings) {
         super(settings);
-        this.setDefaultState(this.getStateManager().getDefaultState().with(FACING, Direction.NORTH));
+        this.setDefaultState(this.getDefaultState().with(FACING, Direction.NORTH));
     }
 
     @Override

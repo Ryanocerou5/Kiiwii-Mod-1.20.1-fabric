@@ -309,7 +309,7 @@ public class BlockInit {
     public static final Block DEAD_FLOWER = registerBlock("dead_flower_plant",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
     public static final Block CARVED_OAK_LOG = registerBlock("carved_oak_log",
-            new AbstractFacingBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new CarvedOakLogBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block RETCHING_FOUNDATION = registerBlock("retching_foundation",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block RETCHING_PILLAR = registerBlock("retching_pillar",

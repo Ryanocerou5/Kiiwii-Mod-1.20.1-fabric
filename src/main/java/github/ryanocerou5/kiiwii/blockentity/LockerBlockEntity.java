@@ -4,14 +4,10 @@ import github.ryanocerou5.kiiwii.KiiwiiMod;
 import github.ryanocerou5.kiiwii.init.BlockEntityInit;
 import github.ryanocerou5.kiiwii.screen.LockerScreenHandler;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.item.ItemStack;
 import net.minecraft.screen.ScreenHandler;
-import net.minecraft.screen.ScreenHandlerContext;
 import net.minecraft.text.Text;
-import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 import org.jetbrains.annotations.Nullable;
 
