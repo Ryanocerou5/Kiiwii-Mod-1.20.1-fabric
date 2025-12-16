@@ -1,9 +1,7 @@
 package github.ryanocerou5.kiiwii.init;
 
 import github.ryanocerou5.kiiwii.KiiwiiMod;
-import github.ryanocerou5.kiiwii.item.BriefcaseItem;
-import github.ryanocerou5.kiiwii.item.CigarettePackItem;
-import github.ryanocerou5.kiiwii.item.PillBottleItem;
+import github.ryanocerou5.kiiwii.item.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -20,14 +18,14 @@ public class ItemInit {
         KiiwiiMod.LOGGER.info("Registering Mod Items for " + KiiwiiMod.MOD_ID);
     }
     public static final PillBottleItem PILL_BOTTLE = registerItem("pill_bottle", new PillBottleItem(new FabricItemSettings()));
-    public static final Item DULL_PILL = registerItem("dull_pill", new Item(new FabricItemSettings()));
-    public static final Item ZENDER_PILL = registerItem("zender_pills", new Item(new FabricItemSettings()));
-    public static final Item DEDUCTION_PILL = registerItem("deduction_pill", new Item(new FabricItemSettings()));
-    public static final Item ANTIEMETIC_PILL = registerItem("antiemetic_pill", new Item(new FabricItemSettings()));
-    public static final Item PANACEA_PILL = registerItem("panacea", new Item(new FabricItemSettings()));
-    public static final Item ANTIPOISON_PILL = registerItem("antipoison_pill", new Item(new FabricItemSettings()));
-    public static final Item OPTIC_PILL = registerItem("optic_pill", new Item(new FabricItemSettings()));
-    public static final Item ADRENAL_PILL = registerItem("adrenal_pill", new Item(new FabricItemSettings()));
+    public static final AbstractPillItem DULL_PILL = registerItem("dull_pill", new AbstractPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
+    public static final AbstractPillItem ZENDER_PILL = registerItem("zender_pills", new AbstractPillItem(new FabricItemSettings().food(FoodComponentInit.ZENDER_PILL)));
+    public static final DeductionPillItem DEDUCTION_PILL = registerItem("deduction_pill", new DeductionPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
+    public static final AntiemeticPillItem ANTIEMETIC_PILL = registerItem("antiemetic_pill", new AntiemeticPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
+    public static final AbstractPillItem PANACEA_PILL = registerItem("panacea", new AbstractPillItem(new FabricItemSettings().food(FoodComponentInit.PANACEA_PILL)));
+    public static final AntipoisonPillItem ANTIPOISON_PILL = registerItem("antipoison_pill", new AntipoisonPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
+    public static final OpticPillItem OPTIC_PILL = registerItem("optic_pill", new OpticPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
+    public static final AdrenalPillItem ADRENAL_PILL = registerItem("adrenal_pill", new AdrenalPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
     public static final Item CITY_OF_SPARKS = registerItem("city_of_sparks", new Item(new FabricItemSettings()));
     public static final Item ALL_BETS_ARE_OFF = registerItem("all_bets_are_off", new Item(new FabricItemSettings()));
     public static final Item SNAIL_DUST = registerItem("snail_dust", new Item(new FabricItemSettings()));
