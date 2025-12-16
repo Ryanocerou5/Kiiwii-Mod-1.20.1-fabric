@@ -25,7 +25,7 @@ public class PillBottleItem extends AbstractInventoryItem<PillBottleScreenHandle
     }
 
     @Override
-    protected PillBottleScreenHandler createScreenHandler(int syncId, PlayerInventory playerInventory, ItemStack stack) {
-        return new PillBottleScreenHandler(syncId, playerInventory, stack);
+    protected PillBottleScreenHandler createScreenHandler(int syncId, PlayerInventory playerInventory, ItemStack stack, int slotIndex) {
+        return new PillBottleScreenHandler(syncId, playerInventory, stack, slotIndex);
     }
 }

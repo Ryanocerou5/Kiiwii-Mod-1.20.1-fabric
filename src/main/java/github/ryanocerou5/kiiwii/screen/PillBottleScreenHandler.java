@@ -15,8 +15,8 @@ public class PillBottleScreenHandler extends AbstractItemScreenHandler {
         super(ScreenHandlerInit.PILL_BOTTLE_SCREEN_HANDLER, syncId, playerInventory, buf, INVENTORY_SIZE);
     }
 
-    public PillBottleScreenHandler(int syncId, PlayerInventory playerInventory, ItemStack stack) {
-        super(ScreenHandlerInit.PILL_BOTTLE_SCREEN_HANDLER, syncId, playerInventory, stack, INVENTORY_SIZE);
+    public PillBottleScreenHandler(int syncId, PlayerInventory playerInventory, ItemStack stack, int slotIndex) {
+        super(ScreenHandlerInit.PILL_BOTTLE_SCREEN_HANDLER, syncId, playerInventory, stack, INVENTORY_SIZE, slotIndex);
     }
 
     @Override
@@ -28,14 +28,13 @@ public class PillBottleScreenHandler extends AbstractItemScreenHandler {
             for(int col = 0; col < 3; col++)
             {
                 int index = col + row * 3;
-                this.addSlot(new Slot(this, index, startX + col * 18, startY + row * 18)
-                {
-                    @Override
-                    public boolean canInsert(ItemStack stack) {
-                        return !ItemStack.areEqual(stack, ItemInit.PILL_BOTTLE.getDefaultStack());
-                    }
-                });
+                this.addSlot(new Slot(this, index, startX + col * 18, startY + row * 18));
             }
         }
+    }
+
+    @Override
+    protected int getPlayerInventoryX() {
+        return 9;
     }
 }

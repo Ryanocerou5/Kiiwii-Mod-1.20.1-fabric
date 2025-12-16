@@ -17,23 +17,26 @@ public abstract class AbstractItemScreenHandler extends ScreenHandler implements
     protected final ItemStack stack;
     protected final int inventorySize;
     protected abstract void addInventorySlots();
+    protected final int itemSlotIndex;
 
     public AbstractItemScreenHandler(ScreenHandlerType<?> type, int syncId, PlayerInventory playerInventory, PacketByteBuf buf, int inventorySize) {
         super(type, syncId);
         this.stack = buf.readItemStack();
         this.inventorySize = inventorySize;
         this.items = DefaultedList.ofSize(inventorySize, ItemStack.EMPTY);
+        this.itemSlotIndex = buf.readInt();
 
         readFromStack();
         addInventorySlots();
         addPlayerSlots(playerInventory);
     }
 
-    public AbstractItemScreenHandler(ScreenHandlerType<?> type, int syncId, PlayerInventory playerInventory, ItemStack stack, int inventorySize) {
+    public AbstractItemScreenHandler(ScreenHandlerType<?> type, int syncId, PlayerInventory playerInventory, ItemStack stack, int inventorySize, int itemSlotIndex) {
         super(type, syncId);
         this.stack = stack;
         this.inventorySize = inventorySize;
         this.items = DefaultedList.ofSize(inventorySize, ItemStack.EMPTY);
+        this.itemSlotIndex = itemSlotIndex;
 
         readFromStack();
         addInventorySlots();
@@ -47,7 +50,7 @@ public abstract class AbstractItemScreenHandler extends ScreenHandler implements
 
     protected int getPlayerInventoryX()
     {
-        return 9;
+        return 8;
     }
     protected int getPlayerInventoryY()
     {
@@ -134,11 +137,23 @@ public abstract class AbstractItemScreenHandler extends ScreenHandler implements
 
         // --- Hotbar slots ---
         for (int col = 0; col < 9; col++)
-            this.addSlot(new Slot(playerInventory, col, startX + col * 18, startY + 58));
+            if(col == itemSlotIndex)
+            {
+                this.addSlot(new LockedSlot(playerInventory, col, startX + col * 18, startY + 58));
+            }
+            else
+            {
+                this.addSlot(new Slot(playerInventory, col, startX + col * 18, startY + 58));
+            }
     }
 
     @Override
     public boolean canUse(PlayerEntity player) {
         return true;
+    }
+
+    @Override
+    public boolean canInsertIntoSlot(ItemStack stack, Slot slot) {
+        return slot.getIndex() != itemSlotIndex;
     }
 }

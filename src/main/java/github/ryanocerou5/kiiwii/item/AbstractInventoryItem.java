@@ -23,17 +23,20 @@ public abstract class AbstractInventoryItem<T extends ScreenHandler> extends Ite
      * Must return a new instance of the screen handler for this item.
      * This is what subclasses implement to specify their inventory type.
      */
-    protected abstract T createScreenHandler(int syncId, PlayerInventory playerInventory, ItemStack stack);
+    protected abstract T createScreenHandler(int syncId, PlayerInventory playerInventory, ItemStack stack, int slotIndex);
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack stack = user.getStackInHand(hand);
 
         if (!world.isClient) {
+            int slotIndex = getSlotIndex(user, hand);
+
             user.openHandledScreen(new ExtendedScreenHandlerFactory() {
                 @Override
                 public void writeScreenOpeningData(ServerPlayerEntity serverPlayerEntity, PacketByteBuf buf) {
                     buf.writeItemStack(stack); // send the item to the client
+                    buf.writeInt(slotIndex);
                 }
 
                 @Override
@@ -43,11 +46,25 @@ public abstract class AbstractInventoryItem<T extends ScreenHandler> extends Ite
 
                 @Override
                 public @Nullable ScreenHandler createMenu(int syncId, PlayerInventory playerInventory, PlayerEntity player) {
-                    return createScreenHandler(syncId, playerInventory, stack);
+                    return createScreenHandler(syncId, playerInventory, stack, slotIndex);
                 }
             });
         }
 
         return TypedActionResult.success(stack, world.isClient());
+    }
+
+    public static int getSlotIndex(PlayerEntity user, Hand hand)
+    {
+        PlayerInventory inv = user.getInventory();
+
+        if (hand == Hand.MAIN_HAND)
+        {
+            return inv.selectedSlot;
+        }
+        else
+        {
+            return 40;
+        }
     }
 }

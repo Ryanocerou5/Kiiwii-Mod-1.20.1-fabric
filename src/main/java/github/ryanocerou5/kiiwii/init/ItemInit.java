@@ -1,6 +1,8 @@
 package github.ryanocerou5.kiiwii.init;
 
 import github.ryanocerou5.kiiwii.KiiwiiMod;
+import github.ryanocerou5.kiiwii.item.BriefcaseItem;
+import github.ryanocerou5.kiiwii.item.CigarettePackItem;
 import github.ryanocerou5.kiiwii.item.PillBottleItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
@@ -62,7 +64,7 @@ public class ItemInit {
     public static final Item CLAM = registerItem("clam", new Item(new FabricItemSettings()));
     public static final Item CAMERA = registerItem("camera", new Item(new FabricItemSettings()));
     public static final SwordItem SPATULA = registerItem("spatula", new SwordItem(ToolMaterials.DIAMOND, 1, 1F, new FabricItemSettings()));
-    public static final Item CIGARETTE_PACK = registerItem("cigarette_pack", new Item(new FabricItemSettings()));
+    public static final CigarettePackItem CIGARETTE_PACK = registerItem("cigarette_pack", new CigarettePackItem(new FabricItemSettings()));
     public static final Item CIGARETTE = registerItem("cigarette", new Item(new FabricItemSettings()));
     public static final Item LUCKY_CIGARETTE = registerItem("lucky_cigarette", new Item(new FabricItemSettings()));
     public static final Item MINT_CIGARETTE = registerItem("mint_cigarette", new Item(new FabricItemSettings()));
@@ -91,7 +93,7 @@ public class ItemInit {
     public static final Item GLOWING_RUPEE = registerItem("glowing_rupee", new Item(new FabricItemSettings()));
     public static final Item CURSED_RUPEE = registerItem("cursed_rupee", new Item(new FabricItemSettings()));
     public static final Item DINO_NUGGET = registerItem("dino_nugget", new Item(new FabricItemSettings()));
-    public static final Item BRIEFCASE = registerItem("briefcase", new Item(new FabricItemSettings()));
+    public static final BriefcaseItem BRIEFCASE = registerItem("briefcase", new BriefcaseItem(new FabricItemSettings()));
     public static final Item SWEET_STAR = registerItem("sweet_star", new Item(new FabricItemSettings()));
     public static final Item CANDY_MOLD = registerItem("candy_mold", new Item(new FabricItemSettings()));
     public static final Item BONE_CANDY = registerItem("bone_candy", new Item(new FabricItemSettings()));

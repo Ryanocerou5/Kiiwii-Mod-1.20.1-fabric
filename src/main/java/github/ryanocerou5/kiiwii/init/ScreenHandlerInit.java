@@ -2,10 +2,7 @@ package github.ryanocerou5.kiiwii.init;
 
 import github.ryanocerou5.kiiwii.KiiwiiMod;
 import github.ryanocerou5.kiiwii.blockentity.BetaChestBlockEntity;
-import github.ryanocerou5.kiiwii.screen.BetaChestScreenHandler;
-import github.ryanocerou5.kiiwii.screen.CarvedOakLogScreenHandler;
-import github.ryanocerou5.kiiwii.screen.LockerScreenHandler;
-import github.ryanocerou5.kiiwii.screen.PillBottleScreenHandler;
+import github.ryanocerou5.kiiwii.screen.*;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -27,6 +24,14 @@ public class ScreenHandlerInit {
             Registry.register(Registries.SCREEN_HANDLER,
                     new Identifier(KiiwiiMod.MOD_ID, "pill_bottle"),
                     new ExtendedScreenHandlerType<>(PillBottleScreenHandler::new));
+    public static final ScreenHandlerType<CigarettePackScreenHandler> CIGARETTE_PACK_SCREEN_HANDLER =
+            Registry.register(Registries.SCREEN_HANDLER,
+                    new Identifier(KiiwiiMod.MOD_ID, "cigarette_pack"),
+                    new ExtendedScreenHandlerType<>(CigarettePackScreenHandler::new));
+    public static final ScreenHandlerType<BriefcaseScreenHandler> BRIEFCASE_SCREEN_HANDLER =
+            Registry.register(Registries.SCREEN_HANDLER,
+                    new Identifier(KiiwiiMod.MOD_ID, "briefcase"),
+                    new ExtendedScreenHandlerType<>(BriefcaseScreenHandler::new));
 
     public static void registerScreenHandlers()
     {
