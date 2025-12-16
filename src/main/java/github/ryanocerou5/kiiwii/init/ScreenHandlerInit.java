@@ -5,9 +5,11 @@ import github.ryanocerou5.kiiwii.blockentity.BetaChestBlockEntity;
 import github.ryanocerou5.kiiwii.screen.BetaChestScreenHandler;
 import github.ryanocerou5.kiiwii.screen.CarvedOakLogScreenHandler;
 import github.ryanocerou5.kiiwii.screen.LockerScreenHandler;
+import github.ryanocerou5.kiiwii.screen.PillBottleScreenHandler;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureSet;
 import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.util.Identifier;
 
@@ -21,6 +23,10 @@ public class ScreenHandlerInit {
     public static final ScreenHandlerType<CarvedOakLogScreenHandler> CARVED_OAK_LOG_SCREEN_HANDLER =
             Registry.register(Registries.SCREEN_HANDLER, new Identifier(KiiwiiMod.MOD_ID, "carved_oak_log"),
                     new ExtendedScreenHandlerType<>(CarvedOakLogScreenHandler::new));
+    public static final ScreenHandlerType<PillBottleScreenHandler> PILL_BOTTLE_SCREEN_HANDLER =
+            Registry.register(Registries.SCREEN_HANDLER,
+                    new Identifier(KiiwiiMod.MOD_ID, "pill_bottle"),
+                    new ExtendedScreenHandlerType<>(PillBottleScreenHandler::new));
 
     public static void registerScreenHandlers()
     {

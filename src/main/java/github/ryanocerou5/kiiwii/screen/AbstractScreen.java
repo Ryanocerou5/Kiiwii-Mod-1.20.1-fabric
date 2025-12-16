@@ -1,7 +1,6 @@
 package github.ryanocerou5.kiiwii.screen;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import github.ryanocerou5.kiiwii.KiiwiiMod;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import net.minecraft.client.render.GameRenderer;

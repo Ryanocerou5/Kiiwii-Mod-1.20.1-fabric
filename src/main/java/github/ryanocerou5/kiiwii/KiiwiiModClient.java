@@ -5,6 +5,7 @@ import github.ryanocerou5.kiiwii.init.ScreenHandlerInit;
 import github.ryanocerou5.kiiwii.screen.BetaChestScreen;
 import github.ryanocerou5.kiiwii.screen.CarvedOakLogScreen;
 import github.ryanocerou5.kiiwii.screen.LockerScreen;
+import github.ryanocerou5.kiiwii.screen.PillBottleScreen;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
@@ -21,5 +22,6 @@ public class KiiwiiModClient implements ClientModInitializer {
         HandledScreens.register(ScreenHandlerInit.LOCKER_SCREEN_HANDLER, LockerScreen::new);
         HandledScreens.register(ScreenHandlerInit.BETA_CHEST_SCREEN_HANDLER, BetaChestScreen::new);
         HandledScreens.register(ScreenHandlerInit.CARVED_OAK_LOG_SCREEN_HANDLER, CarvedOakLogScreen::new);
+        HandledScreens.register(ScreenHandlerInit.PILL_BOTTLE_SCREEN_HANDLER, PillBottleScreen::new);
     }
 }

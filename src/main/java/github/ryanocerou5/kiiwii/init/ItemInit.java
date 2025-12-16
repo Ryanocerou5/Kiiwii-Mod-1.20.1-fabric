@@ -1,6 +1,7 @@
 package github.ryanocerou5.kiiwii.init;
 
 import github.ryanocerou5.kiiwii.KiiwiiMod;
+import github.ryanocerou5.kiiwii.item.PillBottleItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -16,7 +17,7 @@ public class ItemInit {
     {
         KiiwiiMod.LOGGER.info("Registering Mod Items for " + KiiwiiMod.MOD_ID);
     }
-    public static final Item PILL_BOTTLE = registerItem("pill_bottle", new Item(new FabricItemSettings()));
+    public static final PillBottleItem PILL_BOTTLE = registerItem("pill_bottle", new PillBottleItem(new FabricItemSettings()));
     public static final Item DULL_PILL = registerItem("dull_pill", new Item(new FabricItemSettings()));
     public static final Item ZENDER_PILL = registerItem("zender_pills", new Item(new FabricItemSettings()));
     public static final Item DEDUCTION_PILL = registerItem("deduction_pill", new Item(new FabricItemSettings()));
