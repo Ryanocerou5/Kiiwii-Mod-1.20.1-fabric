@@ -257,7 +257,7 @@ public class BlockInit {
     public static final Block GOOPLEDUNG = registerBlock("goopledung",
             new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
     public static final Block CLAMAFLAJ = registerBlock("clamaflaj",
-            new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
+            new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
     public static final Block MNOLUB_RESIDENT = registerBlock("mnolub_resident",
             new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.MUD)));
     public static final Block MNOLUB = registerBlock("mnolub",

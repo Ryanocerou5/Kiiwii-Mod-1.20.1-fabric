@@ -3,6 +3,7 @@ package github.ryanocerou5.kiiwii;
 import github.ryanocerou5.kiiwii.init.*;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.sound.SoundEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +18,6 @@ public class KiiwiiMod implements ModInitializer {
 		BlockInit.registerBlocks();
 		BlockEntityInit.registerBlockEntities();
 		ScreenHandlerInit.registerScreenHandlers();
+		SoundEventInit.registerSoundEvents();
 	}
 }

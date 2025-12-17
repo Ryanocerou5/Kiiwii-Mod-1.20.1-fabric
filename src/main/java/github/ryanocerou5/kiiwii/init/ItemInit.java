@@ -18,14 +18,14 @@ public class ItemInit {
         KiiwiiMod.LOGGER.info("Registering Mod Items for " + KiiwiiMod.MOD_ID);
     }
     public static final PillBottleItem PILL_BOTTLE = registerItem("pill_bottle", new PillBottleItem(new FabricItemSettings()));
-    public static final AbstractPillItem DULL_PILL = registerItem("dull_pill", new AbstractPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
+    public static final AbstractPillItem DULL_PILL = registerItem("dull_pill", new AbstractPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
     public static final AbstractPillItem ZENDER_PILL = registerItem("zender_pills", new AbstractPillItem(new FabricItemSettings().food(FoodComponentInit.ZENDER_PILL)));
-    public static final DeductionPillItem DEDUCTION_PILL = registerItem("deduction_pill", new DeductionPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
-    public static final AntiemeticPillItem ANTIEMETIC_PILL = registerItem("antiemetic_pill", new AntiemeticPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
+    public static final DeductionPillItem DEDUCTION_PILL = registerItem("deduction_pill", new DeductionPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
+    public static final AntiemeticPillItem ANTIEMETIC_PILL = registerItem("antiemetic_pill", new AntiemeticPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
     public static final AbstractPillItem PANACEA_PILL = registerItem("panacea", new AbstractPillItem(new FabricItemSettings().food(FoodComponentInit.PANACEA_PILL)));
-    public static final AntipoisonPillItem ANTIPOISON_PILL = registerItem("antipoison_pill", new AntipoisonPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
-    public static final OpticPillItem OPTIC_PILL = registerItem("optic_pill", new OpticPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
-    public static final AdrenalPillItem ADRENAL_PILL = registerItem("adrenal_pill", new AdrenalPillItem(new FabricItemSettings().food(FoodComponentInit.DULL_PILL)));
+    public static final AntipoisonPillItem ANTIPOISON_PILL = registerItem("antipoison_pill", new AntipoisonPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
+    public static final OpticPillItem OPTIC_PILL = registerItem("optic_pill", new OpticPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
+    public static final AdrenalPillItem ADRENAL_PILL = registerItem("adrenal_pill", new AdrenalPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
     public static final Item CITY_OF_SPARKS = registerItem("city_of_sparks", new Item(new FabricItemSettings()));
     public static final Item ALL_BETS_ARE_OFF = registerItem("all_bets_are_off", new Item(new FabricItemSettings()));
     public static final Item SNAIL_DUST = registerItem("snail_dust", new Item(new FabricItemSettings()));
@@ -49,9 +49,11 @@ public class ItemInit {
     public static final Item WINSWEEPS_MASK = registerItem("winsweep_mask_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item ACES_HAT = registerItem("ace_hat_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final SwordItem COCK_60 = registerItem("cock_60", new SwordItem(ToolMaterials.WOOD, 10, 1.8F, new FabricItemSettings()));
-    public static final Item CHILI_PEPPER = registerItem("chilli_pepper", new Item(new FabricItemSettings()));
-    public static final Item GOLDEN_CHILI_PEPPER = registerItem("gold_chili", new Item(new FabricItemSettings()));
-    public static final Item BOWL_OF_SUGAR = registerItem("flee_pap", new Item(new FabricItemSettings()));
+    public static final ChiliPepperItem CHILI_PEPPER = registerItem("chilli_pepper", new ChiliPepperItem(new FabricItemSettings().food(FoodComponentInit.NOTHING), false));
+    public static final ChiliPepperItem GOLDEN_CHILI_PEPPER = registerItem("gold_chili", new ChiliPepperItem(new FabricItemSettings().food(FoodComponentInit.NOTHING), true));
+    public static final EmptiableFoodItem BOWL_OF_SUGAR = registerItem("flee_pap",
+            new EmptiableFoodItem(new FabricItemSettings().food(FoodComponentInit.BOWL_OF_SUGAR),
+                    400, new ItemStack(Items.BOWL), 30));
     public static final Item FLIP_PHONE = registerItem("flip_phone", new Item(new FabricItemSettings()));
     public static final Item BOOK_OF_HAUNTING = registerItem("book", new Item(new FabricItemSettings()));
     public static final Item PIECE_OF_LARIMAR = registerItem("piece_of_larimar", new Item(new FabricItemSettings()));
@@ -70,32 +72,40 @@ public class ItemInit {
     public static final Item METAL_CIGARETTE = registerItem("metal_cigarette", new Item(new FabricItemSettings()));
     public static final Item MICROPHONE = registerItem("microphone", new Item(new FabricItemSettings()));
     public static final Item REMNANT = registerItem("remnant", new Item(new FabricItemSettings()));
-    public static final Item SOULFUL_MEAL = registerItem("soulful_meal", new Item(new FabricItemSettings()));
-    public static final Item SOULFUL_LOLLIPOP = registerItem("soulful_lollipop", new Item(new FabricItemSettings()));
+    public static final EmptiableFoodItem SOULFUL_MEAL = registerItem("soulful_meal",
+            new EmptiableFoodItem(new FabricItemSettings().food(FoodComponentInit.SOULFUL_MEAL),
+                    400, new ItemStack(Items.BOWL), 50));
+    public static final Item SOULFUL_LOLLIPOP = registerItem("soulful_lollipop", new Item(new FabricItemSettings().food(FoodComponentInit.SOULFUL_LOLLIPOP)));
     public static final Item ECTOPLASM = registerItem("ectoplasm", new Item(new FabricItemSettings()));
-    public static final Item GHOSTLY_MEAL = registerItem("ghostly_meal", new Item(new FabricItemSettings()));
-    public static final Item GHOSTLY_LOLLIPOP = registerItem("ghostly_lollipop", new Item(new FabricItemSettings()));
-    public static final Item ECTOPLASM_IN_A_CONDIMENT_BOTTLE = registerItem("ectoplasm_in_a_condiment_bottle", new Item(new FabricItemSettings()));
+    public static final EmptiableFoodItem GHOSTLY_MEAL = registerItem("ghostly_meal",
+            new EmptiableFoodItem(new FabricItemSettings().food(FoodComponentInit.GHOSTLY_MEAL),
+                    400, new ItemStack(Items.BOWL), 50));
+    public static final Item GHOSTLY_LOLLIPOP = registerItem("ghostly_lollipop", new Item(new FabricItemSettings().food(FoodComponentInit.GHOSTLY_LOLLIPOP)));
     public static final Item EMPTY_CONDIMENT_BOTTLE = registerItem("empty_condiment_bottle", new Item(new FabricItemSettings()));
+    public static final EmptiableFoodItem ECTOPLASM_IN_A_CONDIMENT_BOTTLE = registerItem("ectoplasm_in_a_condiment_bottle",
+            new EmptiableFoodItem(new FabricItemSettings().food(FoodComponentInit.GHOSTLY_MEAL),
+                    400, new ItemStack(ItemInit.EMPTY_CONDIMENT_BOTTLE), 30));
     public static final Item ECTOPLASM_SAUCE = registerItem("ectoplasm_sauce", new Item(new FabricItemSettings()));
     public static final Item EMPTY_SAUCE_PACKET = registerItem("empty_sauce_packet", new Item(new FabricItemSettings()));
-    public static final Item MELON_JUICE_WITH_GOOP_INSIDE = registerItem("melon_juice_with_goop_inside", new Item(new FabricItemSettings()));
-    public static final Item GHOST_SALAD = registerItem("ghost_salad", new Item(new FabricItemSettings()));
-    public static final Item HAUNTED_CHICKEN_SOUP = registerItem("haunted_chicken_soup", new Item(new FabricItemSettings()));
-    public static final Item KILLER_DINO_NUGGET = registerItem("killer_dino_nugget", new Item(new FabricItemSettings()));
-    public static final Item CRAZY_HAMBURGER = registerItem("crazy_hamburger", new Item(new FabricItemSettings()));
-    public static final Item GOOKIE = registerItem("gookie", new Item(new FabricItemSettings()));
+    public static final Item MELON_JUICE_WITH_GOOP_INSIDE = registerItem("melon_juice_with_goop_inside", new Item(new FabricItemSettings().food(FoodComponentInit.GHOSTLY_LOLLIPOP)));
+    public static final Item GHOST_SALAD = registerItem("ghost_salad", new Item(new FabricItemSettings().food(FoodComponentInit.GHOSTLY_LOLLIPOP)));
+    public static final Item HAUNTED_CHICKEN_SOUP = registerItem("haunted_chicken_soup", new Item(new FabricItemSettings().food(FoodComponentInit.GHOSTLY_LOLLIPOP)));
+    public static final KillerDinoNuggetItem KILLER_DINO_NUGGET = registerItem("killer_dino_nugget", new KillerDinoNuggetItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
+    public static final Item CRAZY_HAMBURGER = registerItem("crazy_hamburger", new Item(new FabricItemSettings().food(FoodComponentInit.CRAZY_HAMBURGER)));
+    public static final Item GOOKIE = registerItem("gookie", new Item(new FabricItemSettings().food(FoodComponentInit.GHOSTLY_LOLLIPOP)));
     public static final Item CANE = registerItem("cane", new Item(new FabricItemSettings()));
     public static final Item RUPEE = registerItem("rupee", new Item(new FabricItemSettings()));
     public static final Item DOUBLE_RUPEE = registerItem("double_rupee", new Item(new FabricItemSettings()));
     public static final Item GLOWING_RUPEE = registerItem("glowing_rupee", new Item(new FabricItemSettings()));
     public static final Item CURSED_RUPEE = registerItem("cursed_rupee", new Item(new FabricItemSettings()));
-    public static final Item DINO_NUGGET = registerItem("dino_nugget", new Item(new FabricItemSettings()));
+    public static final Item DINO_NUGGET = registerItem("dino_nugget", new Item(new FabricItemSettings().food(FoodComponents.COOKED_CHICKEN)));
     public static final BriefcaseItem BRIEFCASE = registerItem("briefcase", new BriefcaseItem(new FabricItemSettings()));
-    public static final Item SWEET_STAR = registerItem("sweet_star", new Item(new FabricItemSettings()));
+    public static final Item SWEET_STAR = registerItem("sweet_star", new Item(new FabricItemSettings().food(FoodComponents.COOKED_CHICKEN)));
     public static final Item CANDY_MOLD = registerItem("candy_mold", new Item(new FabricItemSettings()));
-    public static final Item BONE_CANDY = registerItem("bone_candy", new Item(new FabricItemSettings()));
-    public static final Item SWEET_BERRY_SYRUP = registerItem("sweet_berry_syrup", new Item(new FabricItemSettings()));
+    public static final Item BONE_CANDY = registerItem("bone_candy", new Item(new FabricItemSettings().food(FoodComponents.COOKIE)));
+    public static final EmptiableFoodItem SWEET_BERRY_SYRUP = registerItem("sweet_berry_syrup",
+            new EmptiableFoodItem(new FabricItemSettings().food(FoodComponents.DRIED_KELP),
+                    0, new ItemStack(Items.GLASS_BOTTLE), 50));
     public static final ShovelItem COMICALLY_LARGE_SPOON = registerItem("comically_large_spoon", new ShovelItem(ToolMaterials.IRON, 1, 1F, new FabricItemSettings()));
     public static final SwordItem EMERALD_SWORD = registerItem("emerald_sword", new SwordItem(ToolMaterials.IRON, 1,1F, new FabricItemSettings()));
     public static final SwordItem GOVDIAN_BAT = registerItem("govdian_bat", new SwordItem(ToolMaterials.IRON, 1,1F, new FabricItemSettings()));

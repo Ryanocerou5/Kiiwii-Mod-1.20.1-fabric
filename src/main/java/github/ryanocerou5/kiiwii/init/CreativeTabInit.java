@@ -45,6 +45,7 @@ public class CreativeTabInit {
                         entries.add(BlockInit.X_PLATE);
                         entries.add(BlockInit.Y_PLATE);
                         entries.add(BlockInit.Z_PLATE);
+                        entries.add(BlockInit.ZERO_PLATE);
                         entries.add(BlockInit.ONE_PLATE);
                         entries.add(BlockInit.TWO_PLATE);
                         entries.add(BlockInit.THREE_PLATE);
