@@ -19,5 +19,7 @@ public class KiiwiiMod implements ModInitializer {
 		BlockEntityInit.registerBlockEntities();
 		ScreenHandlerInit.registerScreenHandlers();
 		SoundEventInit.registerSoundEvents();
+		PacketInit.registerServerReceivers();
+		ParticleInit.registerParticleTypes();
 	}
 }

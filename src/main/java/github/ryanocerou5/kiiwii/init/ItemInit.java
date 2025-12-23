@@ -34,7 +34,7 @@ public class ItemInit {
     public static final Item WEATHER_ROOM = registerItem("weather_room", new Item(new FabricItemSettings()));
     public static final Item QUESTION_MARK = registerItem("question_mark", new Item(new FabricItemSettings()));
     public static final Item MUSIC_CASSETTE = registerItem("fm_radio", new Item(new FabricItemSettings()));
-    public static final Item SOUNDBOARD = registerItem("soundoard", new Item(new FabricItemSettings()));
+    public static final SoundboardItem SOUNDBOARD = registerItem("soundoard", new SoundboardItem(new FabricItemSettings()));
     public static final Item CONFETTI_CANNON = registerItem("confetti_tube", new Item(new FabricItemSettings()));
     public static final Item CREMS_MASK = registerItem("crem_mask_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item BROKEN_MASK = registerItem("smile_mask_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));

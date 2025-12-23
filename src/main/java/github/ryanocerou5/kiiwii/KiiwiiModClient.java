@@ -1,6 +1,7 @@
 package github.ryanocerou5.kiiwii;
 
 import github.ryanocerou5.kiiwii.init.BlockInit;
+import github.ryanocerou5.kiiwii.init.ParticlesClientInit;
 import github.ryanocerou5.kiiwii.init.ScreenHandlerInit;
 import github.ryanocerou5.kiiwii.screen.*;
 import net.fabricmc.api.ClientModInitializer;
@@ -22,5 +23,8 @@ public class KiiwiiModClient implements ClientModInitializer {
         HandledScreens.register(ScreenHandlerInit.PILL_BOTTLE_SCREEN_HANDLER, PillBottleScreen::new);
         HandledScreens.register(ScreenHandlerInit.CIGARETTE_PACK_SCREEN_HANDLER, CigarettePackScreen::new);
         HandledScreens.register(ScreenHandlerInit.BRIEFCASE_SCREEN_HANDLER, BriefcaseScreen::new);
+        HandledScreens.register(ScreenHandlerInit.SOUNDBOARD_SCREEN_HANDLER, SoundboardScreen::new);
+
+        ParticlesClientInit.register();
     }
 }
