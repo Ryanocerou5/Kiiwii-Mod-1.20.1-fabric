@@ -6,7 +6,9 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ItemInit {
     private static <T extends Item> T registerItem(String name, T item)
@@ -27,13 +29,13 @@ public class ItemInit {
     public static final OpticPillItem OPTIC_PILL = registerItem("optic_pill", new OpticPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
     public static final AdrenalPillItem ADRENAL_PILL = registerItem("adrenal_pill", new AdrenalPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
     public static final Item CITY_OF_SPARKS = registerItem("city_of_sparks", new Item(new FabricItemSettings()));
-    public static final Item ALL_BETS_ARE_OFF = registerItem("all_bets_are_off", new Item(new FabricItemSettings()));
-    public static final Item SNAIL_DUST = registerItem("snail_dust", new Item(new FabricItemSettings()));
+    public static final Item ALL_BETS_ARE_OFF = registerItem("all_bets_are_off", new MusicDiscItem(2, SoundEventInit.ALL_BETS_ARE_OFF_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 129));
+    public static final Item SNAIL_DUST = registerItem("snail_dust", new MusicDiscItem(3, SoundEventInit.SNAIL_DUST_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 90));
     public static final Item FOR_THE_REST_OF_US = registerItem("for_the_rest_of_us", new Item(new FabricItemSettings()));
-    public static final Item STAY_NEAR = registerItem("stay_near", new Item(new FabricItemSettings()));
-    public static final Item WEATHER_ROOM = registerItem("weather_room", new Item(new FabricItemSettings()));
-    public static final Item QUESTION_MARK = registerItem("question_mark", new Item(new FabricItemSettings()));
-    public static final Item MUSIC_CASSETTE = registerItem("fm_radio", new Item(new FabricItemSettings()));
+    public static final Item STAY_NEAR = registerItem("stay_near", new MusicDiscItem(5, SoundEventInit.STAY_NEAR_EW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 179));
+    public static final Item WEATHER_ROOM = registerItem("weather_room", new MusicDiscItem(6, SoundEventInit.WEATHER_ROOM, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 172));
+    public static final Item QUESTION_MARK = registerItem("question_mark", new MusicDiscItem(7, SoundEventInit.QUESTION_MARK_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 21));
+    public static final Item MUSIC_CASSETTE = registerItem("fm_radio", new MusicDiscItem(8, SoundEventInit.FM_RADIO_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 120));
     public static final SoundboardItem SOUNDBOARD = registerItem("soundoard", new SoundboardItem(new FabricItemSettings()));
     public static final Item CONFETTI_CANNON = registerItem("confetti_tube", new Item(new FabricItemSettings()));
     public static final Item CREMS_MASK = registerItem("crem_mask_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -54,7 +56,7 @@ public class ItemInit {
     public static final EmptiableFoodItem BOWL_OF_SUGAR = registerItem("flee_pap",
             new EmptiableFoodItem(new FabricItemSettings().food(FoodComponentInit.BOWL_OF_SUGAR),
                     400, new ItemStack(Items.BOWL), 30));
-    public static final Item FLIP_PHONE = registerItem("flip_phone", new Item(new FabricItemSettings()));
+    public static final Item FLIP_PHONE = registerItem("flip_phone", new FlipPhoneItem(new FabricItemSettings()));
     public static final Item BOOK_OF_HAUNTING = registerItem("book", new Item(new FabricItemSettings()));
     public static final Item PIECE_OF_LARIMAR = registerItem("piece_of_larimar", new Item(new FabricItemSettings()));
     public static final Item FLUORITE = registerItem("fluorite", new Item(new FabricItemSettings()));
@@ -116,7 +118,7 @@ public class ItemInit {
     public static final Item COLOURFUL_PEBBLE = registerItem("colourful_pebble", new Item(new FabricItemSettings()));
     public static final Item BUTTERFLY_EFFIGY = registerItem("butterfly_effigy", new Item(new FabricItemSettings()));
     public static final Item EMPTY_USB_STICK = registerItem("empty_usb_stick", new Item(new FabricItemSettings()));
-    public static final Item BLUEPRINTS = registerItem("blueprints", new Item(new FabricItemSettings()));
+    public static final Item BLUEPRINTS = registerItem("blueprints", new BlueprintItem(new FabricItemSettings()));
     public static final Item TEXTBOOK = registerItem("shifting_anchor_book", new Item(new FabricItemSettings()));
     public static final Item ARTIFACT = registerItem("artifact", new Item(new FabricItemSettings()));
     public static final Item ABSTRACTION_IN_A_BOTTLE = registerItem("abstraction_in_a_bottle", new Item(new FabricItemSettings()));
@@ -125,7 +127,7 @@ public class ItemInit {
     public static final Item VOUCHER_1 = registerItem("voucher", new Item(new FabricItemSettings()));
     public static final Item VOUCHER_2 = registerItem("voucher_2", new Item(new FabricItemSettings()));
     public static final Item VOUCHER_3 = registerItem("voucher_fake", new Item(new FabricItemSettings()));
-    public static final Item TWEAKERS_WAND = registerItem("tweakers_wand", new Item(new FabricItemSettings()));
+    public static final Item TWEAKERS_WAND = registerItem("tweakers_wand", new TweakersWandItem(new FabricItemSettings()));
     public static final Item BUD_OF_GAS_STATION_WEED = registerItem("bud_of_gas_station_weed", new Item(new FabricItemSettings()));
     public static final Item BAG_OF_GAS_STATION_WEED = registerItem("bag_of_gas_station_weed", new Item(new FabricItemSettings()));
     public static final Item HALF_FILLED_BAG_OF_GAS_STATION_WEED = registerItem("half_filled_bag_of_gas_station_weed", new Item(new FabricItemSettings()));

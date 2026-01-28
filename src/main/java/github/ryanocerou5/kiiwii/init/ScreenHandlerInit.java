@@ -36,6 +36,10 @@ public class ScreenHandlerInit {
             Registry.register(Registries.SCREEN_HANDLER,
                     new Identifier(KiiwiiMod.MOD_ID, "soundboard"),
                     new ScreenHandlerType<>(SoundboardScreenHandler::new, FeatureSet.empty()));
+    public static final ScreenHandlerType<BlueprintScreenHandler> BLUEPRINT_SCREEN_HANDLER =
+            Registry.register(Registries.SCREEN_HANDLER,
+                    new Identifier(KiiwiiMod.MOD_ID, "blueprint"),
+                    new ScreenHandlerType<>(BlueprintScreenHandler::new, FeatureSet.empty()));
 
     public static void registerScreenHandlers()
     {

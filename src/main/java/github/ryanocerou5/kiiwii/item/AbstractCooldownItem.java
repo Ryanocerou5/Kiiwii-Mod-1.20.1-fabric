@@ -34,6 +34,8 @@ public class AbstractCooldownItem extends Item {
             return TypedActionResult.fail(user.getStackInHand(hand));
         }
 
+        user.getItemCooldownManager().set(this, cooldown);
+
         return super.use(world, user, hand);
     }
 }

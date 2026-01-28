@@ -8,15 +8,15 @@ import net.minecraft.util.Identifier;
 
 public class SoundEventInit {
     public static final SoundEvent WINDOWS_SHUTDOWN = registerSoundEvent("windowsshutdown");
-    public static final SoundEvent WHOOSH = registerSoundEvent("whoosh");
-    public static final SoundEvent BEEPWARN = registerSoundEvent("beepwarn");
-    public static final SoundEvent STARCLE = registerSoundEvent("starcle");
-    public static final SoundEvent SHIFT = registerSoundEvent("shift");
+    public static final SoundEvent WHOOSH = registerSoundEvent("whoosh"); // ???
+    public static final SoundEvent BEEPWARN = registerSoundEvent("beepwarn"); // ???
+    public static final SoundEvent STARCLE = registerSoundEvent("starcle"); // ???
+    public static final SoundEvent SHIFT = registerSoundEvent("shift"); // ???
     public static final SoundEvent RESPAWN_ANCHOR_DEACTIVATE = registerSoundEvent("respawn_anchor_deactivate");
     public static final SoundEvent MUTED_COUGH = registerSoundEvent("muted-cough");
     public static final SoundEvent DRY_COUGH = registerSoundEvent("dry-cough");
     public static final SoundEvent CRAZY_COUGH = registerSoundEvent("crazy-cough");
-    public static final SoundEvent PHONE_END = registerSoundEvent("phoneend");
+    public static final SoundEvent PHONE_END = registerSoundEvent("phoneend"); // ???
     public static final SoundEvent WEATHER_ROOM = registerSoundEvent("weatherroom");
     public static final SoundEvent NEW_PHONE_SOUND_1 = registerSoundEvent("newphonesound1");
     public static final SoundEvent ALERT_NEW = registerSoundEvent("alertnewe");

@@ -21,5 +21,6 @@ public class KiiwiiMod implements ModInitializer {
 		SoundEventInit.registerSoundEvents();
 		PacketInit.registerServerReceivers();
 		ParticleInit.registerParticleTypes();
+		FluidInit.register();
 	}
 }

@@ -339,55 +339,55 @@ public class BlockInit {
     public static final Block FALSE_ANCHOR = registerBlock("false_anchor",
             new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block EXILED_ZENDER_ROCK = registerBlock("exiled_zender_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+            new ExiledZenderRockBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block EXILED_ZENDER_ROCK_BRICKS = registerBlock("exiled_zender_bricks",
-            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+            new ExiledZenderRockBricksBlock(FabricBlockSettings.copyOf(Blocks.END_STONE_BRICKS)));
     public static final Block EXILED_ZENDER_ROCK_BRICKS_WALL = registerBlock("exiled_zender_bricks_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+            new ExiledZenderRockBricksWallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE), 200));
     public static final Block EXILED_ZENDER_ROCK_BRICKS_SLAB = registerBlock("exiled_zender_bricks_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+            new ExiledZenderRockBricksSlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE), 200));
     public static final Block EXILED_ZENDER_ROCK_BRICKS_STAIRS = registerBlock("exiled_zender_bricks_stairs",
-            new StairsBlock(BlockInit.EXILED_ZENDER_ROCK_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.END_STONE)));
+            new ExiledZenderRockBricksStairsBlock(BlockInit.EXILED_ZENDER_ROCK_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.END_STONE), 200));
     public static final Block DEAD_ZENDER_SPORES = registerBlock("cobbled_spores",
             new AbstractSporesBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK).noCollision().breakInstantly()));
     public static final Block ZENDER_SPORES = registerBlock("zender_spores",
             new AbstractSporesBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK).noCollision().breakInstantly()));
-    public static final Block NUMBER_PLATE_3BR = registerBlock("number_plate_3br",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_1B = registerBlock("number_plate_1b",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block NUMBER_PLATE_1A = registerBlock("number_plate_1a",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_2B = registerBlock("number_plate_2b",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_1W = registerBlock("number_plate_1w",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_3ABC = registerBlock("number_plate_3abc",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_3C = registerBlock("number_plate_3c",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_2W = registerBlock("number_plate_2w",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_4C = registerBlock("number_plate_4c",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_4B = registerBlock("number_plate_4b",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_4A = registerBlock("number_plate_4a",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_3W = registerBlock("number_plate_3w",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_5B = registerBlock("number_plate_5b",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_4W = registerBlock("number_plate_4w",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_6W = registerBlock("number_plate_6w",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_5W = registerBlock("number_plate_5w",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NUMBER_PLATE_7W = registerBlock("number_plate_7w",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_1B = registerBlock("number_plate_1b",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block NUMBER_PLATE_1B_2 = registerBlock("number_plate_1b_2",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_1W = registerBlock("number_plate_1w",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_2B = registerBlock("number_plate_2b",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_2W = registerBlock("number_plate_2w",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_3ABC = registerBlock("number_plate_3abc",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_3BR = registerBlock("number_plate_3br",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_3C = registerBlock("number_plate_3c",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_3W = registerBlock("number_plate_3w",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_4A = registerBlock("number_plate_4a",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_4B = registerBlock("number_plate_4b",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_4C = registerBlock("number_plate_4c",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_4W = registerBlock("number_plate_4w",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_5B = registerBlock("number_plate_5b",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_5W = registerBlock("number_plate_5w",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_6W = registerBlock("number_plate_6w",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block NUMBER_PLATE_7W = registerBlock("number_plate_7w",
+            new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block CARNATION = registerBlock("carnation",
             new FlowerBlock(StatusEffects.DOLPHINS_GRACE, 60, FabricBlockSettings.copyOf(Blocks.POPPY).noCollision().breakInstantly()));
     public static final Block JEBEDIAH_JAMES_PLUSH = registerBlock("jebediah_james_plush",

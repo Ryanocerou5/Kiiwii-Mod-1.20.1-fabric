@@ -127,6 +127,7 @@ public class CreativeTabInit {
                         entries.add(ItemInit.MUSIC_CASSETTE);
                         entries.add(ItemInit.SOUNDBOARD);
                         entries.add(ItemInit.CONFETTI_CANNON);
+                        entries.add(BlockInit.NUMBER_PLATE_1A);
                         entries.add(BlockInit.LOCKER);
                         entries.add(BlockInit.BETA_CHEST);
                         entries.add(BlockInit.TRANS_WOOL);
@@ -289,11 +290,11 @@ public class CreativeTabInit {
                         entries.add(BlockInit.EXILED_ZENDER_ROCK_BRICKS_STAIRS);
                         entries.add(BlockInit.DEAD_ZENDER_SPORES);
                         entries.add(ItemInit.WINSWEEPS_MASK);
-                        entries.add(BlockInit.NUMBER_PLATE_1A);
                         entries.add(ItemInit.ACES_HAT);
                         entries.add(BlockInit.CARNATION);
                         entries.add(BlockInit.JEBEDIAH_JAMES_PLUSH);
                         entries.add(BlockInit.HUNGRY_JEBEDIAH_JAMES_PLUSH);
+                        entries.add(FluidInit.MOLTEN_ZENDER_BUCKET);
                     })).build());
 
     public static void registerItemGroups()
