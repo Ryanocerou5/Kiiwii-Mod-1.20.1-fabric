@@ -1,6 +1,7 @@
 package github.ryanocerou5.kiiwii;
 
 import github.ryanocerou5.kiiwii.init.*;
+import github.ryanocerou5.kiiwii.network.ServerPacketHandler;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.sound.SoundEvent;
@@ -22,5 +23,7 @@ public class KiiwiiMod implements ModInitializer {
 		PacketInit.registerServerReceivers();
 		ParticleInit.registerParticleTypes();
 		FluidInit.register();
+		StatusEffectInit.register();
+		ServerPacketHandler.register();
 	}
 }

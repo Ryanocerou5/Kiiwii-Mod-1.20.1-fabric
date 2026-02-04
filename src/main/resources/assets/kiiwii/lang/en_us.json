@@ -541,5 +541,7 @@
   "death.attack.abstracted": "%1$s was abstracted",
   "item.kiiwii.the_picking_bone": "The Picking Bone",
   "subtitles.muted-cough": "Player Coughs",
-  "block.kiiwii.j_plate": "J Plate"
+  "block.kiiwii.j_plate": "J Plate",
+  "key.kiiwii.toggle_spectator": "Toggle Spectator Mode",
+  "category.kiiwii": "Kiiwii"
 }

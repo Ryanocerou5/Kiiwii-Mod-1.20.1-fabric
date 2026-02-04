@@ -6,8 +6,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 public class EmptiableFoodItem extends AbstractCooldownItem{
-    private final ItemStack returnStack;
-    private final int eatSpeed;
+    public final ItemStack returnStack;
+    public final int eatSpeed;
     public EmptiableFoodItem(Settings settings, int cooldown, ItemStack returnStack, int eatSpeed) {
         super(settings, cooldown);
         this.returnStack = returnStack;

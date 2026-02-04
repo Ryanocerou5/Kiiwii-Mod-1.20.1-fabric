@@ -1,16 +1,20 @@
 package github.ryanocerou5.kiiwii;
 
-import github.ryanocerou5.kiiwii.init.BlockInit;
-import github.ryanocerou5.kiiwii.init.FluidInit;
-import github.ryanocerou5.kiiwii.init.ParticlesClientInit;
-import github.ryanocerou5.kiiwii.init.ScreenHandlerInit;
+import github.ryanocerou5.kiiwii.init.*;
+import github.ryanocerou5.kiiwii.network.ClientKeyInputHandler;
+import github.ryanocerou5.kiiwii.network.ClientPacketHandler;
+import github.ryanocerou5.kiiwii.network.ClientPacketSender;
 import github.ryanocerou5.kiiwii.screen.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
+import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.Identifier;
 
 public class KiiwiiModClient implements ClientModInitializer {
@@ -40,5 +44,27 @@ public class KiiwiiModClient implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(),
                 FluidInit.STILL_MOLTEN_ZENDER, FluidInit.FLOWING_MOLTEN_ZENDER);
+
+        registerZenderTint();
+        ClientPacketHandler.register();
+        ClientKeyInputHandler.register();
+        KeybindInit.register();
+    }
+
+    private void registerZenderTint() {
+        HudRenderCallback.EVENT.register((ctx, tickDelta) -> {
+            MinecraftClient client = MinecraftClient.getInstance();
+            PlayerEntity player = client.player;
+            if (player == null) return;
+
+            StatusEffectInstance effect = player.getStatusEffect(StatusEffectInit.ZENDER_EFFECT);
+            if (effect == null) return;
+
+            int width = client.getWindow().getScaledWidth();
+            int height = client.getWindow().getScaledHeight();
+            int color = 0x44660088;
+
+            ctx.fill(0, 0, width, height, color);
+        });
     }
 }

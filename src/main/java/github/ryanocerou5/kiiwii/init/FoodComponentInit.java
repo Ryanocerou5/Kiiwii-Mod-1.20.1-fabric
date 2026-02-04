@@ -3,24 +3,27 @@ package github.ryanocerou5.kiiwii.init;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
-import net.minecraft.item.FoodComponents;
 
 public class FoodComponentInit {
 
     public static final FoodComponent NOTHING = new FoodComponent.Builder()
             .hunger(0)
             .saturationModifier(0)
+            .alwaysEdible()
             .build();
     public static final FoodComponent ZENDER_PILL = new FoodComponent.Builder()
             .hunger(0)
             .saturationModifier(0)
+            .alwaysEdible()
             .statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 100, 1, false, false, true), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 1, false, false, true), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200, 1, false, false, true), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffectInit.ZENDER_EFFECT, 200, 9, false, true, true), 1f)
             .build();
     public static final FoodComponent PANACEA_PILL = new FoodComponent.Builder()
             .hunger(0)
             .saturationModifier(0)
+            .alwaysEdible()
             .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 200, 1, false, false, true), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200, 1, false, false, true), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 200, 1, false, false, true), 1f)
@@ -66,5 +69,34 @@ public class FoodComponentInit {
             .statusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 100, 1, false, false, true), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 1, false, false, true), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 100, 1, false, false, true), 1f)
+            .build();
+
+    public static final FoodComponent LUCKY_CIGARETTE = new FoodComponent.Builder()
+            .hunger(2)
+            .saturationModifier(0.2f)
+            .alwaysEdible()
+            .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 600, 1, false, false, true), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 600, 1, false, false, true), 1f)
+            .build();
+    public static final FoodComponent MINT_CIGARETTE = new FoodComponent.Builder()
+            .hunger(2)
+            .saturationModifier(0.2f)
+            .alwaysEdible()
+            .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 600, 1, false, false, true), 1f)
+            .build();
+    public static final FoodComponent CANDY_CIGARETTE = new FoodComponent.Builder()
+            .hunger(2)
+            .saturationModifier(0.2f)
+            .alwaysEdible()
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 600, 1, false, false, true), 1f)
+            .build();
+
+    public static final FoodComponent WEED = new FoodComponent.Builder()
+            .hunger(1)
+            .saturationModifier(0.1f)
+            .alwaysEdible()
+            .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 400, 1, false, false, true), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 400, 1, false, false, true), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffectInit.HIGH_EFFECT, 400, 0, false, true, true), 1f)
             .build();
 }
