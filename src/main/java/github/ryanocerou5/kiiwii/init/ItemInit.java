@@ -1,5 +1,6 @@
 package github.ryanocerou5.kiiwii.init;
 
+import github.ryanocerou5.kiiwii.Armor.CrownHelmetItem;
 import github.ryanocerou5.kiiwii.KiiwiiMod;
 import github.ryanocerou5.kiiwii.item.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -40,7 +41,7 @@ public class ItemInit {
     public static final Item CONFETTI_CANNON = registerItem("confetti_tube", new Item(new FabricItemSettings()));
     public static final Item CREMS_MASK = registerItem("crem_mask_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item BROKEN_MASK = registerItem("smile_mask_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item CROWN = registerItem("crown_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item CROWN = registerItem("crown_helmet", new CrownHelmetItem(ArmorMaterials.LEATHER));
     public static final Item UFO_HELMET = registerItem("ufo_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item KRUSTY_KRAB_HAT = registerItem("krusty_krab_hat_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item GOLDEN_MICROPHONE = registerItem("golden_microphone", new Item(new FabricItemSettings()));

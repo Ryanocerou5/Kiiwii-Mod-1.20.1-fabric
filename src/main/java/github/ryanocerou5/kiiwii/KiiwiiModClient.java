@@ -1,14 +1,19 @@
 package github.ryanocerou5.kiiwii;
 
+import github.ryanocerou5.kiiwii.Armor.CrownHelmetItem;
+import github.ryanocerou5.kiiwii.Armor.CrownHelmetModel;
 import github.ryanocerou5.kiiwii.init.*;
 import github.ryanocerou5.kiiwii.network.ClientKeyInputHandler;
 import github.ryanocerou5.kiiwii.network.ClientPacketHandler;
 import github.ryanocerou5.kiiwii.network.ClientPacketSender;
+import github.ryanocerou5.kiiwii.renderer.ModArmorRenderer;
 import github.ryanocerou5.kiiwii.screen.*;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
+import net.fabricmc.fabric.api.client.rendering.v1.ArmorRenderer;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
@@ -49,6 +54,18 @@ public class KiiwiiModClient implements ClientModInitializer {
         ClientPacketHandler.register();
         ClientKeyInputHandler.register();
         KeybindInit.register();
+
+        EntityModelLayerRegistry.registerModelLayer(
+                CrownHelmetItem.MODEL_LAYER,
+                CrownHelmetModel::getTexturedModelData
+        );
+
+        MinecraftClient.getInstance().execute(() -> {
+            ArmorRenderer.register(
+                    new ModArmorRenderer(MinecraftClient.getInstance().getEntityModelLoader()),
+                    ItemInit.CROWN
+            );
+        });
     }
 
     private void registerZenderTint() {
