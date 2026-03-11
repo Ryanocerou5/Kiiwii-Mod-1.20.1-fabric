@@ -1,5 +1,6 @@
-package github.ryanocerou5.kiiwii.Armor;
+package github.ryanocerou5.kiiwii.armor;
 
+import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
@@ -21,6 +22,9 @@ public abstract class AbstractCustomArmorItem extends ArmorItem {
 
     /** Texture for this armor piece */
     public abstract Identifier getTexture();
+
+    /** Factory to create the armor model */
+    public abstract AbstractArmorModel createModel(ModelPart root);
 
     /** Which slot this armor is for */
     public EquipmentSlot getSlot() {

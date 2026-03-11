@@ -1,4 +1,4 @@
-package github.ryanocerou5.kiiwii.Armor;
+package github.ryanocerou5.kiiwii.armor;
 
 import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.render.entity.model.BipedEntityModel;

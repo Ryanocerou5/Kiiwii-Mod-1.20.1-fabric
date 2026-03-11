@@ -1,11 +1,9 @@
 package github.ryanocerou5.kiiwii;
 
-import github.ryanocerou5.kiiwii.Armor.CrownHelmetItem;
-import github.ryanocerou5.kiiwii.Armor.CrownHelmetModel;
+import github.ryanocerou5.kiiwii.armor.*;
 import github.ryanocerou5.kiiwii.init.*;
 import github.ryanocerou5.kiiwii.network.ClientKeyInputHandler;
 import github.ryanocerou5.kiiwii.network.ClientPacketHandler;
-import github.ryanocerou5.kiiwii.network.ClientPacketSender;
 import github.ryanocerou5.kiiwii.renderer.ModArmorRenderer;
 import github.ryanocerou5.kiiwii.screen.*;
 import net.fabricmc.api.ClientModInitializer;
@@ -59,11 +57,44 @@ public class KiiwiiModClient implements ClientModInitializer {
                 CrownHelmetItem.MODEL_LAYER,
                 CrownHelmetModel::getTexturedModelData
         );
+        EntityModelLayerRegistry.registerModelLayer(
+                CremMaskItem.MODEL_LAYER,
+                CremMaskModel::getTexturedModelData
+        );
+        EntityModelLayerRegistry.registerModelLayer(
+                ElfEarsItem.MODEL_LAYER,
+                ElfEarsModel::getTexturedModelData
+        );
+        EntityModelLayerRegistry.registerModelLayer(
+                WinsweepMaskItem.MODEL_LAYER,
+                WinsweepMaskModel::getTexturedModelData
+        );
+        EntityModelLayerRegistry.registerModelLayer(
+                AcesHatItem.MODEL_LAYER,
+                AcesHatModel::getTexturedModelData
+        );
 
         MinecraftClient.getInstance().execute(() -> {
+            System.out.println("Registering ModArmorRenderer for CROWN");
             ArmorRenderer.register(
                     new ModArmorRenderer(MinecraftClient.getInstance().getEntityModelLoader()),
                     ItemInit.CROWN
+            );
+            ArmorRenderer.register(
+                    new ModArmorRenderer(MinecraftClient.getInstance().getEntityModelLoader()),
+                    ItemInit.CREMS_MASK
+            );
+            ArmorRenderer.register(
+                    new ModArmorRenderer(MinecraftClient.getInstance().getEntityModelLoader()),
+                    ItemInit.ELF_EARS
+            );
+            ArmorRenderer.register(
+                    new ModArmorRenderer(MinecraftClient.getInstance().getEntityModelLoader()),
+                    ItemInit.WINSWEEPS_MASK
+            );
+            ArmorRenderer.register(
+                    new ModArmorRenderer(MinecraftClient.getInstance().getEntityModelLoader()),
+                    ItemInit.ACES_HAT
             );
         });
     }

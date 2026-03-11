@@ -1,13 +1,12 @@
 package github.ryanocerou5.kiiwii.init;
 
-import github.ryanocerou5.kiiwii.Armor.CrownHelmetItem;
+import github.ryanocerou5.kiiwii.armor.*;
 import github.ryanocerou5.kiiwii.KiiwiiMod;
 import github.ryanocerou5.kiiwii.item.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
@@ -38,8 +37,8 @@ public class ItemInit {
     public static final Item QUESTION_MARK = registerItem("question_mark", new MusicDiscItem(7, SoundEventInit.QUESTION_MARK_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 21));
     public static final Item MUSIC_CASSETTE = registerItem("fm_radio", new MusicDiscItem(8, SoundEventInit.FM_RADIO_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 120));
     public static final SoundboardItem SOUNDBOARD = registerItem("soundoard", new SoundboardItem(new FabricItemSettings()));
-    public static final Item CONFETTI_CANNON = registerItem("confetti_tube", new Item(new FabricItemSettings()));
-    public static final Item CREMS_MASK = registerItem("crem_mask_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item CONFETTI_CANNON = registerItem("confetti_tube", new ConfettiCannonItem(new FabricItemSettings()));
+    public static final Item CREMS_MASK = registerItem("crem_mask_helmet", new CremMaskItem(ArmorMaterials.LEATHER));
     public static final Item BROKEN_MASK = registerItem("smile_mask_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item CROWN = registerItem("crown_helmet", new CrownHelmetItem(ArmorMaterials.LEATHER));
     public static final Item UFO_HELMET = registerItem("ufo_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -47,10 +46,10 @@ public class ItemInit {
     public static final Item GOLDEN_MICROPHONE = registerItem("golden_microphone", new Item(new FabricItemSettings()));
     public static final Item THE_PICKING_BONE = registerItem("the_picking_bone", new Item(new FabricItemSettings()));
     public static final Item THE_MACROLITH = registerItem("macrolith", new Item(new FabricItemSettings()));
-    public static final Item ELF_EARS = registerItem("elf_ears_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item ELF_EARS = registerItem("elf_ears_helmet", new ElfEarsItem(ArmorMaterials.LEATHER));
     public static final Item GLASSES = registerItem("glasses_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item WINSWEEPS_MASK = registerItem("winsweep_mask_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item ACES_HAT = registerItem("ace_hat_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item WINSWEEPS_MASK = registerItem("winsweep_mask_helmet", new WinsweepMaskItem(ArmorMaterials.LEATHER));
+    public static final Item ACES_HAT = registerItem("ace_hat_helmet", new AcesHatItem(ArmorMaterials.LEATHER));
     public static final SwordItem COCK_60 = registerItem("cock_60", new SwordItem(ToolMaterials.WOOD, 10, 1.8F, new FabricItemSettings()));
     public static final ChiliPepperItem CHILI_PEPPER = registerItem("chilli_pepper", new ChiliPepperItem(new FabricItemSettings().food(FoodComponentInit.NOTHING), false));
     public static final ChiliPepperItem GOLDEN_CHILI_PEPPER = registerItem("gold_chili", new ChiliPepperItem(new FabricItemSettings().food(FoodComponentInit.NOTHING), true));
