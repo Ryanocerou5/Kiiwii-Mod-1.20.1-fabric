@@ -7,6 +7,8 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
@@ -28,26 +30,26 @@ public class ItemInit {
     public static final AntipoisonPillItem ANTIPOISON_PILL = registerItem("antipoison_pill", new AntipoisonPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
     public static final OpticPillItem OPTIC_PILL = registerItem("optic_pill", new OpticPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
     public static final AdrenalPillItem ADRENAL_PILL = registerItem("adrenal_pill", new AdrenalPillItem(new FabricItemSettings().food(FoodComponentInit.NOTHING)));
-    public static final Item CITY_OF_SPARKS = registerItem("city_of_sparks", new Item(new FabricItemSettings()));
-    public static final Item ALL_BETS_ARE_OFF = registerItem("all_bets_are_off", new MusicDiscItem(2, SoundEventInit.ALL_BETS_ARE_OFF_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 129));
-    public static final Item SNAIL_DUST = registerItem("snail_dust", new MusicDiscItem(3, SoundEventInit.SNAIL_DUST_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 90));
-    public static final Item FOR_THE_REST_OF_US = registerItem("for_the_rest_of_us", new Item(new FabricItemSettings()));
-    public static final Item STAY_NEAR = registerItem("stay_near", new MusicDiscItem(5, SoundEventInit.STAY_NEAR_EW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 179));
-    public static final Item WEATHER_ROOM = registerItem("weather_room", new MusicDiscItem(6, SoundEventInit.WEATHER_ROOM, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 172));
-    public static final Item QUESTION_MARK = registerItem("question_mark", new MusicDiscItem(7, SoundEventInit.QUESTION_MARK_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 21));
-    public static final Item MUSIC_CASSETTE = registerItem("fm_radio", new MusicDiscItem(8, SoundEventInit.FM_RADIO_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 120));
+    public static final Item CITY_OF_SPARKS = registerItem("city_of_sparks", new AbstractCustomDisc(1, SoundEventInit.CITY_OF_SPARKS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE),  200, "item.kiiwii.city_of_sparks.desc"));
+    public static final Item ALL_BETS_ARE_OFF = registerItem("all_bets_are_off", new AbstractCustomDisc(2, SoundEventInit.ALL_BETS_ARE_OFF_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 129, "item.kiiwii.all_bets_are_off.desc"));
+    public static final Item SNAIL_DUST = registerItem("snail_dust", new AbstractCustomDisc(3, SoundEventInit.SNAIL_DUST_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 90, "item.kiiwii.snail_dust.desc"));
+    public static final Item FOR_THE_REST_OF_US = registerItem("for_the_rest_of_us", new AbstractCustomDisc(4, SoundEventInit.FOR_THE_REST_OF_US, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE),  200, "item.kiiwii.for_the_rest_of_us.desc"));
+    public static final Item STAY_NEAR = registerItem("stay_near", new AbstractCustomDisc(5, SoundEventInit.STAY_NEAR_EW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 179, "item.kiiwii.stay_near.desc"));
+    public static final Item WEATHER_ROOM = registerItem("weather_room", new AbstractCustomDisc(6, SoundEventInit.WEATHER_ROOM, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 172, "item.kiiwii.weather_room.desc"));
+    public static final Item QUESTION_MARK = registerItem("question_mark", new AbstractCustomDisc(7, SoundEventInit.QUESTION_MARK_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 21, "item.kiiwii.question_mark.desc"));
+    public static final Item MUSIC_CASSETTE = registerItem("fm_radio", new AbstractCustomDisc(8, SoundEventInit.FM_RADIO_NEW, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 120, "item.kiiwii.fm_radio.desc"));
     public static final SoundboardItem SOUNDBOARD = registerItem("soundoard", new SoundboardItem(new FabricItemSettings()));
     public static final Item CONFETTI_CANNON = registerItem("confetti_tube", new ConfettiCannonItem(new FabricItemSettings()));
     public static final Item CREMS_MASK = registerItem("crem_mask_helmet", new CremMaskItem(ArmorMaterials.LEATHER));
     public static final Item BROKEN_MASK = registerItem("smile_mask_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item CROWN = registerItem("crown_helmet", new CrownHelmetItem(ArmorMaterials.LEATHER));
-    public static final Item UFO_HELMET = registerItem("ufo_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item KRUSTY_KRAB_HAT = registerItem("krusty_krab_hat_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item UFO_HELMET = registerItem("ufo_helmet", new UfoHatItem(ArmorMaterials.LEATHER));
+    public static final Item KRUSTY_KRAB_HAT = registerItem("krusty_krab_hat_helmet", new KrustyKrabHatItem(ArmorMaterials.LEATHER));
     public static final Item GOLDEN_MICROPHONE = registerItem("golden_microphone", new Item(new FabricItemSettings()));
     public static final Item THE_PICKING_BONE = registerItem("the_picking_bone", new Item(new FabricItemSettings()));
     public static final Item THE_MACROLITH = registerItem("macrolith", new Item(new FabricItemSettings()));
     public static final Item ELF_EARS = registerItem("elf_ears_helmet", new ElfEarsItem(ArmorMaterials.LEATHER));
-    public static final Item GLASSES = registerItem("glasses_helmet", new ArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item GLASSES = registerItem("glasses_helmet", new YeshGlassesItem(ArmorMaterials.LEATHER));
     public static final Item WINSWEEPS_MASK = registerItem("winsweep_mask_helmet", new WinsweepMaskItem(ArmorMaterials.LEATHER));
     public static final Item ACES_HAT = registerItem("ace_hat_helmet", new AcesHatItem(ArmorMaterials.LEATHER));
     public static final SwordItem COCK_60 = registerItem("cock_60", new SwordItem(ToolMaterials.WOOD, 10, 1.8F, new FabricItemSettings()));
@@ -61,8 +63,8 @@ public class ItemInit {
     public static final Item PIECE_OF_LARIMAR = registerItem("piece_of_larimar", new Item(new FabricItemSettings()));
     public static final Item FLUORITE = registerItem("fluorite", new Item(new FabricItemSettings()));
     public static final ShovelItem FLUORITE_SHOVEL = registerItem("fluorite_shovel", new ShovelItem(ToolMaterials.DIAMOND, 1, 1F, new FabricItemSettings()));
-    public static final Item PROTOSTELOID_SPORE = registerItem("protosteloid_spore", new Item(new FabricItemSettings()));
-    public static final Item BLOP = registerItem("blop", new Item(new FabricItemSettings()));
+    public static final Item PROTOSTELOID_SPORE = registerItem("protosteloid_spore", new Item(new FabricItemSettings().food(FoodComponentInit.PROTOSTELOID_SPORE)));
+    public static final Item BLOP = registerItem("blop", new Item(new FabricItemSettings().food(FoodComponentInit.BLOP)));
     public static final Item CLAM = registerItem("clam", new Item(new FabricItemSettings()));
     public static final Item CAMERA = registerItem("camera", new Item(new FabricItemSettings()));
     public static final SwordItem SPATULA = registerItem("spatula", new SwordItem(ToolMaterials.DIAMOND, 1, 1F, new FabricItemSettings()));
@@ -114,7 +116,9 @@ public class ItemInit {
     public static final SwordItem BATTLE_AXE = registerItem("zevs_battle_axe", new SwordItem(ToolMaterials.IRON, 1,1F, new FabricItemSettings()));
     public static final Item MYSTERIOUS_HORN = registerItem("mobile_multiversal_transporter", new Item(new FabricItemSettings()));
     public static final Item HOOKBERRY_REMAINS = registerItem("eaten_hook_berry", new Item(new FabricItemSettings()));
-    public static final Item HOOKBERRY = registerItem("hook_berry", new Item(new FabricItemSettings()));
+    public static final Item HOOKBERRY = registerItem("hook_berry",
+            new EmptiableFoodItem(new FabricItemSettings().food(FoodComponentInit.HOOKBERRY),
+                            0, new ItemStack(ItemInit.HOOKBERRY_REMAINS), 50));
     public static final Item COLOURFUL_PEBBLE = registerItem("colourful_pebble", new Item(new FabricItemSettings()));
     public static final Item BUTTERFLY_EFFIGY = registerItem("butterfly_effigy", new Item(new FabricItemSettings()));
     public static final Item EMPTY_USB_STICK = registerItem("empty_usb_stick", new Item(new FabricItemSettings()));

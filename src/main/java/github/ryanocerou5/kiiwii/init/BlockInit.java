@@ -179,23 +179,23 @@ public class BlockInit {
     public static final Block TIMES_SYMBOL_PLATE = registerBlock("times_symbol_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block WHITE_VOID = registerBlock("white_void",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(15)));
     public static final Block PINK_VOID = registerBlock("pink_void",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(15)));
     public static final Block RED_VOID = registerBlock("red_void",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(15)));
     public static final Block ORANGE_VOID = registerBlock("orange_void",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(15)));
     public static final Block YELLOW_VOID = registerBlock("yellow_void",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(15)));
     public static final Block GREEN_VOID = registerBlock("green_void",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(15)));
     public static final Block BLUE_VOID = registerBlock("blue_void",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(15)));
     public static final Block INDIGO_VOID = registerBlock("indigo_void",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(15)));
     public static final Block BLACK_VOID = registerBlock("black_void",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GLASS).luminance(15)));
     public static final Block LOCKER = registerBlock("locker",
             new LockerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block BETA_CHEST = registerBlock("beta_chest",
@@ -241,7 +241,7 @@ public class BlockInit {
     public static final Block MINE = registerBlock("mine",
             new MineBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block EXCLAMATION_MARK = registerBlock("exclamation_mark",
-            new ExclamationMarkBlock(FabricBlockSettings.copyOf(Blocks.STONE).luminance(15)));
+            new ExclamationMarkBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE).luminance(15)));
     public static final Block LARIMAR = registerBlock("larimar",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block ARD = registerBlock("ard",

@@ -6,9 +6,14 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 
 public abstract class AbstractArmorModel extends BipedEntityModel<LivingEntity> {
+    protected float renderScale = 1f;
 
     protected AbstractArmorModel(ModelPart root) {
         super(root);
+    }
+
+    public void setRenderScale(float scale) {
+        this.renderScale = scale;
     }
 
     /** Disable all vanilla body parts */

@@ -594,5 +594,17 @@
         "stream": false
       }
     ]
+  },
+  "cityofsparks": {
+    "category": "record",
+    "sounds": [
+      "minecraft:ambient_cave"
+    ]
+  },
+  "fortherestofus": {
+    "category": "record",
+    "sounds": [
+      "minecraft:ambient_cave"
+    ]
   }
 }

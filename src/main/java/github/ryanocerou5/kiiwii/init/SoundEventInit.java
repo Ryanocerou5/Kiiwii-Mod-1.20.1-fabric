@@ -39,6 +39,8 @@ public class SoundEventInit {
     public static final SoundEvent STAY_NEAR_EW = registerSoundEvent("staynearnew");
     public static final SoundEvent ALL_BETS_ARE_OFF_NEW = registerSoundEvent("allbetsareoffnew");
     public static final SoundEvent SNAIL_DUST_NEW = registerSoundEvent("snaildustnew");
+    public static final SoundEvent CITY_OF_SPARKS = registerSoundEvent("cityofsparks");
+    public static final SoundEvent FOR_THE_REST_OF_US = registerSoundEvent("fortherestofus");
     public static final SoundEvent CRICKETS = registerSoundEvent("crickets");
     public static final SoundEvent COUNTDOWN = registerSoundEvent("countdown");
     public static final SoundEvent VINE_BOOM = registerSoundEvent("vineboom");

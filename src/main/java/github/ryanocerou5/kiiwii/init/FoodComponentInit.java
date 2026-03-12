@@ -3,6 +3,7 @@ package github.ryanocerou5.kiiwii.init;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
+import net.minecraft.item.FoodComponents;
 
 public class FoodComponentInit {
 
@@ -98,5 +99,22 @@ public class FoodComponentInit {
             .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 400, 1, false, false, true), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 400, 1, false, false, true), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffectInit.HIGH_EFFECT, 400, 0, false, true, true), 1f)
+            .build();
+
+    public static final FoodComponent BLOP = new FoodComponent.Builder()
+            .hunger(10)
+            .saturationModifier(1.2F)
+            .build();
+
+    public static final FoodComponent PROTOSTELOID_SPORE = new FoodComponent.Builder()
+            .hunger(1)
+            .saturationModifier(0.1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 100, 0, false, false, true), 1f)
+            .build();
+    public static final FoodComponent HOOKBERRY = new FoodComponent.Builder()
+            .hunger(10)
+            .saturationModifier(1.2F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 12000, 2, false, false, true), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 12000, 1, false, false, true), 1f)
             .build();
 }

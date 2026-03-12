@@ -50,6 +50,8 @@ public abstract class AbstractArmorRenderer<T extends AbstractCustomArmorItem>
         }
     }
 
+
+
     @Override
     public void render(
             MatrixStack matrices,
@@ -98,6 +100,10 @@ public abstract class AbstractArmorRenderer<T extends AbstractCustomArmorItem>
 
         // Apply rotation for this slot (head, chest, legs, or feet)
         applyPartRotation(matrices, contextModel, slot);
+
+
+        // Apply per-model scaling
+        matrices.scale(model.renderScale, model.renderScale, model.renderScale);
 
         // Render the model
         model.render(matrices, consumer, light, OverlayTexture.DEFAULT_UV, 1F, 1F, 1F, 1F);

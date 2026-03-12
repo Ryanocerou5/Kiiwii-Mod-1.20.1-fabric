@@ -73,6 +73,18 @@ public class KiiwiiModClient implements ClientModInitializer {
                 AcesHatItem.MODEL_LAYER,
                 AcesHatModel::getTexturedModelData
         );
+        EntityModelLayerRegistry.registerModelLayer(
+                KrustyKrabHatItem.MODEL_LAYER,
+                KrustyKrabHatModel::getTexturedModelData
+        );
+        EntityModelLayerRegistry.registerModelLayer(
+                UfoHatItem.MODEL_LAYER,
+                UfoHatModel::getTexturedModelData
+        );
+        EntityModelLayerRegistry.registerModelLayer(
+                YeshGlassesItem.MODEL_LAYER,
+                YeshGlassesModel::getTexturedModelData
+        );
 
         MinecraftClient.getInstance().execute(() -> {
             System.out.println("Registering ModArmorRenderer for CROWN");
@@ -95,6 +107,18 @@ public class KiiwiiModClient implements ClientModInitializer {
             ArmorRenderer.register(
                     new ModArmorRenderer(MinecraftClient.getInstance().getEntityModelLoader()),
                     ItemInit.ACES_HAT
+            );
+            ArmorRenderer.register(
+                    new ModArmorRenderer(MinecraftClient.getInstance().getEntityModelLoader()),
+                    ItemInit.KRUSTY_KRAB_HAT
+            );
+            ArmorRenderer.register(
+                    new ModArmorRenderer(MinecraftClient.getInstance().getEntityModelLoader()),
+                    ItemInit.UFO_HELMET
+            );
+            ArmorRenderer.register(
+                    new ModArmorRenderer(MinecraftClient.getInstance().getEntityModelLoader()),
+                    ItemInit.GLASSES
             );
         });
     }
