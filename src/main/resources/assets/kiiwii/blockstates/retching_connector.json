@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "kiiwii:block/retching_connector",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "kiiwii:block/retching_connector"
+    },
+    "axis=z": {
+      "model": "kiiwii:block/retching_connector",
+      "x": 90
     }
   }
 }

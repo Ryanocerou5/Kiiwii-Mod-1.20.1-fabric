@@ -1,0 +1,6 @@
+{
+  "parent": "kiiwii:custom/horn",
+  "textures": {
+    "0": "kiiwii:block/horntxt"
+  }
+}

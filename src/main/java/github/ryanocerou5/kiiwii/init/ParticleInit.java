@@ -12,6 +12,8 @@ public class ParticleInit {
             FabricParticleTypes.simple();
     public static final DefaultParticleType CONFETTI =
             FabricParticleTypes.simple();
+    public static final DefaultParticleType ABSTRACT_PARTICLE =
+            FabricParticleTypes.simple();
 
     public static void registerParticleTypes() {
         Registry.register(
@@ -24,6 +26,11 @@ public class ParticleInit {
                 Registries.PARTICLE_TYPE,
                 new Identifier(KiiwiiMod.MOD_ID, "confetti"),
                 CONFETTI
+        );
+        Registry.register(
+                Registries.PARTICLE_TYPE,
+                new Identifier(KiiwiiMod.MOD_ID, "abstract_particle"),
+                ABSTRACT_PARTICLE
         );
     }
 }

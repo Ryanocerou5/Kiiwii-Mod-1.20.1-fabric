@@ -84,13 +84,13 @@ public class BlockInit {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block ZERO_PLATE = registerBlock("zero_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block ONE_PLATE = registerBlock("oneplate",
+    public static final Block ONE_PLATE = registerBlock("one_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block TWO_PLATE = registerBlock("twoplate",
+    public static final Block TWO_PLATE = registerBlock("two_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block THREE_PLATE = registerBlock("three_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block FOUR_PLATE = registerBlock("fourplate",
+    public static final Block FOUR_PLATE = registerBlock("four_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block FIVE_PLATE = registerBlock("five_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
@@ -106,7 +106,7 @@ public class BlockInit {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block INTERROGATION_PLATE = registerBlock("interrogation_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block PERIOD_PLATE = registerBlock("dot_plate",
+    public static final Block PERIOD_PLATE = registerBlock("period_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block COLON_PLATE = registerBlock("colon_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
@@ -120,29 +120,29 @@ public class BlockInit {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block PLUS_PLATE = registerBlock("plus_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block RIGHT_PARENTHESES_PLATE = registerBlock("r_parentheses_plate",
+    public static final Block RIGHT_PARENTHESES_PLATE = registerBlock("right_parentheses_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block LEFT_PARENTHESES_PLATE = registerBlock("l_parentheses_plate",
+    public static final Block LEFT_PARENTHESES_PLATE = registerBlock("left_parentheses_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block LEFT_CURLY_BRACKET_PLATE = registerBlock("lc_bracket_plate",
+    public static final Block LEFT_CURLY_BRACKET_PLATE = registerBlock("left_curly_bracket_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block RIGHT_CURLY_BRACKET_PLATE = registerBlock("rc_bracket_plate",
+    public static final Block RIGHT_CURLY_BRACKET_PLATE = registerBlock("right_curly_bracket_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block LEFT_SQUARE_BRACKET_PLATE = registerBlock("ls_bracket_plate",
+    public static final Block LEFT_SQUARE_BRACKET_PLATE = registerBlock("left_square_bracket_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block RIGHT_SQUARE_BRACKET_PLATE = registerBlock("rs_bracket_plate",
+    public static final Block RIGHT_SQUARE_BRACKET_PLATE = registerBlock("right_square_bracket_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block LEFT_ANGLE_BRACKET_PLATE = registerBlock("left_angle_bracket_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block RIGHT_ANGLE_BRACKET_PLATE = registerBlock("ra_bracket_plate",
+    public static final Block RIGHT_ANGLE_BRACKET_PLATE = registerBlock("right_angle_bracket_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block RIGHT_QUOTATION_MARKS_PLATE = registerBlock("rq_mark_plate",
+    public static final Block RIGHT_QUOTATION_MARKS_PLATE = registerBlock("right_quotation_marks_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block LEFT_QUOTATION_MARKS_PLATE = registerBlock("lq_mark_plate",
+    public static final Block LEFT_QUOTATION_MARKS_PLATE = registerBlock("left_quotation_marks_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block LEFT_APOSTROPHE_PLATE = registerBlock("l_apostrophe_plate",
+    public static final Block LEFT_APOSTROPHE_PLATE = registerBlock("left_apostrophe_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block RIGHT_APOSTROPHE_PLATE = registerBlock("r_apostrophe_plate",
+    public static final Block RIGHT_APOSTROPHE_PLATE = registerBlock("right_apostrophe_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block SLASH_PLATE = registerBlock("slash_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
@@ -152,25 +152,25 @@ public class BlockInit {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block BULLET_POINT_PLATE = registerBlock("bullet_point_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block POINT_SYMBOL_PLATE = registerBlock("pound_symbol_plate",
+    public static final Block POINT_SYMBOL_PLATE = registerBlock("point_symbol_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block TILDE_PLATE = registerBlock("tilde_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block BACKSLASH_PLATE = registerBlock("backslash_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block AT_SYMBOL_PLATE = registerBlock("at_plate",
+    public static final Block AT_SYMBOL_PLATE = registerBlock("at_symbol_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block CARET_SYMBOL_PLATE = registerBlock("caret_symbol_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block PIPE_SYMBOL_PLATE = registerBlock("pipe_plate",
+    public static final Block PIPE_SYMBOL_PLATE = registerBlock("pipe_symbol_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block CO_PLATE = registerBlock("co_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block LLC_PLATE = registerBlock("llc_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block EQUAL_SIGN_PLATE = registerBlock("equal_plate",
+    public static final Block EQUAL_SIGN_PLATE = registerBlock("equal_sign_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block NOT_EQUAL_SIGN_PLATE = registerBlock("unequal_plate",
+    public static final Block NOT_EQUAL_SIGN_PLATE = registerBlock("not_equal_sign_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block APPROXIMATELY_EQUAL_SIGN_PLATE = registerBlock("approximately_equal_sign_plate",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
@@ -200,25 +200,25 @@ public class BlockInit {
             new LockerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block BETA_CHEST = registerBlock("beta_chest",
             new BetaChestBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block TRANS_WOOL = registerBlock("trans_block",
+    public static final Block TRANS_WOOL = registerBlock("trans_wool",
             new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block ZENDER_BLOCK = registerBlock("wall_zender",
+    public static final Block ZENDER_BLOCK = registerBlock("zender_block",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
-    public static final Block ZENDER_STAIRS = registerBlock("stair_zender",
+    public static final Block ZENDER_STAIRS = registerBlock("zender_stairs",
             new StairsBlock(BlockInit.ZENDER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
-    public static final Block ZENDER_SLAB = registerBlock("slab_zender",
+    public static final Block ZENDER_SLAB = registerBlock("zender_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
-    public static final Block ZENDER_DOOR = registerBlock("door_zender",
+    public static final Block ZENDER_DOOR = registerBlock("zender_door",
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.CRIMSON));
-    public static final Block ZENDER_TRAPDOOR = registerBlock("trapdoor_zender",
+    public static final Block ZENDER_TRAPDOOR = registerBlock("zender_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.CRIMSON));
-    public static final Block ZENDER_CURTAINS = registerBlock("curtain_zender",
+    public static final Block ZENDER_CURTAINS = registerBlock("zender_curtains",
             new ZenderCurtainBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block DROOPY_CROSS = registerBlock("cross_two",
+    public static final Block DROOPY_CROSS = registerBlock("droopy_cross",
             new AbstractCrossBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block HIGH_CROSS = registerBlock("cross_three",
+    public static final Block HIGH_CROSS = registerBlock("high_cross",
             new AbstractCrossBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block LOW_CROSS = registerBlock("cross_four",
+    public static final Block LOW_CROSS = registerBlock("low_cross",
             new AbstractCrossBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block WHITE_ROAD_LINE = registerBlock("white_road_line",
             new AbstractRoadLineBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
@@ -250,7 +250,7 @@ public class BlockInit {
             new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block PROTOSTELOID_GROWTH = registerBlock("protosteloid_growth",
             new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
-    public static final Block BLOCK_OF_MOLD = registerBlock("mold",
+    public static final Block BLOCK_OF_MOLD = registerBlock("block_of_mold",
             new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
     public static final Block BODDLE = registerBlock("boddle",
             new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
@@ -268,27 +268,27 @@ public class BlockInit {
             new ScannerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block CALENDAR = registerBlock("calendar",
             new CalendarBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
-    public static final Block ENCASED_GLOWSTONE = registerBlock("glowstone_lamp",
+    public static final Block ENCASED_GLOWSTONE = registerBlock("encased_glowstone",
             new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
     public static final Block INACTIVE_ENCASED_GLOWSTONE = registerBlock("inactive_encased_glowstone",
             new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE)));
     public static final Block CHARRED_SPRUCE_LOG = registerBlock("charred_spruce_block",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block BLOCK_OF_AMOEBA = registerBlock("block_of_ameoba",
+    public static final Block BLOCK_OF_AMOEBA = registerBlock("block_of_amoeba",
             new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
     public static final Block SONAR_SCREEN = registerBlock("sonar_screen",
             new SonarScreenBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block GARFIELD_PLUSH = registerBlock("garfield_plush",
             new GarfieldPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block BWON_BWON_PLUSH = registerBlock("bwen_plush",
+    public static final Block BWON_BWON_PLUSH = registerBlock("bwon_bwon_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block SPACE_BWON_BWON_PLUSH = registerBlock("bwon_space_plush",
+    public static final Block SPACE_BWON_BWON_PLUSH = registerBlock("space_bwon_bwon_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block PASTA_PLUSH = registerBlock("pasta_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block STANLEY_PLUSH = registerBlock("stanley_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block JONATHAN_PLUSH = registerBlock("jonathan_enderman_plush",
+    public static final Block JONATHAN_PLUSH = registerBlock("jonathan_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block DATING_MIZZ_PLUSH = registerBlock("dating_mizz_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
@@ -296,32 +296,32 @@ public class BlockInit {
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block EVIL_MIZZ_PLUSH = registerBlock("evil_mizz_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block D0NKU_PLUSH = registerBlock("dunk_0_plush",
+    public static final Block D0NKU_PLUSH = registerBlock("d0nku_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block FROWNER_PLUSH = registerBlock("smile_mask_plush",
+    public static final Block FROWNER_PLUSH = registerBlock("frowner_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block ANTI_MASKER_FROWNER_PLUSH = registerBlock("smile_no_mask_plush",
+    public static final Block ANTI_MASKER_FROWNER_PLUSH = registerBlock("anti_masker_frowner_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block WEALTHY_BAG_MAN_PLUSH = registerBlock("wealthy_plush",
+    public static final Block WEALTHY_BAG_MAN_PLUSH = registerBlock("wealthy_bag_man_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block THE_LIME_PLUSH = registerBlock("spryte_plush",
+    public static final Block THE_LIME_PLUSH = registerBlock("the_lime_plush",
             new AbstractPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
-    public static final Block DEAD_FLOWER = registerBlock("dead_flower_plant",
+    public static final Block DEAD_FLOWER = registerBlock("dead_flower",
             new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
     public static final Block CARVED_OAK_LOG = registerBlock("carved_oak_log",
             new CarvedOakLogBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block RETCHING_FOUNDATION = registerBlock("retching_foundation",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new RetchingFoundationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), false));
     public static final Block RETCHING_PILLAR = registerBlock("retching_pillar",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new RetchingChangeableBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block RETCHING_CONNECTOR = registerBlock("retching_connector",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new RetchingChangeableBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block RETCHING_FOUNDATION_SCRAPS = registerBlock("retching_foundation_scraps",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new RetchingFoundationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), true));
     public static final Block RETCHING_PILLAR_SCRAPS = registerBlock("retching_pillar_scraps",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new RetchingChangeableBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block RETCHING_CONNECTOR_SCRAPS = registerBlock("retching_connector_scraps",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new RetchingChangeableBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block FORCEFIELD_TARGET = registerBlock("forcefield_target",
             new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block FORCEFIELD_TARGET_SCRAPS = registerBlock("forcefield_target_scraps",
@@ -338,17 +338,17 @@ public class BlockInit {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block FALSE_ANCHOR = registerBlock("false_anchor",
             new AbstractDirectionalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block EXILED_ZENDER_ROCK = registerBlock("exiled_zender_block",
+    public static final Block EXILED_ZENDER_ROCK = registerBlock("exiled_zender_rock",
             new ExiledZenderRockBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
-    public static final Block EXILED_ZENDER_ROCK_BRICKS = registerBlock("exiled_zender_bricks",
+    public static final Block EXILED_ZENDER_ROCK_BRICKS = registerBlock("exiled_zender_rock_bricks",
             new ExiledZenderRockBricksBlock(FabricBlockSettings.copyOf(Blocks.END_STONE_BRICKS)));
-    public static final Block EXILED_ZENDER_ROCK_BRICKS_WALL = registerBlock("exiled_zender_bricks_wall",
+    public static final Block EXILED_ZENDER_ROCK_BRICKS_WALL = registerBlock("exiled_zender_rock_bricks_wall",
             new ExiledZenderRockBricksWallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE), 200));
-    public static final Block EXILED_ZENDER_ROCK_BRICKS_SLAB = registerBlock("exiled_zender_bricks_slab",
+    public static final Block EXILED_ZENDER_ROCK_BRICKS_SLAB = registerBlock("exiled_zender_rock_bricks_slab",
             new ExiledZenderRockBricksSlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE), 200));
-    public static final Block EXILED_ZENDER_ROCK_BRICKS_STAIRS = registerBlock("exiled_zender_bricks_stairs",
+    public static final Block EXILED_ZENDER_ROCK_BRICKS_STAIRS = registerBlock("exiled_zender_rock_bricks_stairs",
             new ExiledZenderRockBricksStairsBlock(BlockInit.EXILED_ZENDER_ROCK_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.END_STONE), 200));
-    public static final Block DEAD_ZENDER_SPORES = registerBlock("cobbled_spores",
+    public static final Block DEAD_ZENDER_SPORES = registerBlock("dead_zender_spores",
             new AbstractSporesBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK).noCollision().breakInstantly()));
     public static final Block ZENDER_SPORES = registerBlock("zender_spores",
             new AbstractSporesBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK).noCollision().breakInstantly()));

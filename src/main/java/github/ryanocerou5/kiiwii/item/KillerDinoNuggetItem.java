@@ -1,5 +1,6 @@
 package github.ryanocerou5.kiiwii.item;
 
+import github.ryanocerou5.kiiwii.init.DamageTypeInit;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -17,7 +18,7 @@ public class KillerDinoNuggetItem extends Item {
 
         if (!world.isClient && user instanceof PlayerEntity player)
         {
-            player.kill();
+            player.damage(DamageTypeInit.of(world, DamageTypeInit.KILLER_DINO_NUGGET), Float.MAX_VALUE);
         }
 
         return result;

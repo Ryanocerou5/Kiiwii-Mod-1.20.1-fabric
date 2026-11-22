@@ -2,9 +2,6 @@ package github.ryanocerou5.kiiwii.init;
 
 import github.ryanocerou5.kiiwii.KiiwiiMod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.block.Block;
-import net.minecraft.block.VineLogic;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -157,8 +154,8 @@ public class CreativeTabInit {
                         entries.add(ItemInit.ELF_EARS);
                         entries.add(ItemInit.COCK_60);
                         entries.add(BlockInit.MINE);
-                        entries.add(ItemInit.CHILI_PEPPER);
-                        entries.add(ItemInit.GOLDEN_CHILI_PEPPER);
+                        entries.add(ItemInit.CHILLI_PEPPER);
+                        entries.add(ItemInit.GOLDEN_CHILLI_PEPPER);
                         entries.add(ItemInit.BOWL_OF_SUGAR);
                         entries.add(ItemInit.FLIP_PHONE);
                         entries.add(BlockInit.EXCLAMATION_MARK);

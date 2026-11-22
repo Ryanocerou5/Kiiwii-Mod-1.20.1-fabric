@@ -1,5 +1,6 @@
 package github.ryanocerou5.kiiwii.init;
 
+import github.ryanocerou5.kiiwii.particle.AbstractParticle;
 import github.ryanocerou5.kiiwii.particle.ConfettiParticle;
 import github.ryanocerou5.kiiwii.particle.SoundboardBubbleParticle;
 import net.fabricmc.api.EnvType;
@@ -19,6 +20,10 @@ public class ParticlesClientInit {
         ParticleFactoryRegistry.getInstance().register(
                 ParticleInit.CONFETTI,
                 ConfettiParticle.Factory::new
+        );
+        ParticleFactoryRegistry.getInstance().register(
+                ParticleInit.ABSTRACT_PARTICLE,
+                AbstractParticle.Factory::new
         );
     }
 }
